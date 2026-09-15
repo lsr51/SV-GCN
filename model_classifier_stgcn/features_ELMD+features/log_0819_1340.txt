@@ -1,0 +1,3485 @@
+[08.19.26|13:40:22] Created confusion matrix directory: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340
+[08.19.26|13:40:24] ------------------------------------------------------------
+[08.19.26|13:40:24] TRAINING PARAMETERS:
+[08.19.26|13:40:24] ==================================================
+[08.19.26|13:40:24] train: True
+[08.19.26|13:40:24] save_features: True
+[08.19.26|13:40:24] batch_size: 12
+[08.19.26|13:40:24] num_worker: 0
+[08.19.26|13:40:24] start_epoch: 0
+[08.19.26|13:40:24] num_epoch: 300
+[08.19.26|13:40:24] optimizer: Adam
+[08.19.26|13:40:24] base_lr: 0.008
+[08.19.26|13:40:24] nesterov: True
+[08.19.26|13:40:24] momentum: 0.9
+[08.19.26|13:40:24] weight_decay: 0.0001
+[08.19.26|13:40:24] eval_interval: 1
+[08.19.26|13:40:24] log_interval: 100
+[08.19.26|13:40:24] topk: [1]
+[08.19.26|13:40:24] no_cuda: False
+[08.19.26|13:40:24] pavi_log: False
+[08.19.26|13:40:24] print_log: True
+[08.19.26|13:40:24] save_log: True
+[08.19.26|13:40:24] work_dir: model_classifier_stgcn/features_ELMD+features
+[08.19.26|13:40:24] mean_std_file: mean_std_48_all.npy
+[08.19.26|13:40:24] ==================================================
+[08.19.26|13:40:24] 
+[08.19.26|13:40:24] Training epoch: 0
+[08.19.26|13:40:28] 	Iter 0 Done. | loss: 1.3962 | lr: 0.0008
+[08.19.26|13:42:28] 	Iter 100 Done. | loss: 0.7281 | lr: 0.0008
+[08.19.26|13:43:25] 	[Train] Top1: 65.95%.
+[08.19.26|13:43:25] 	mean_loss: 0.8094352026658556
+[08.19.26|13:43:25] Time consumption:
+[08.19.26|13:43:25] Done.
+[08.19.26|13:43:25] Eval epoch: 0
+[08.19.26|13:43:40] 	mean_loss: 0.6264784406674536
+[08.19.26|13:43:41] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch0.png
+[08.19.26|13:43:41] 	Overall accuracy (from confusion matrix): 74.77%
+[08.19.26|13:43:41] 	Confusion Matrix Accuracy (Overall): 74.77%
+[08.19.26|13:43:42] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch0_real.png
+[08.19.26|13:43:42] 	Overall accuracy (from confusion matrix): 83.24%
+[08.19.26|13:43:42] 	Confusion Matrix Accuracy (Real): 83.24%
+[08.19.26|13:43:43] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch0_synth.png
+[08.19.26|13:43:43] 	Overall accuracy (from confusion matrix): 27.27%
+[08.19.26|13:43:43] 	Confusion Matrix Accuracy (Synthetic): 27.27%
+[08.19.26|13:43:43] 	[Test] Top1: 74.77%. Best so far: 74.77% (epoch: 0).
+[08.19.26|13:43:43] Done.
+[08.19.26|13:43:43] Training epoch: 1
+[08.19.26|13:44:17] 	Iter 200 Done. | loss: 0.9288 | lr: 0.0018
+[08.19.26|13:46:06] 	Iter 300 Done. | loss: 0.6864 | lr: 0.0018
+[08.19.26|13:46:46] 	[Train] Top1: 69.17%.
+[08.19.26|13:46:46] 	mean_loss: 0.7134321959106469
+[08.19.26|13:46:46] Time consumption:
+[08.19.26|13:46:46] Done.
+[08.19.26|13:46:46] Eval epoch: 1
+[08.19.26|13:47:11] 	mean_loss: 0.7723632721524489
+[08.19.26|13:47:11] 	[Test] Top1: 67.43%. Best so far: 74.77% (epoch: 0).
+[08.19.26|13:47:11] Done.
+[08.19.26|13:47:11] Training epoch: 2
+[08.19.26|13:48:55] 	Iter 400 Done. | loss: 0.6450 | lr: 0.0029
+[08.19.26|13:50:25] 	[Train] Top1: 68.40%.
+[08.19.26|13:50:25] 	mean_loss: 0.7352831924985523
+[08.19.26|13:50:25] Time consumption:
+[08.19.26|13:50:25] Done.
+[08.19.26|13:50:25] Eval epoch: 2
+[08.19.26|13:50:46] 	mean_loss: 0.5724960745949494
+[08.19.26|13:50:46] 	[Test] Top1: 77.52%. Best so far: 77.52% (epoch: 0).
+[08.19.26|13:50:46] Done.
+[08.19.26|13:50:46] Training epoch: 3
+[08.19.26|13:51:01] 	Iter 500 Done. | loss: 0.7238 | lr: 0.0039
+[08.19.26|13:52:58] 	Iter 600 Done. | loss: 0.6458 | lr: 0.0039
+[08.19.26|13:53:56] 	[Train] Top1: 71.22%.
+[08.19.26|13:53:56] 	mean_loss: 0.6911060597998965
+[08.19.26|13:53:56] Time consumption:
+[08.19.26|13:53:56] Done.
+[08.19.26|13:53:56] Eval epoch: 3
+[08.19.26|13:54:17] 	mean_loss: 0.5924855866714528
+[08.19.26|13:54:17] 	[Test] Top1: 73.39%. Best so far: 77.52% (epoch: 2).
+[08.19.26|13:54:17] Done.
+[08.19.26|13:54:17] Training epoch: 4
+[08.19.26|13:55:14] 	Iter 700 Done. | loss: 0.5961 | lr: 0.0049
+[08.19.26|13:57:08] 	Iter 800 Done. | loss: 0.4114 | lr: 0.0049
+[08.19.26|13:57:24] 	[Train] Top1: 72.85%.
+[08.19.26|13:57:24] 	mean_loss: 0.6492029993446327
+[08.19.26|13:57:24] Time consumption:
+[08.19.26|13:57:24] Done.
+[08.19.26|13:57:24] Eval epoch: 4
+[08.19.26|13:57:45] 	mean_loss: 0.5253471622341558
+[08.19.26|13:57:45] 	[Test] Top1: 82.11%. Best so far: 82.11% (epoch: 2).
+[08.19.26|13:57:45] Done.
+[08.19.26|13:57:45] Training epoch: 5
+[08.19.26|13:59:23] 	Iter 900 Done. | loss: 0.6458 | lr: 0.0059
+[08.19.26|14:00:51] 	[Train] Top1: 71.01%.
+[08.19.26|14:00:51] 	mean_loss: 0.6925680328366215
+[08.19.26|14:00:51] Time consumption:
+[08.19.26|14:00:51] Done.
+[08.19.26|14:00:51] Eval epoch: 5
+[08.19.26|14:01:11] 	mean_loss: 0.6007572828154815
+[08.19.26|14:01:11] 	[Test] Top1: 72.02%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:01:11] Done.
+[08.19.26|14:01:11] Training epoch: 6
+[08.19.26|14:01:38] 	Iter 1000 Done. | loss: 0.8086 | lr: 0.0070
+[08.19.26|14:03:34] 	Iter 1100 Done. | loss: 0.4325 | lr: 0.0070
+[08.19.26|14:04:20] 	[Train] Top1: 72.96%.
+[08.19.26|14:04:20] 	mean_loss: 0.6715855701752236
+[08.19.26|14:04:20] Time consumption:
+[08.19.26|14:04:20] Done.
+[08.19.26|14:04:20] Eval epoch: 6
+[08.19.26|14:04:40] 	mean_loss: 0.6514996980365954
+[08.19.26|14:04:40] 	[Test] Top1: 72.48%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:04:40] Done.
+[08.19.26|14:04:40] Training epoch: 7
+[08.19.26|14:05:49] 	Iter 1200 Done. | loss: 0.5352 | lr: 0.0080
+[08.19.26|14:07:46] 	Iter 1300 Done. | loss: 0.3970 | lr: 0.0080
+[08.19.26|14:07:50] 	[Train] Top1: 72.60%.
+[08.19.26|14:07:50] 	mean_loss: 0.6436195352508978
+[08.19.26|14:07:50] Time consumption:
+[08.19.26|14:07:50] Done.
+[08.19.26|14:07:50] Eval epoch: 7
+[08.19.26|14:08:11] 	mean_loss: 0.5314851748315912
+[08.19.26|14:08:11] 	[Test] Top1: 79.36%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:08:11] Done.
+[08.19.26|14:08:11] Training epoch: 8
+[08.19.26|14:10:02] 	Iter 1400 Done. | loss: 0.3901 | lr: 0.0079
+[08.19.26|14:11:19] 	[Train] Top1: 71.63%.
+[08.19.26|14:11:19] 	mean_loss: 0.6656944828987853
+[08.19.26|14:11:19] Time consumption:
+[08.19.26|14:11:19] Done.
+[08.19.26|14:11:19] Eval epoch: 8
+[08.19.26|14:11:39] 	mean_loss: 0.5321607338754755
+[08.19.26|14:11:39] 	[Test] Top1: 77.98%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:11:39] Done.
+[08.19.26|14:11:39] Training epoch: 9
+[08.19.26|14:12:18] 	Iter 1500 Done. | loss: 0.5676 | lr: 0.0078
+[08.19.26|14:14:10] 	Iter 1600 Done. | loss: 0.4025 | lr: 0.0078
+[08.19.26|14:14:42] 	[Train] Top1: 73.98%.
+[08.19.26|14:14:42] 	mean_loss: 0.6485469657584934
+[08.19.26|14:14:42] Time consumption:
+[08.19.26|14:14:42] Done.
+[08.19.26|14:14:42] Eval epoch: 9
+[08.19.26|14:15:03] 	mean_loss: 0.7355518384199393
+[08.19.26|14:15:03] 	[Test] Top1: 68.35%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:15:03] Done.
+[08.19.26|14:15:03] Training epoch: 10
+[08.19.26|14:16:24] 	Iter 1700 Done. | loss: 0.8893 | lr: 0.0078
+[08.19.26|14:18:07] 	[Train] Top1: 74.03%.
+[08.19.26|14:18:07] 	mean_loss: 0.6338839691840797
+[08.19.26|14:18:07] Time consumption:
+[08.19.26|14:18:07] Done.
+[08.19.26|14:18:07] Eval epoch: 10
+[08.19.26|14:18:28] 	mean_loss: 0.7261513048096707
+[08.19.26|14:18:29] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch10.png
+[08.19.26|14:18:29] 	Overall accuracy (from confusion matrix): 73.85%
+[08.19.26|14:18:29] 	Confusion Matrix Accuracy (Overall): 73.85%
+[08.19.26|14:18:30] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch10_real.png
+[08.19.26|14:18:30] 	Overall accuracy (from confusion matrix): 78.38%
+[08.19.26|14:18:30] 	Confusion Matrix Accuracy (Real): 78.38%
+[08.19.26|14:18:31] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch10_synth.png
+[08.19.26|14:18:31] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|14:18:31] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|14:18:31] 	[Test] Top1: 73.85%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:18:31] Done.
+[08.19.26|14:18:31] Training epoch: 11
+[08.19.26|14:18:40] 	Iter 1800 Done. | loss: 0.4467 | lr: 0.0077
+[08.19.26|14:20:35] 	Iter 1900 Done. | loss: 0.3734 | lr: 0.0077
+[08.19.26|14:21:37] 	[Train] Top1: 75.46%.
+[08.19.26|14:21:37] 	mean_loss: 0.5951548844027373
+[08.19.26|14:21:37] Time consumption:
+[08.19.26|14:21:37] Done.
+[08.19.26|14:21:37] Eval epoch: 11
+[08.19.26|14:21:58] 	mean_loss: 0.5232604193060022
+[08.19.26|14:21:58] 	[Test] Top1: 78.90%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:21:58] Done.
+[08.19.26|14:21:58] Training epoch: 12
+[08.19.26|14:22:50] 	Iter 2000 Done. | loss: 0.8555 | lr: 0.0076
+[08.19.26|14:24:44] 	Iter 2100 Done. | loss: 0.5215 | lr: 0.0076
+[08.19.26|14:25:05] 	[Train] Top1: 75.15%.
+[08.19.26|14:25:05] 	mean_loss: 0.6159190894818745
+[08.19.26|14:25:05] Time consumption:
+[08.19.26|14:25:05] Done.
+[08.19.26|14:25:05] Eval epoch: 12
+[08.19.26|14:25:25] 	mean_loss: 0.4992428963121615
+[08.19.26|14:25:25] 	[Test] Top1: 80.73%. Best so far: 82.11% (epoch: 4).
+[08.19.26|14:25:25] Done.
+[08.19.26|14:25:25] Training epoch: 13
+[08.19.26|14:27:00] 	Iter 2200 Done. | loss: 0.5643 | lr: 0.0075
+[08.19.26|14:28:30] 	[Train] Top1: 75.41%.
+[08.19.26|14:28:30] 	mean_loss: 0.6296164396167533
+[08.19.26|14:28:30] Time consumption:
+[08.19.26|14:28:30] Done.
+[08.19.26|14:28:30] Eval epoch: 13
+[08.19.26|14:28:50] 	mean_loss: 0.5062373825593999
+[08.19.26|14:28:50] 	[Test] Top1: 83.49%. Best so far: 83.49% (epoch: 4).
+[08.19.26|14:28:50] Done.
+[08.19.26|14:28:50] Training epoch: 14
+[08.19.26|14:29:13] 	Iter 2300 Done. | loss: 0.5172 | lr: 0.0075
+[08.19.26|14:31:08] 	Iter 2400 Done. | loss: 0.6311 | lr: 0.0075
+[08.19.26|14:31:59] 	[Train] Top1: 77.40%.
+[08.19.26|14:31:59] 	mean_loss: 0.5847112178071144
+[08.19.26|14:31:59] Time consumption:
+[08.19.26|14:31:59] Done.
+[08.19.26|14:31:59] Eval epoch: 14
+[08.19.26|14:32:19] 	mean_loss: 0.590435684511536
+[08.19.26|14:32:19] 	[Test] Top1: 76.15%. Best so far: 83.49% (epoch: 13).
+[08.19.26|14:32:19] Done.
+[08.19.26|14:32:19] Training epoch: 15
+[08.19.26|14:33:26] 	Iter 2500 Done. | loss: 0.7035 | lr: 0.0074
+[08.19.26|14:35:22] 	Iter 2600 Done. | loss: 0.3315 | lr: 0.0074
+[08.19.26|14:35:30] 	[Train] Top1: 76.23%.
+[08.19.26|14:35:30] 	mean_loss: 0.6290224951469093
+[08.19.26|14:35:30] Time consumption:
+[08.19.26|14:35:30] Done.
+[08.19.26|14:35:30] Eval epoch: 15
+[08.19.26|14:35:51] 	mean_loss: 0.4821808530311835
+[08.19.26|14:35:51] 	[Test] Top1: 82.11%. Best so far: 83.49% (epoch: 13).
+[08.19.26|14:35:51] Done.
+[08.19.26|14:35:51] Training epoch: 16
+[08.19.26|14:37:39] 	Iter 2700 Done. | loss: 0.9245 | lr: 0.0073
+[08.19.26|14:39:00] 	[Train] Top1: 78.07%.
+[08.19.26|14:39:00] 	mean_loss: 0.5754904183416278
+[08.19.26|14:39:00] Time consumption:
+[08.19.26|14:39:00] Done.
+[08.19.26|14:39:00] Eval epoch: 16
+[08.19.26|14:39:20] 	mean_loss: 0.4631339064554164
+[08.19.26|14:39:20] 	[Test] Top1: 83.49%. Best so far: 83.49% (epoch: 13).
+[08.19.26|14:39:20] Done.
+[08.19.26|14:39:20] Training epoch: 17
+[08.19.26|14:39:56] 	Iter 2800 Done. | loss: 0.4096 | lr: 0.0072
+[08.19.26|14:41:52] 	Iter 2900 Done. | loss: 0.4625 | lr: 0.0072
+[08.19.26|14:42:30] 	[Train] Top1: 76.69%.
+[08.19.26|14:42:30] 	mean_loss: 0.5753044337034225
+[08.19.26|14:42:30] Time consumption:
+[08.19.26|14:42:30] Done.
+[08.19.26|14:42:30] Eval epoch: 17
+[08.19.26|14:42:51] 	mean_loss: 0.5488280681403059
+[08.19.26|14:42:51] 	[Test] Top1: 79.82%. Best so far: 83.49% (epoch: 13).
+[08.19.26|14:42:51] Done.
+[08.19.26|14:42:51] Training epoch: 18
+[08.19.26|14:44:11] 	Iter 3000 Done. | loss: 0.6574 | lr: 0.0072
+[08.19.26|14:46:00] 	[Train] Top1: 76.99%.
+[08.19.26|14:46:00] 	mean_loss: 0.5682430380692511
+[08.19.26|14:46:00] Time consumption:
+[08.19.26|14:46:00] Done.
+[08.19.26|14:46:00] Eval epoch: 18
+[08.19.26|14:46:21] 	mean_loss: 0.4714031297909586
+[08.19.26|14:46:21] 	[Test] Top1: 83.49%. Best so far: 83.49% (epoch: 13).
+[08.19.26|14:46:21] Done.
+[08.19.26|14:46:21] Training epoch: 19
+[08.19.26|14:46:26] 	Iter 3100 Done. | loss: 0.5455 | lr: 0.0071
+[08.19.26|14:48:19] 	Iter 3200 Done. | loss: 0.4675 | lr: 0.0071
+[08.19.26|14:49:27] 	[Train] Top1: 76.84%.
+[08.19.26|14:49:27] 	mean_loss: 0.5358562429258429
+[08.19.26|14:49:27] Time consumption:
+[08.19.26|14:49:27] Done.
+[08.19.26|14:49:27] Eval epoch: 19
+[08.19.26|14:49:47] 	mean_loss: 1.0576036980277614
+[08.19.26|14:49:47] 	[Test] Top1: 54.13%. Best so far: 83.49% (epoch: 13).
+[08.19.26|14:49:47] Done.
+[08.19.26|14:49:47] Training epoch: 20
+[08.19.26|14:50:35] 	Iter 3300 Done. | loss: 0.8022 | lr: 0.0070
+[08.19.26|14:52:28] 	Iter 3400 Done. | loss: 0.7009 | lr: 0.0070
+[08.19.26|14:52:54] 	[Train] Top1: 77.56%.
+[08.19.26|14:52:54] 	mean_loss: 0.568765090058552
+[08.19.26|14:52:54] Time consumption:
+[08.19.26|14:52:54] Done.
+[08.19.26|14:52:54] Eval epoch: 20
+[08.19.26|14:53:14] 	mean_loss: 0.4304401186343871
+[08.19.26|14:53:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch20.png
+[08.19.26|14:53:16] 	Overall accuracy (from confusion matrix): 84.40%
+[08.19.26|14:53:16] 	Confusion Matrix Accuracy (Overall): 84.40%
+[08.19.26|14:53:17] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch20_real.png
+[08.19.26|14:53:17] 	Overall accuracy (from confusion matrix): 89.73%
+[08.19.26|14:53:17] 	Confusion Matrix Accuracy (Real): 89.73%
+[08.19.26|14:53:18] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch20_synth.png
+[08.19.26|14:53:18] 	Overall accuracy (from confusion matrix): 54.55%
+[08.19.26|14:53:18] 	Confusion Matrix Accuracy (Synthetic): 54.55%
+[08.19.26|14:53:18] 	[Test] Top1: 84.40%. Best so far: 84.40% (epoch: 13).
+[08.19.26|14:53:18] Done.
+[08.19.26|14:53:18] Training epoch: 21
+[08.19.26|14:54:45] 	Iter 3500 Done. | loss: 0.8403 | lr: 0.0069
+[08.19.26|14:56:22] 	[Train] Top1: 78.68%.
+[08.19.26|14:56:22] 	mean_loss: 0.5550041109140665
+[08.19.26|14:56:22] Time consumption:
+[08.19.26|14:56:22] Done.
+[08.19.26|14:56:22] Eval epoch: 21
+[08.19.26|14:56:43] 	mean_loss: 0.4425246939063072
+[08.19.26|14:56:43] 	[Test] Top1: 83.94%. Best so far: 84.40% (epoch: 20).
+[08.19.26|14:56:43] Done.
+[08.19.26|14:56:43] Training epoch: 22
+[08.19.26|14:57:00] 	Iter 3600 Done. | loss: 1.2587 | lr: 0.0069
+[08.19.26|14:58:55] 	Iter 3700 Done. | loss: 0.4480 | lr: 0.0069
+[08.19.26|14:59:49] 	[Train] Top1: 77.61%.
+[08.19.26|14:59:49] 	mean_loss: 0.5611617714166641
+[08.19.26|14:59:49] Time consumption:
+[08.19.26|14:59:49] Done.
+[08.19.26|14:59:49] Eval epoch: 22
+[08.19.26|15:00:10] 	mean_loss: 0.8310637034867939
+[08.19.26|15:00:10] 	[Test] Top1: 62.39%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:00:10] Done.
+[08.19.26|15:00:10] Training epoch: 23
+[08.19.26|15:01:09] 	Iter 3800 Done. | loss: 1.2053 | lr: 0.0068
+[08.19.26|15:03:02] 	Iter 3900 Done. | loss: 0.7210 | lr: 0.0068
+[08.19.26|15:03:14] 	[Train] Top1: 77.15%.
+[08.19.26|15:03:14] 	mean_loss: 0.5624253823896127
+[08.19.26|15:03:14] Time consumption:
+[08.19.26|15:03:14] Done.
+[08.19.26|15:03:14] Eval epoch: 23
+[08.19.26|15:03:34] 	mean_loss: 0.5669050538226178
+[08.19.26|15:03:34] 	[Test] Top1: 78.44%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:03:34] Done.
+[08.19.26|15:03:34] Training epoch: 24
+[08.19.26|15:05:16] 	Iter 4000 Done. | loss: 0.5255 | lr: 0.0067
+[08.19.26|15:06:39] 	[Train] Top1: 76.74%.
+[08.19.26|15:06:39] 	mean_loss: 0.5497696701368672
+[08.19.26|15:06:39] Time consumption:
+[08.19.26|15:06:39] Done.
+[08.19.26|15:06:39] Eval epoch: 24
+[08.19.26|15:07:00] 	mean_loss: 0.5141690032262551
+[08.19.26|15:07:00] 	[Test] Top1: 82.11%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:07:00] Done.
+[08.19.26|15:07:00] Training epoch: 25
+[08.19.26|15:07:29] 	Iter 4100 Done. | loss: 0.3493 | lr: 0.0067
+[08.19.26|15:09:23] 	Iter 4200 Done. | loss: 0.4634 | lr: 0.0067
+[08.19.26|15:10:04] 	[Train] Top1: 79.50%.
+[08.19.26|15:10:04] 	mean_loss: 0.535981870684887
+[08.19.26|15:10:04] Time consumption:
+[08.19.26|15:10:04] Done.
+[08.19.26|15:10:04] Eval epoch: 25
+[08.19.26|15:10:25] 	mean_loss: 0.5656071940534994
+[08.19.26|15:10:25] 	[Test] Top1: 77.98%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:10:25] Done.
+[08.19.26|15:10:25] Training epoch: 26
+[08.19.26|15:11:35] 	Iter 4300 Done. | loss: 0.9434 | lr: 0.0066
+[08.19.26|15:13:27] 	Iter 4400 Done. | loss: 0.6999 | lr: 0.0066
+[08.19.26|15:13:27] 	[Train] Top1: 78.07%.
+[08.19.26|15:13:27] 	mean_loss: 0.5307363464605589
+[08.19.26|15:13:27] Time consumption:
+[08.19.26|15:13:27] Done.
+[08.19.26|15:13:27] Eval epoch: 26
+[08.19.26|15:13:48] 	mean_loss: 0.46557130586159856
+[08.19.26|15:13:48] 	[Test] Top1: 82.11%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:13:48] Done.
+[08.19.26|15:13:48] Training epoch: 27
+[08.19.26|15:15:40] 	Iter 4500 Done. | loss: 1.4313 | lr: 0.0065
+[08.19.26|15:16:50] 	[Train] Top1: 77.30%.
+[08.19.26|15:16:50] 	mean_loss: 0.5552919419265232
+[08.19.26|15:16:50] Time consumption:
+[08.19.26|15:16:50] Done.
+[08.19.26|15:16:50] Eval epoch: 27
+[08.19.26|15:17:10] 	mean_loss: 0.42018380721932963
+[08.19.26|15:17:10] 	[Test] Top1: 84.40%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:17:10] Done.
+[08.19.26|15:17:10] Training epoch: 28
+[08.19.26|15:17:52] 	Iter 4600 Done. | loss: 0.1944 | lr: 0.0065
+[08.19.26|15:19:48] 	Iter 4700 Done. | loss: 0.5109 | lr: 0.0065
+[08.19.26|15:20:19] 	[Train] Top1: 78.63%.
+[08.19.26|15:20:19] 	mean_loss: 0.5375477230302029
+[08.19.26|15:20:19] Time consumption:
+[08.19.26|15:20:19] Done.
+[08.19.26|15:20:19] Eval epoch: 28
+[08.19.26|15:20:40] 	mean_loss: 0.5002538201056028
+[08.19.26|15:20:40] 	[Test] Top1: 82.11%. Best so far: 84.40% (epoch: 20).
+[08.19.26|15:20:40] Done.
+[08.19.26|15:20:40] Training epoch: 29
+[08.19.26|15:22:06] 	Iter 4800 Done. | loss: 0.7830 | lr: 0.0064
+[08.19.26|15:23:45] 	[Train] Top1: 79.86%.
+[08.19.26|15:23:45] 	mean_loss: 0.5060006444073893
+[08.19.26|15:23:45] Time consumption:
+[08.19.26|15:23:45] Done.
+[08.19.26|15:23:45] Eval epoch: 29
+[08.19.26|15:24:05] 	mean_loss: 0.4371080347581914
+[08.19.26|15:24:05] 	[Test] Top1: 84.86%. Best so far: 84.86% (epoch: 20).
+[08.19.26|15:24:05] Done.
+[08.19.26|15:24:05] Training epoch: 30
+[08.19.26|15:24:18] 	Iter 4900 Done. | loss: 0.2423 | lr: 0.0063
+[08.19.26|15:26:11] 	Iter 5000 Done. | loss: 0.4319 | lr: 0.0063
+[08.19.26|15:27:08] 	[Train] Top1: 80.37%.
+[08.19.26|15:27:08] 	mean_loss: 0.5207330467510809
+[08.19.26|15:27:08] Time consumption:
+[08.19.26|15:27:08] Done.
+[08.19.26|15:27:08] Eval epoch: 30
+[08.19.26|15:27:28] 	mean_loss: 0.46034912647385345
+[08.19.26|15:27:29] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch30.png
+[08.19.26|15:27:29] 	Overall accuracy (from confusion matrix): 82.11%
+[08.19.26|15:27:29] 	Confusion Matrix Accuracy (Overall): 82.11%
+[08.19.26|15:27:31] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch30_real.png
+[08.19.26|15:27:31] 	Overall accuracy (from confusion matrix): 89.19%
+[08.19.26|15:27:31] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.19.26|15:27:32] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch30_synth.png
+[08.19.26|15:27:32] 	Overall accuracy (from confusion matrix): 42.42%
+[08.19.26|15:27:32] 	Confusion Matrix Accuracy (Synthetic): 42.42%
+[08.19.26|15:27:32] 	[Test] Top1: 82.11%. Best so far: 84.86% (epoch: 20).
+[08.19.26|15:27:32] Done.
+[08.19.26|15:27:32] Training epoch: 31
+[08.19.26|15:28:26] 	Iter 5100 Done. | loss: 0.3907 | lr: 0.0063
+[08.19.26|15:30:20] 	Iter 5200 Done. | loss: 0.8536 | lr: 0.0063
+[08.19.26|15:30:37] 	[Train] Top1: 78.73%.
+[08.19.26|15:30:37] 	mean_loss: 0.5468289340200599
+[08.19.26|15:30:37] Time consumption:
+[08.19.26|15:30:37] Done.
+[08.19.26|15:30:37] Eval epoch: 31
+[08.19.26|15:30:58] 	mean_loss: 0.566498201144369
+[08.19.26|15:30:58] 	[Test] Top1: 79.82%. Best so far: 84.86% (epoch: 20).
+[08.19.26|15:30:58] Done.
+[08.19.26|15:30:58] Training epoch: 32
+[08.19.26|15:32:34] 	Iter 5300 Done. | loss: 0.5902 | lr: 0.0062
+[08.19.26|15:34:02] 	[Train] Top1: 80.83%.
+[08.19.26|15:34:02] 	mean_loss: 0.49757715337481234
+[08.19.26|15:34:02] Time consumption:
+[08.19.26|15:34:02] Done.
+[08.19.26|15:34:02] Eval epoch: 32
+[08.19.26|15:34:23] 	mean_loss: 0.42519469206270416
+[08.19.26|15:34:23] 	[Test] Top1: 83.49%. Best so far: 84.86% (epoch: 20).
+[08.19.26|15:34:23] Done.
+[08.19.26|15:34:23] Training epoch: 33
+[08.19.26|15:34:49] 	Iter 5400 Done. | loss: 0.4527 | lr: 0.0062
+[08.19.26|15:36:43] 	Iter 5500 Done. | loss: 0.7559 | lr: 0.0062
+[08.19.26|15:37:29] 	[Train] Top1: 79.40%.
+[08.19.26|15:37:29] 	mean_loss: 0.5192478728806315
+[08.19.26|15:37:29] Time consumption:
+[08.19.26|15:37:29] Done.
+[08.19.26|15:37:29] Eval epoch: 33
+[08.19.26|15:37:49] 	mean_loss: 0.4434061873900263
+[08.19.26|15:37:49] 	[Test] Top1: 85.32%. Best so far: 85.32% (epoch: 20).
+[08.19.26|15:37:49] Done.
+[08.19.26|15:37:49] Training epoch: 34
+[08.19.26|15:38:57] 	Iter 5600 Done. | loss: 0.2738 | lr: 0.0061
+[08.19.26|15:40:51] 	Iter 5700 Done. | loss: 0.9188 | lr: 0.0061
+[08.19.26|15:40:55] 	[Train] Top1: 79.70%.
+[08.19.26|15:40:55] 	mean_loss: 0.5142609816204551
+[08.19.26|15:40:55] Time consumption:
+[08.19.26|15:40:55] Done.
+[08.19.26|15:40:55] Eval epoch: 34
+[08.19.26|15:41:16] 	mean_loss: 0.409238653747659
+[08.19.26|15:41:16] 	[Test] Top1: 83.03%. Best so far: 85.32% (epoch: 20).
+[08.19.26|15:41:16] Done.
+[08.19.26|15:41:16] Training epoch: 35
+[08.19.26|15:43:06] 	Iter 5800 Done. | loss: 0.6144 | lr: 0.0060
+[08.19.26|15:44:21] 	[Train] Top1: 80.83%.
+[08.19.26|15:44:21] 	mean_loss: 0.5002419952234608
+[08.19.26|15:44:21] Time consumption:
+[08.19.26|15:44:21] Done.
+[08.19.26|15:44:21] Eval epoch: 35
+[08.19.26|15:44:41] 	mean_loss: 0.45732639926044566
+[08.19.26|15:44:41] 	[Test] Top1: 81.19%. Best so far: 85.32% (epoch: 20).
+[08.19.26|15:44:41] Done.
+[08.19.26|15:44:41] Training epoch: 36
+[08.19.26|15:45:21] 	Iter 5900 Done. | loss: 0.4234 | lr: 0.0060
+[08.19.26|15:47:13] 	Iter 6000 Done. | loss: 0.7690 | lr: 0.0060
+[08.19.26|15:47:48] 	[Train] Top1: 80.93%.
+[08.19.26|15:47:48] 	mean_loss: 0.4778381525738839
+[08.19.26|15:47:48] Time consumption:
+[08.19.26|15:47:48] Done.
+[08.19.26|15:47:48] Eval epoch: 36
+[08.19.26|15:48:08] 	mean_loss: 0.4884871789499333
+[08.19.26|15:48:08] 	[Test] Top1: 81.19%. Best so far: 85.32% (epoch: 20).
+[08.19.26|15:48:08] Done.
+[08.19.26|15:48:08] Training epoch: 37
+[08.19.26|15:49:27] 	Iter 6100 Done. | loss: 0.6140 | lr: 0.0059
+[08.19.26|15:51:12] 	[Train] Top1: 80.16%.
+[08.19.26|15:51:12] 	mean_loss: 0.49891555313866565
+[08.19.26|15:51:12] Time consumption:
+[08.19.26|15:51:12] Done.
+[08.19.26|15:51:12] Eval epoch: 37
+[08.19.26|15:51:32] 	mean_loss: 0.45218528336600256
+[08.19.26|15:51:32] 	[Test] Top1: 84.86%. Best so far: 85.32% (epoch: 20).
+[08.19.26|15:51:32] Done.
+[08.19.26|15:51:32] Training epoch: 38
+[08.19.26|15:51:41] 	Iter 6200 Done. | loss: 0.6323 | lr: 0.0059
+[08.19.26|15:53:33] 	Iter 6300 Done. | loss: 0.6147 | lr: 0.0059
+[08.19.26|15:54:35] 	[Train] Top1: 80.57%.
+[08.19.26|15:54:35] 	mean_loss: 0.527821590426875
+[08.19.26|15:54:35] Time consumption:
+[08.19.26|15:54:35] Done.
+[08.19.26|15:54:35] Eval epoch: 38
+[08.19.26|15:54:55] 	mean_loss: 0.45229085809306097
+[08.19.26|15:54:55] 	[Test] Top1: 83.94%. Best so far: 85.32% (epoch: 20).
+[08.19.26|15:54:55] Done.
+[08.19.26|15:54:55] Training epoch: 39
+[08.19.26|15:55:46] 	Iter 6400 Done. | loss: 0.7608 | lr: 0.0058
+[08.19.26|15:57:38] 	Iter 6500 Done. | loss: 0.5342 | lr: 0.0058
+[08.19.26|15:58:01] 	[Train] Top1: 79.60%.
+[08.19.26|15:58:01] 	mean_loss: 0.52526374083538
+[08.19.26|15:58:01] Time consumption:
+[08.19.26|15:58:01] Done.
+[08.19.26|15:58:01] Eval epoch: 39
+[08.19.26|15:58:21] 	mean_loss: 0.39802547406993416
+[08.19.26|15:58:21] 	[Test] Top1: 87.16%. Best so far: 87.16% (epoch: 20).
+[08.19.26|15:58:21] Done.
+[08.19.26|15:58:21] Training epoch: 40
+[08.19.26|15:59:54] 	Iter 6600 Done. | loss: 0.3511 | lr: 0.0057
+[08.19.26|16:01:24] 	[Train] Top1: 79.55%.
+[08.19.26|16:01:24] 	mean_loss: 0.5167682346619346
+[08.19.26|16:01:24] Time consumption:
+[08.19.26|16:01:24] Done.
+[08.19.26|16:01:24] Eval epoch: 40
+[08.19.26|16:01:44] 	mean_loss: 0.47032561113959864
+[08.19.26|16:01:46] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch40.png
+[08.19.26|16:01:46] 	Overall accuracy (from confusion matrix): 81.65%
+[08.19.26|16:01:46] 	Confusion Matrix Accuracy (Overall): 81.65%
+[08.19.26|16:01:47] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch40_real.png
+[08.19.26|16:01:47] 	Overall accuracy (from confusion matrix): 87.57%
+[08.19.26|16:01:47] 	Confusion Matrix Accuracy (Real): 87.57%
+[08.19.26|16:01:47] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch40_synth.png
+[08.19.26|16:01:47] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|16:01:47] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|16:01:47] 	[Test] Top1: 81.65%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:01:47] Done.
+[08.19.26|16:01:47] Training epoch: 41
+[08.19.26|16:02:08] 	Iter 6700 Done. | loss: 0.8032 | lr: 0.0057
+[08.19.26|16:04:03] 	Iter 6800 Done. | loss: 0.5858 | lr: 0.0057
+[08.19.26|16:04:54] 	[Train] Top1: 79.45%.
+[08.19.26|16:04:54] 	mean_loss: 0.5018193205258598
+[08.19.26|16:04:54] Time consumption:
+[08.19.26|16:04:54] Done.
+[08.19.26|16:04:54] Eval epoch: 41
+[08.19.26|16:05:14] 	mean_loss: 0.46737777755448695
+[08.19.26|16:05:14] 	[Test] Top1: 82.57%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:05:14] Done.
+[08.19.26|16:05:14] Training epoch: 42
+[08.19.26|16:06:17] 	Iter 6900 Done. | loss: 0.6286 | lr: 0.0056
+[08.19.26|16:08:08] 	Iter 7000 Done. | loss: 1.0851 | lr: 0.0056
+[08.19.26|16:08:16] 	[Train] Top1: 80.32%.
+[08.19.26|16:08:16] 	mean_loss: 0.5000445773265113
+[08.19.26|16:08:16] Time consumption:
+[08.19.26|16:08:16] Done.
+[08.19.26|16:08:16] Eval epoch: 42
+[08.19.26|16:08:36] 	mean_loss: 0.46501278641976806
+[08.19.26|16:08:36] 	[Test] Top1: 84.40%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:08:36] Done.
+[08.19.26|16:08:36] Training epoch: 43
+[08.19.26|16:10:21] 	Iter 7100 Done. | loss: 0.2698 | lr: 0.0056
+[08.19.26|16:11:43] 	[Train] Top1: 80.32%.
+[08.19.26|16:11:43] 	mean_loss: 0.5139873355535641
+[08.19.26|16:11:43] Time consumption:
+[08.19.26|16:11:43] Done.
+[08.19.26|16:11:43] Eval epoch: 43
+[08.19.26|16:12:04] 	mean_loss: 0.5710650937337625
+[08.19.26|16:12:04] 	[Test] Top1: 76.15%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:12:04] Done.
+[08.19.26|16:12:04] Training epoch: 44
+[08.19.26|16:12:39] 	Iter 7200 Done. | loss: 0.7901 | lr: 0.0055
+[08.19.26|16:14:32] 	Iter 7300 Done. | loss: 1.0579 | lr: 0.0055
+[08.19.26|16:15:11] 	[Train] Top1: 81.03%.
+[08.19.26|16:15:11] 	mean_loss: 0.48370507258944717
+[08.19.26|16:15:11] Time consumption:
+[08.19.26|16:15:11] Done.
+[08.19.26|16:15:11] Eval epoch: 44
+[08.19.26|16:15:32] 	mean_loss: 0.46138203477388934
+[08.19.26|16:15:32] 	[Test] Top1: 83.03%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:15:32] Done.
+[08.19.26|16:15:32] Training epoch: 45
+[08.19.26|16:16:47] 	Iter 7400 Done. | loss: 0.5113 | lr: 0.0055
+[08.19.26|16:18:37] 	[Train] Top1: 81.54%.
+[08.19.26|16:18:37] 	mean_loss: 0.46633351614778756
+[08.19.26|16:18:37] Time consumption:
+[08.19.26|16:18:37] Done.
+[08.19.26|16:18:37] Eval epoch: 45
+[08.19.26|16:18:58] 	mean_loss: 0.6523761655154982
+[08.19.26|16:18:58] 	[Test] Top1: 73.85%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:18:58] Done.
+[08.19.26|16:18:58] Training epoch: 46
+[08.19.26|16:19:01] 	Iter 7500 Done. | loss: 1.2532 | lr: 0.0054
+[08.19.26|16:20:55] 	Iter 7600 Done. | loss: 0.4250 | lr: 0.0054
+[08.19.26|16:22:03] 	[Train] Top1: 81.90%.
+[08.19.26|16:22:03] 	mean_loss: 0.4712225173148641
+[08.19.26|16:22:03] Time consumption:
+[08.19.26|16:22:03] Done.
+[08.19.26|16:22:03] Eval epoch: 46
+[08.19.26|16:22:24] 	mean_loss: 0.5463619487066018
+[08.19.26|16:22:24] 	[Test] Top1: 78.90%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:22:24] Done.
+[08.19.26|16:22:24] Training epoch: 47
+[08.19.26|16:23:10] 	Iter 7700 Done. | loss: 0.6886 | lr: 0.0054
+[08.19.26|16:25:06] 	Iter 7800 Done. | loss: 0.4903 | lr: 0.0054
+[08.19.26|16:25:32] 	[Train] Top1: 80.93%.
+[08.19.26|16:25:32] 	mean_loss: 0.5071626433337028
+[08.19.26|16:25:32] Time consumption:
+[08.19.26|16:25:32] Done.
+[08.19.26|16:25:32] Eval epoch: 47
+[08.19.26|16:25:53] 	mean_loss: 0.45074857398867607
+[08.19.26|16:25:53] 	[Test] Top1: 84.86%. Best so far: 87.16% (epoch: 39).
+[08.19.26|16:25:53] Done.
+[08.19.26|16:25:53] Training epoch: 48
+[08.19.26|16:27:20] 	Iter 7900 Done. | loss: 0.4918 | lr: 0.0053
+[08.19.26|16:28:57] 	[Train] Top1: 80.88%.
+[08.19.26|16:28:57] 	mean_loss: 0.4698243235792119
+[08.19.26|16:28:57] Time consumption:
+[08.19.26|16:28:57] Done.
+[08.19.26|16:28:57] Eval epoch: 48
+[08.19.26|16:29:18] 	mean_loss: 0.39158528964770467
+[08.19.26|16:29:18] 	[Test] Top1: 88.99%. Best so far: 88.99% (epoch: 39).
+[08.19.26|16:29:18] Done.
+[08.19.26|16:29:18] Training epoch: 49
+[08.19.26|16:29:35] 	Iter 8000 Done. | loss: 0.3723 | lr: 0.0052
+[08.19.26|16:31:32] 	Iter 8100 Done. | loss: 0.5061 | lr: 0.0052
+[08.19.26|16:32:26] 	[Train] Top1: 82.72%.
+[08.19.26|16:32:26] 	mean_loss: 0.4296049229754992
+[08.19.26|16:32:26] Time consumption:
+[08.19.26|16:32:26] Done.
+[08.19.26|16:32:26] Eval epoch: 49
+[08.19.26|16:32:46] 	mean_loss: 0.46747406297608424
+[08.19.26|16:32:46] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:32:46] Done.
+[08.19.26|16:32:46] Training epoch: 50
+[08.19.26|16:33:46] 	Iter 8200 Done. | loss: 0.4720 | lr: 0.0052
+[08.19.26|16:35:38] 	Iter 8300 Done. | loss: 0.4246 | lr: 0.0052
+[08.19.26|16:35:52] 	[Train] Top1: 80.37%.
+[08.19.26|16:35:52] 	mean_loss: 0.4861540210439018
+[08.19.26|16:35:52] Time consumption:
+[08.19.26|16:35:52] Done.
+[08.19.26|16:35:52] Eval epoch: 50
+[08.19.26|16:36:13] 	mean_loss: 0.39237795613313975
+[08.19.26|16:36:14] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch50.png
+[08.19.26|16:36:14] 	Overall accuracy (from confusion matrix): 86.24%
+[08.19.26|16:36:14] 	Confusion Matrix Accuracy (Overall): 86.24%
+[08.19.26|16:36:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch50_real.png
+[08.19.26|16:36:15] 	Overall accuracy (from confusion matrix): 90.81%
+[08.19.26|16:36:15] 	Confusion Matrix Accuracy (Real): 90.81%
+[08.19.26|16:36:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch50_synth.png
+[08.19.26|16:36:16] 	Overall accuracy (from confusion matrix): 60.61%
+[08.19.26|16:36:16] 	Confusion Matrix Accuracy (Synthetic): 60.61%
+[08.19.26|16:36:16] 	[Test] Top1: 86.24%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:36:16] Done.
+[08.19.26|16:36:16] Training epoch: 51
+[08.19.26|16:37:57] 	Iter 8400 Done. | loss: 0.1984 | lr: 0.0051
+[08.19.26|16:39:22] 	[Train] Top1: 81.39%.
+[08.19.26|16:39:22] 	mean_loss: 0.45819737204561933
+[08.19.26|16:39:22] Time consumption:
+[08.19.26|16:39:22] Done.
+[08.19.26|16:39:22] Eval epoch: 51
+[08.19.26|16:39:44] 	mean_loss: 0.4665449157749352
+[08.19.26|16:39:44] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:39:44] Done.
+[08.19.26|16:39:44] Training epoch: 52
+[08.19.26|16:40:13] 	Iter 8500 Done. | loss: 0.4402 | lr: 0.0051
+[08.19.26|16:42:08] 	Iter 8600 Done. | loss: 0.2214 | lr: 0.0051
+[08.19.26|16:42:52] 	[Train] Top1: 81.60%.
+[08.19.26|16:42:52] 	mean_loss: 0.4495423836119336
+[08.19.26|16:42:52] Time consumption:
+[08.19.26|16:42:52] Done.
+[08.19.26|16:42:52] Eval epoch: 52
+[08.19.26|16:43:14] 	mean_loss: 0.4152363789708991
+[08.19.26|16:43:14] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:43:14] Done.
+[08.19.26|16:43:14] Training epoch: 53
+[08.19.26|16:44:24] 	Iter 8700 Done. | loss: 0.4024 | lr: 0.0050
+[08.19.26|16:46:20] 	Iter 8800 Done. | loss: 0.7779 | lr: 0.0050
+[08.19.26|16:46:21] 	[Train] Top1: 82.46%.
+[08.19.26|16:46:21] 	mean_loss: 0.45042299246129813
+[08.19.26|16:46:21] Time consumption:
+[08.19.26|16:46:21] Done.
+[08.19.26|16:46:21] Eval epoch: 53
+[08.19.26|16:46:42] 	mean_loss: 0.6550296978338769
+[08.19.26|16:46:42] 	[Test] Top1: 72.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:46:42] Done.
+[08.19.26|16:46:42] Training epoch: 54
+[08.19.26|16:48:38] 	Iter 8900 Done. | loss: 0.2773 | lr: 0.0050
+[08.19.26|16:49:48] 	[Train] Top1: 82.36%.
+[08.19.26|16:49:48] 	mean_loss: 0.4387626268906645
+[08.19.26|16:49:48] Time consumption:
+[08.19.26|16:49:48] Done.
+[08.19.26|16:49:48] Eval epoch: 54
+[08.19.26|16:50:09] 	mean_loss: 0.43668956515428264
+[08.19.26|16:50:09] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:50:09] Done.
+[08.19.26|16:50:09] Training epoch: 55
+[08.19.26|16:50:51] 	Iter 9000 Done. | loss: 0.6374 | lr: 0.0049
+[08.19.26|16:52:45] 	Iter 9100 Done. | loss: 0.5235 | lr: 0.0049
+[08.19.26|16:53:16] 	[Train] Top1: 83.13%.
+[08.19.26|16:53:16] 	mean_loss: 0.4248311136123593
+[08.19.26|16:53:16] Time consumption:
+[08.19.26|16:53:16] Done.
+[08.19.26|16:53:16] Eval epoch: 55
+[08.19.26|16:53:36] 	mean_loss: 0.44535513496712636
+[08.19.26|16:53:36] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:53:36] Done.
+[08.19.26|16:53:36] Training epoch: 56
+[08.19.26|16:54:59] 	Iter 9200 Done. | loss: 0.7034 | lr: 0.0049
+[08.19.26|16:56:42] 	[Train] Top1: 82.72%.
+[08.19.26|16:56:42] 	mean_loss: 0.4539209635802573
+[08.19.26|16:56:42] Time consumption:
+[08.19.26|16:56:42] Done.
+[08.19.26|16:56:42] Eval epoch: 56
+[08.19.26|16:57:03] 	mean_loss: 0.41915379817548554
+[08.19.26|16:57:03] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|16:57:03] Done.
+[08.19.26|16:57:03] Training epoch: 57
+[08.19.26|16:57:14] 	Iter 9300 Done. | loss: 0.5654 | lr: 0.0048
+[08.19.26|16:59:37] 	Iter 9400 Done. | loss: 0.4731 | lr: 0.0048
+[08.19.26|17:01:21] 	[Train] Top1: 81.90%.
+[08.19.26|17:01:21] 	mean_loss: 0.4583764859229509
+[08.19.26|17:01:21] Time consumption:
+[08.19.26|17:01:21] Done.
+[08.19.26|17:01:21] Eval epoch: 57
+[08.19.26|17:01:50] 	mean_loss: 0.464104015576212
+[08.19.26|17:01:50] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:01:50] Done.
+[08.19.26|17:01:50] Training epoch: 58
+[08.19.26|17:02:39] 	Iter 9500 Done. | loss: 0.2620 | lr: 0.0048
+[08.19.26|17:04:12] 	Iter 9600 Done. | loss: 0.1552 | lr: 0.0048
+[08.19.26|17:04:34] 	[Train] Top1: 83.13%.
+[08.19.26|17:04:34] 	mean_loss: 0.4405742649651744
+[08.19.26|17:04:34] Time consumption:
+[08.19.26|17:04:34] Done.
+[08.19.26|17:04:34] Eval epoch: 58
+[08.19.26|17:04:57] 	mean_loss: 0.4432503879070282
+[08.19.26|17:04:57] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:04:57] Done.
+[08.19.26|17:04:57] Training epoch: 59
+[08.19.26|17:06:52] 	Iter 9700 Done. | loss: 0.2362 | lr: 0.0047
+[08.19.26|17:08:08] 	[Train] Top1: 83.03%.
+[08.19.26|17:08:08] 	mean_loss: 0.4390490991206257
+[08.19.26|17:08:08] Time consumption:
+[08.19.26|17:08:08] Done.
+[08.19.26|17:08:08] Eval epoch: 59
+[08.19.26|17:08:23] 	mean_loss: 0.45517438218781825
+[08.19.26|17:08:23] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:08:23] Done.
+[08.19.26|17:08:23] Training epoch: 60
+[08.19.26|17:08:42] 	Iter 9800 Done. | loss: 0.3650 | lr: 0.0047
+[08.19.26|17:10:12] 	Iter 9900 Done. | loss: 0.7652 | lr: 0.0047
+[08.19.26|17:10:48] 	[Train] Top1: 82.00%.
+[08.19.26|17:10:48] 	mean_loss: 0.467548741244831
+[08.19.26|17:10:48] Time consumption:
+[08.19.26|17:10:48] Done.
+[08.19.26|17:10:48] Eval epoch: 60
+[08.19.26|17:11:03] 	mean_loss: 0.42373762220928546
+[08.19.26|17:11:04] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch60.png
+[08.19.26|17:11:04] 	Overall accuracy (from confusion matrix): 84.40%
+[08.19.26|17:11:04] 	Confusion Matrix Accuracy (Overall): 84.40%
+[08.19.26|17:11:05] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch60_real.png
+[08.19.26|17:11:05] 	Overall accuracy (from confusion matrix): 90.81%
+[08.19.26|17:11:05] 	Confusion Matrix Accuracy (Real): 90.81%
+[08.19.26|17:11:05] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch60_synth.png
+[08.19.26|17:11:05] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|17:11:05] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|17:11:05] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:11:05] Done.
+[08.19.26|17:11:05] Training epoch: 61
+[08.19.26|17:11:58] 	Iter 10000 Done. | loss: 0.1005 | lr: 0.0046
+[08.19.26|17:13:26] 	Iter 10100 Done. | loss: 0.4857 | lr: 0.0046
+[08.19.26|17:13:30] 	[Train] Top1: 82.11%.
+[08.19.26|17:13:30] 	mean_loss: 0.4421972168003855
+[08.19.26|17:13:30] Time consumption:
+[08.19.26|17:13:30] Done.
+[08.19.26|17:13:30] Eval epoch: 61
+[08.19.26|17:13:45] 	mean_loss: 0.49817022328314026
+[08.19.26|17:13:45] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:13:45] Done.
+[08.19.26|17:13:45] Training epoch: 62
+[08.19.26|17:15:11] 	Iter 10200 Done. | loss: 0.2719 | lr: 0.0046
+[08.19.26|17:16:12] 	[Train] Top1: 83.54%.
+[08.19.26|17:16:12] 	mean_loss: 0.4185395285121502
+[08.19.26|17:16:12] Time consumption:
+[08.19.26|17:16:12] Done.
+[08.19.26|17:16:12] Eval epoch: 62
+[08.19.26|17:16:27] 	mean_loss: 0.48543276010375275
+[08.19.26|17:16:27] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:16:27] Done.
+[08.19.26|17:16:27] Training epoch: 63
+[08.19.26|17:16:57] 	Iter 10300 Done. | loss: 0.3611 | lr: 0.0046
+[08.19.26|17:18:26] 	Iter 10400 Done. | loss: 0.2537 | lr: 0.0046
+[08.19.26|17:18:54] 	[Train] Top1: 82.77%.
+[08.19.26|17:18:54] 	mean_loss: 0.4269555535373147
+[08.19.26|17:18:54] Time consumption:
+[08.19.26|17:18:54] Done.
+[08.19.26|17:18:54] Eval epoch: 63
+[08.19.26|17:19:10] 	mean_loss: 0.5362251471532019
+[08.19.26|17:19:10] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:19:10] Done.
+[08.19.26|17:19:10] Training epoch: 64
+[08.19.26|17:20:11] 	Iter 10500 Done. | loss: 0.2335 | lr: 0.0045
+[08.19.26|17:21:34] 	[Train] Top1: 83.90%.
+[08.19.26|17:21:34] 	mean_loss: 0.4040029442017795
+[08.19.26|17:21:34] Time consumption:
+[08.19.26|17:21:34] Done.
+[08.19.26|17:21:34] Eval epoch: 64
+[08.19.26|17:21:50] 	mean_loss: 0.4591660881905179
+[08.19.26|17:21:50] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:21:50] Done.
+[08.19.26|17:21:50] Training epoch: 65
+[08.19.26|17:21:56] 	Iter 10600 Done. | loss: 0.3440 | lr: 0.0045
+[08.19.26|17:23:23] 	Iter 10700 Done. | loss: 0.3116 | lr: 0.0045
+[08.19.26|17:24:14] 	[Train] Top1: 81.90%.
+[08.19.26|17:24:14] 	mean_loss: 0.45546789202222066
+[08.19.26|17:24:14] Time consumption:
+[08.19.26|17:24:14] Done.
+[08.19.26|17:24:14] Eval epoch: 65
+[08.19.26|17:24:29] 	mean_loss: 0.4863461001138938
+[08.19.26|17:24:29] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:24:29] Done.
+[08.19.26|17:24:29] Training epoch: 66
+[08.19.26|17:25:08] 	Iter 10800 Done. | loss: 0.5705 | lr: 0.0044
+[08.19.26|17:26:36] 	Iter 10900 Done. | loss: 0.2500 | lr: 0.0044
+[08.19.26|17:26:54] 	[Train] Top1: 84.56%.
+[08.19.26|17:26:54] 	mean_loss: 0.4191412179062337
+[08.19.26|17:26:54] Time consumption:
+[08.19.26|17:26:54] Done.
+[08.19.26|17:26:54] Eval epoch: 66
+[08.19.26|17:27:09] 	mean_loss: 0.5565954433067849
+[08.19.26|17:27:09] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:27:09] Done.
+[08.19.26|17:27:09] Training epoch: 67
+[08.19.26|17:28:21] 	Iter 11000 Done. | loss: 0.7338 | lr: 0.0044
+[08.19.26|17:29:36] 	[Train] Top1: 82.46%.
+[08.19.26|17:29:36] 	mean_loss: 0.4343461301520558
+[08.19.26|17:29:36] Time consumption:
+[08.19.26|17:29:36] Done.
+[08.19.26|17:29:36] Eval epoch: 67
+[08.19.26|17:29:50] 	mean_loss: 0.46153576044659866
+[08.19.26|17:29:50] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:29:50] Done.
+[08.19.26|17:29:50] Training epoch: 68
+[08.19.26|17:30:06] 	Iter 11100 Done. | loss: 0.3863 | lr: 0.0043
+[08.19.26|17:31:34] 	Iter 11200 Done. | loss: 0.3722 | lr: 0.0043
+[08.19.26|17:32:17] 	[Train] Top1: 83.59%.
+[08.19.26|17:32:17] 	mean_loss: 0.4276220922364048
+[08.19.26|17:32:17] Time consumption:
+[08.19.26|17:32:17] Done.
+[08.19.26|17:32:17] Eval epoch: 68
+[08.19.26|17:32:32] 	mean_loss: 0.48309921512478277
+[08.19.26|17:32:32] 	[Test] Top1: 79.82%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:32:32] Done.
+[08.19.26|17:32:32] Training epoch: 69
+[08.19.26|17:33:21] 	Iter 11300 Done. | loss: 0.4156 | lr: 0.0043
+[08.19.26|17:34:50] 	Iter 11400 Done. | loss: 0.5746 | lr: 0.0043
+[08.19.26|17:34:58] 	[Train] Top1: 82.87%.
+[08.19.26|17:34:58] 	mean_loss: 0.4334665026310031
+[08.19.26|17:34:58] Time consumption:
+[08.19.26|17:34:58] Done.
+[08.19.26|17:34:58] Eval epoch: 69
+[08.19.26|17:35:12] 	mean_loss: 0.44439333540044335
+[08.19.26|17:35:12] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:35:12] Done.
+[08.19.26|17:35:12] Training epoch: 70
+[08.19.26|17:36:33] 	Iter 11500 Done. | loss: 0.5422 | lr: 0.0042
+[08.19.26|17:37:36] 	[Train] Top1: 82.36%.
+[08.19.26|17:37:36] 	mean_loss: 0.44797293183628034
+[08.19.26|17:37:36] Time consumption:
+[08.19.26|17:37:36] Done.
+[08.19.26|17:37:36] Eval epoch: 70
+[08.19.26|17:37:51] 	mean_loss: 0.43022025415771886
+[08.19.26|17:37:52] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch70.png
+[08.19.26|17:37:52] 	Overall accuracy (from confusion matrix): 83.94%
+[08.19.26|17:37:52] 	Confusion Matrix Accuracy (Overall): 83.94%
+[08.19.26|17:37:53] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch70_real.png
+[08.19.26|17:37:53] 	Overall accuracy (from confusion matrix): 89.19%
+[08.19.26|17:37:53] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.19.26|17:37:53] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch70_synth.png
+[08.19.26|17:37:53] 	Overall accuracy (from confusion matrix): 54.55%
+[08.19.26|17:37:53] 	Confusion Matrix Accuracy (Synthetic): 54.55%
+[08.19.26|17:37:53] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:37:53] Done.
+[08.19.26|17:37:53] Training epoch: 71
+[08.19.26|17:38:20] 	Iter 11600 Done. | loss: 0.4288 | lr: 0.0042
+[08.19.26|17:39:49] 	Iter 11700 Done. | loss: 0.1034 | lr: 0.0042
+[08.19.26|17:40:21] 	[Train] Top1: 84.66%.
+[08.19.26|17:40:21] 	mean_loss: 0.4020460584412323
+[08.19.26|17:40:21] Time consumption:
+[08.19.26|17:40:21] Done.
+[08.19.26|17:40:21] Eval epoch: 71
+[08.19.26|17:40:36] 	mean_loss: 0.4669953145478901
+[08.19.26|17:40:36] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:40:36] Done.
+[08.19.26|17:40:36] Training epoch: 72
+[08.19.26|17:41:33] 	Iter 11800 Done. | loss: 0.4876 | lr: 0.0042
+[08.19.26|17:42:59] 	[Train] Top1: 83.38%.
+[08.19.26|17:42:59] 	mean_loss: 0.4082643730691606
+[08.19.26|17:42:59] Time consumption:
+[08.19.26|17:42:59] Done.
+[08.19.26|17:42:59] Eval epoch: 72
+[08.19.26|17:43:14] 	mean_loss: 0.5218536769481081
+[08.19.26|17:43:14] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:43:14] Done.
+[08.19.26|17:43:14] Training epoch: 73
+[08.19.26|17:43:16] 	Iter 11900 Done. | loss: 0.3417 | lr: 0.0041
+[08.19.26|17:44:46] 	Iter 12000 Done. | loss: 0.3216 | lr: 0.0041
+[08.19.26|17:45:40] 	[Train] Top1: 82.57%.
+[08.19.26|17:45:40] 	mean_loss: 0.43881045236177973
+[08.19.26|17:45:40] Time consumption:
+[08.19.26|17:45:40] Done.
+[08.19.26|17:45:40] Eval epoch: 73
+[08.19.26|17:45:56] 	mean_loss: 0.5452174628643613
+[08.19.26|17:45:56] 	[Test] Top1: 79.36%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:45:56] Done.
+[08.19.26|17:45:56] Training epoch: 74
+[08.19.26|17:46:30] 	Iter 12100 Done. | loss: 0.3062 | lr: 0.0041
+[08.19.26|17:48:00] 	Iter 12200 Done. | loss: 0.1864 | lr: 0.0041
+[08.19.26|17:48:21] 	[Train] Top1: 84.25%.
+[08.19.26|17:48:21] 	mean_loss: 0.4030648734123429
+[08.19.26|17:48:21] Time consumption:
+[08.19.26|17:48:21] Done.
+[08.19.26|17:48:21] Eval epoch: 74
+[08.19.26|17:48:36] 	mean_loss: 0.43617850640102435
+[08.19.26|17:48:36] 	[Test] Top1: 85.78%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:48:36] Done.
+[08.19.26|17:48:36] Training epoch: 75
+[08.19.26|17:49:45] 	Iter 12300 Done. | loss: 0.4382 | lr: 0.0040
+[08.19.26|17:51:01] 	[Train] Top1: 83.90%.
+[08.19.26|17:51:01] 	mean_loss: 0.4230337686425338
+[08.19.26|17:51:01] Time consumption:
+[08.19.26|17:51:01] Done.
+[08.19.26|17:51:01] Eval epoch: 75
+[08.19.26|17:51:16] 	mean_loss: 0.4227610179468205
+[08.19.26|17:51:16] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:51:16] Done.
+[08.19.26|17:51:16] Training epoch: 76
+[08.19.26|17:51:28] 	Iter 12400 Done. | loss: 0.3002 | lr: 0.0040
+[08.19.26|17:52:58] 	Iter 12500 Done. | loss: 0.6350 | lr: 0.0040
+[08.19.26|17:53:43] 	[Train] Top1: 83.90%.
+[08.19.26|17:53:43] 	mean_loss: 0.40527857515526694
+[08.19.26|17:53:43] Time consumption:
+[08.19.26|17:53:43] Done.
+[08.19.26|17:53:43] Eval epoch: 76
+[08.19.26|17:53:58] 	mean_loss: 0.44011938189597505
+[08.19.26|17:53:58] 	[Test] Top1: 86.70%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:53:58] Done.
+[08.19.26|17:53:58] Training epoch: 77
+[08.19.26|17:54:45] 	Iter 12600 Done. | loss: 2.0077 | lr: 0.0040
+[08.19.26|17:56:14] 	Iter 12700 Done. | loss: 0.5248 | lr: 0.0040
+[08.19.26|17:56:25] 	[Train] Top1: 83.23%.
+[08.19.26|17:56:25] 	mean_loss: 0.4423403633427035
+[08.19.26|17:56:25] Time consumption:
+[08.19.26|17:56:25] Done.
+[08.19.26|17:56:25] Eval epoch: 77
+[08.19.26|17:56:42] 	mean_loss: 0.4084772177432713
+[08.19.26|17:56:42] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:56:42] Done.
+[08.19.26|17:56:42] Training epoch: 78
+[08.19.26|17:58:01] 	Iter 12800 Done. | loss: 0.2742 | lr: 0.0039
+[08.19.26|17:59:09] 	[Train] Top1: 83.59%.
+[08.19.26|17:59:09] 	mean_loss: 0.4133332797491843
+[08.19.26|17:59:09] Time consumption:
+[08.19.26|17:59:09] Done.
+[08.19.26|17:59:09] Eval epoch: 78
+[08.19.26|17:59:24] 	mean_loss: 0.5843056110959304
+[08.19.26|17:59:24] 	[Test] Top1: 78.44%. Best so far: 88.99% (epoch: 48).
+[08.19.26|17:59:24] Done.
+[08.19.26|17:59:24] Training epoch: 79
+[08.19.26|17:59:46] 	Iter 12900 Done. | loss: 0.3215 | lr: 0.0039
+[08.19.26|18:01:15] 	Iter 13000 Done. | loss: 0.3591 | lr: 0.0039
+[08.19.26|18:01:51] 	[Train] Top1: 82.92%.
+[08.19.26|18:01:51] 	mean_loss: 0.44901348289353715
+[08.19.26|18:01:51] Time consumption:
+[08.19.26|18:01:51] Done.
+[08.19.26|18:01:51] Eval epoch: 79
+[08.19.26|18:02:06] 	mean_loss: 0.5645737075491956
+[08.19.26|18:02:06] 	[Test] Top1: 77.52%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:02:06] Done.
+[08.19.26|18:02:06] Training epoch: 80
+[08.19.26|18:03:02] 	Iter 13100 Done. | loss: 0.2957 | lr: 0.0038
+[08.19.26|18:04:31] 	Iter 13200 Done. | loss: 0.2220 | lr: 0.0038
+[08.19.26|18:04:32] 	[Train] Top1: 85.02%.
+[08.19.26|18:04:32] 	mean_loss: 0.4027006544995527
+[08.19.26|18:04:32] Time consumption:
+[08.19.26|18:04:32] Done.
+[08.19.26|18:04:32] Eval epoch: 80
+[08.19.26|18:04:47] 	mean_loss: 0.486311711370945
+[08.19.26|18:04:48] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch80.png
+[08.19.26|18:04:48] 	Overall accuracy (from confusion matrix): 82.57%
+[08.19.26|18:04:48] 	Confusion Matrix Accuracy (Overall): 82.57%
+[08.19.26|18:04:48] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch80_real.png
+[08.19.26|18:04:48] 	Overall accuracy (from confusion matrix): 88.65%
+[08.19.26|18:04:48] 	Confusion Matrix Accuracy (Real): 88.65%
+[08.19.26|18:04:49] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch80_synth.png
+[08.19.26|18:04:49] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|18:04:49] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|18:04:49] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:04:49] Done.
+[08.19.26|18:04:49] Training epoch: 81
+[08.19.26|18:06:16] 	Iter 13300 Done. | loss: 0.1817 | lr: 0.0038
+[08.19.26|18:07:14] 	[Train] Top1: 84.00%.
+[08.19.26|18:07:14] 	mean_loss: 0.4117507937541403
+[08.19.26|18:07:14] Time consumption:
+[08.19.26|18:07:14] Done.
+[08.19.26|18:07:14] Eval epoch: 81
+[08.19.26|18:07:29] 	mean_loss: 0.4430840050703601
+[08.19.26|18:07:29] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:07:29] Done.
+[08.19.26|18:07:29] Training epoch: 82
+[08.19.26|18:08:00] 	Iter 13400 Done. | loss: 0.3574 | lr: 0.0038
+[08.19.26|18:09:29] 	Iter 13500 Done. | loss: 0.4979 | lr: 0.0038
+[08.19.26|18:09:55] 	[Train] Top1: 84.15%.
+[08.19.26|18:09:55] 	mean_loss: 0.39628484440636047
+[08.19.26|18:09:55] Time consumption:
+[08.19.26|18:09:55] Done.
+[08.19.26|18:09:55] Eval epoch: 82
+[08.19.26|18:10:10] 	mean_loss: 0.43186830101828827
+[08.19.26|18:10:10] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:10:10] Done.
+[08.19.26|18:10:10] Training epoch: 83
+[08.19.26|18:11:16] 	Iter 13600 Done. | loss: 0.3120 | lr: 0.0037
+[08.19.26|18:12:38] 	[Train] Top1: 83.13%.
+[08.19.26|18:12:38] 	mean_loss: 0.437486148936434
+[08.19.26|18:12:38] Time consumption:
+[08.19.26|18:12:38] Done.
+[08.19.26|18:12:38] Eval epoch: 83
+[08.19.26|18:12:53] 	mean_loss: 0.3938326772890593
+[08.19.26|18:12:53] 	[Test] Top1: 86.24%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:12:53] Done.
+[08.19.26|18:12:53] Training epoch: 84
+[08.19.26|18:13:02] 	Iter 13700 Done. | loss: 0.4275 | lr: 0.0037
+[08.19.26|18:14:31] 	Iter 13800 Done. | loss: 0.2438 | lr: 0.0037
+[08.19.26|18:15:18] 	[Train] Top1: 84.61%.
+[08.19.26|18:15:18] 	mean_loss: 0.394025954846407
+[08.19.26|18:15:18] Time consumption:
+[08.19.26|18:15:18] Done.
+[08.19.26|18:15:18] Eval epoch: 84
+[08.19.26|18:15:34] 	mean_loss: 0.4450263990775535
+[08.19.26|18:15:34] 	[Test] Top1: 85.78%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:15:34] Done.
+[08.19.26|18:15:34] Training epoch: 85
+[08.19.26|18:16:15] 	Iter 13900 Done. | loss: 0.1894 | lr: 0.0037
+[08.19.26|18:17:45] 	Iter 14000 Done. | loss: 0.6829 | lr: 0.0037
+[08.19.26|18:17:59] 	[Train] Top1: 83.13%.
+[08.19.26|18:17:59] 	mean_loss: 0.4161601804333962
+[08.19.26|18:17:59] Time consumption:
+[08.19.26|18:17:59] Done.
+[08.19.26|18:17:59] Eval epoch: 85
+[08.19.26|18:18:14] 	mean_loss: 0.5883417976529974
+[08.19.26|18:18:14] 	[Test] Top1: 77.98%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:18:14] Done.
+[08.19.26|18:18:14] Training epoch: 86
+[08.19.26|18:19:28] 	Iter 14100 Done. | loss: 0.0459 | lr: 0.0036
+[08.19.26|18:20:42] 	[Train] Top1: 84.05%.
+[08.19.26|18:20:42] 	mean_loss: 0.41933293085819556
+[08.19.26|18:20:42] Time consumption:
+[08.19.26|18:20:42] Done.
+[08.19.26|18:20:42] Eval epoch: 86
+[08.19.26|18:20:57] 	mean_loss: 0.609770914049525
+[08.19.26|18:20:57] 	[Test] Top1: 75.69%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:20:57] Done.
+[08.19.26|18:20:57] Training epoch: 87
+[08.19.26|18:21:15] 	Iter 14200 Done. | loss: 0.3300 | lr: 0.0036
+[08.19.26|18:22:43] 	Iter 14300 Done. | loss: 0.9930 | lr: 0.0036
+[08.19.26|18:23:21] 	[Train] Top1: 86.15%.
+[08.19.26|18:23:21] 	mean_loss: 0.3661548784402616
+[08.19.26|18:23:21] Time consumption:
+[08.19.26|18:23:21] Done.
+[08.19.26|18:23:21] Eval epoch: 87
+[08.19.26|18:23:36] 	mean_loss: 0.49504636482972847
+[08.19.26|18:23:36] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:23:36] Done.
+[08.19.26|18:23:36] Training epoch: 88
+[08.19.26|18:24:27] 	Iter 14400 Done. | loss: 0.4066 | lr: 0.0035
+[08.19.26|18:25:54] 	Iter 14500 Done. | loss: 0.4732 | lr: 0.0035
+[08.19.26|18:25:59] 	[Train] Top1: 83.90%.
+[08.19.26|18:25:59] 	mean_loss: 0.3998803013672858
+[08.19.26|18:25:59] Time consumption:
+[08.19.26|18:25:59] Done.
+[08.19.26|18:25:59] Eval epoch: 88
+[08.19.26|18:26:15] 	mean_loss: 0.44760771899631147
+[08.19.26|18:26:15] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:26:15] Done.
+[08.19.26|18:26:15] Training epoch: 89
+[08.19.26|18:27:38] 	Iter 14600 Done. | loss: 0.4340 | lr: 0.0035
+[08.19.26|18:28:39] 	[Train] Top1: 86.09%.
+[08.19.26|18:28:39] 	mean_loss: 0.3709534953228352
+[08.19.26|18:28:39] Time consumption:
+[08.19.26|18:28:39] Done.
+[08.19.26|18:28:39] Eval epoch: 89
+[08.19.26|18:28:54] 	mean_loss: 0.5126735265121648
+[08.19.26|18:28:54] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:28:54] Done.
+[08.19.26|18:28:54] Training epoch: 90
+[08.19.26|18:29:22] 	Iter 14700 Done. | loss: 0.4063 | lr: 0.0035
+[08.19.26|18:30:50] 	Iter 14800 Done. | loss: 0.5371 | lr: 0.0035
+[08.19.26|18:31:19] 	[Train] Top1: 84.30%.
+[08.19.26|18:31:19] 	mean_loss: 0.3976466450040326
+[08.19.26|18:31:19] Time consumption:
+[08.19.26|18:31:19] Done.
+[08.19.26|18:31:19] Eval epoch: 90
+[08.19.26|18:31:34] 	mean_loss: 0.48253824140288326
+[08.19.26|18:31:35] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch90.png
+[08.19.26|18:31:35] 	Overall accuracy (from confusion matrix): 84.86%
+[08.19.26|18:31:35] 	Confusion Matrix Accuracy (Overall): 84.86%
+[08.19.26|18:31:35] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch90_real.png
+[08.19.26|18:31:35] 	Overall accuracy (from confusion matrix): 90.81%
+[08.19.26|18:31:35] 	Confusion Matrix Accuracy (Real): 90.81%
+[08.19.26|18:31:36] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch90_synth.png
+[08.19.26|18:31:36] 	Overall accuracy (from confusion matrix): 51.52%
+[08.19.26|18:31:36] 	Confusion Matrix Accuracy (Synthetic): 51.52%
+[08.19.26|18:31:36] 	[Test] Top1: 84.86%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:31:36] Done.
+[08.19.26|18:31:36] Training epoch: 91
+[08.19.26|18:32:38] 	Iter 14900 Done. | loss: 0.3320 | lr: 0.0034
+[08.19.26|18:34:01] 	[Train] Top1: 84.56%.
+[08.19.26|18:34:01] 	mean_loss: 0.3986774873148444
+[08.19.26|18:34:01] Time consumption:
+[08.19.26|18:34:01] Done.
+[08.19.26|18:34:01] Eval epoch: 91
+[08.19.26|18:34:17] 	mean_loss: 0.4592733580226961
+[08.19.26|18:34:17] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:34:17] Done.
+[08.19.26|18:34:17] Training epoch: 92
+[08.19.26|18:34:23] 	Iter 15000 Done. | loss: 0.6598 | lr: 0.0034
+[08.19.26|18:35:53] 	Iter 15100 Done. | loss: 0.1287 | lr: 0.0034
+[08.19.26|18:36:45] 	[Train] Top1: 85.02%.
+[08.19.26|18:36:45] 	mean_loss: 0.37566019448400273
+[08.19.26|18:36:45] Time consumption:
+[08.19.26|18:36:45] Done.
+[08.19.26|18:36:45] Eval epoch: 92
+[08.19.26|18:37:00] 	mean_loss: 0.4553403042648968
+[08.19.26|18:37:00] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:37:00] Done.
+[08.19.26|18:37:00] Training epoch: 93
+[08.19.26|18:37:38] 	Iter 15200 Done. | loss: 0.3096 | lr: 0.0034
+[08.19.26|18:39:07] 	Iter 15300 Done. | loss: 0.5470 | lr: 0.0034
+[08.19.26|18:39:26] 	[Train] Top1: 85.99%.
+[08.19.26|18:39:26] 	mean_loss: 0.35728793102173717
+[08.19.26|18:39:26] Time consumption:
+[08.19.26|18:39:26] Done.
+[08.19.26|18:39:26] Eval epoch: 93
+[08.19.26|18:39:41] 	mean_loss: 0.5236091302021554
+[08.19.26|18:39:41] 	[Test] Top1: 80.28%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:39:41] Done.
+[08.19.26|18:39:41] Training epoch: 94
+[08.19.26|18:40:51] 	Iter 15400 Done. | loss: 0.0249 | lr: 0.0033
+[08.19.26|18:42:07] 	[Train] Top1: 85.33%.
+[08.19.26|18:42:07] 	mean_loss: 0.36994062696634994
+[08.19.26|18:42:07] Time consumption:
+[08.19.26|18:42:07] Done.
+[08.19.26|18:42:07] Eval epoch: 94
+[08.19.26|18:42:22] 	mean_loss: 0.5283213736195314
+[08.19.26|18:42:22] 	[Test] Top1: 79.82%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:42:22] Done.
+[08.19.26|18:42:22] Training epoch: 95
+[08.19.26|18:42:36] 	Iter 15500 Done. | loss: 0.3657 | lr: 0.0033
+[08.19.26|18:44:06] 	Iter 15600 Done. | loss: 0.2416 | lr: 0.0033
+[08.19.26|18:44:48] 	[Train] Top1: 84.61%.
+[08.19.26|18:44:48] 	mean_loss: 0.41578487370825984
+[08.19.26|18:44:48] Time consumption:
+[08.19.26|18:44:48] Done.
+[08.19.26|18:44:48] Eval epoch: 95
+[08.19.26|18:45:04] 	mean_loss: 0.5929390799842382
+[08.19.26|18:45:04] 	[Test] Top1: 80.28%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:45:04] Done.
+[08.19.26|18:45:04] Training epoch: 96
+[08.19.26|18:45:50] 	Iter 15700 Done. | loss: 0.3695 | lr: 0.0033
+[08.19.26|18:47:20] 	Iter 15800 Done. | loss: 0.3591 | lr: 0.0033
+[08.19.26|18:47:28] 	[Train] Top1: 85.28%.
+[08.19.26|18:47:28] 	mean_loss: 0.38258752813048524
+[08.19.26|18:47:28] Time consumption:
+[08.19.26|18:47:28] Done.
+[08.19.26|18:47:28] Eval epoch: 96
+[08.19.26|18:47:44] 	mean_loss: 0.5365428630458681
+[08.19.26|18:47:44] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:47:44] Done.
+[08.19.26|18:47:44] Training epoch: 97
+[08.19.26|18:49:04] 	Iter 15900 Done. | loss: 0.2716 | lr: 0.0032
+[08.19.26|18:50:09] 	[Train] Top1: 86.15%.
+[08.19.26|18:50:09] 	mean_loss: 0.36204651742030874
+[08.19.26|18:50:09] Time consumption:
+[08.19.26|18:50:09] Done.
+[08.19.26|18:50:09] Eval epoch: 97
+[08.19.26|18:50:24] 	mean_loss: 0.4773371335315077
+[08.19.26|18:50:24] 	[Test] Top1: 85.78%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:50:24] Done.
+[08.19.26|18:50:24] Training epoch: 98
+[08.19.26|18:50:49] 	Iter 16000 Done. | loss: 0.1547 | lr: 0.0032
+[08.19.26|18:52:17] 	Iter 16100 Done. | loss: 0.3347 | lr: 0.0032
+[08.19.26|18:52:49] 	[Train] Top1: 85.43%.
+[08.19.26|18:52:49] 	mean_loss: 0.38317060605422854
+[08.19.26|18:52:49] Time consumption:
+[08.19.26|18:52:49] Done.
+[08.19.26|18:52:49] Eval epoch: 98
+[08.19.26|18:53:04] 	mean_loss: 0.43314441420922156
+[08.19.26|18:53:04] 	[Test] Top1: 86.24%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:53:04] Done.
+[08.19.26|18:53:04] Training epoch: 99
+[08.19.26|18:54:02] 	Iter 16200 Done. | loss: 0.4169 | lr: 0.0032
+[08.19.26|18:55:30] 	[Train] Top1: 84.51%.
+[08.19.26|18:55:30] 	mean_loss: 0.3910665118758298
+[08.19.26|18:55:30] Time consumption:
+[08.19.26|18:55:30] Done.
+[08.19.26|18:55:30] Eval epoch: 99
+[08.19.26|18:55:45] 	mean_loss: 0.4515809879491204
+[08.19.26|18:55:45] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:55:45] Done.
+[08.19.26|18:55:45] Training epoch: 100
+[08.19.26|18:55:46] 	Iter 16300 Done. | loss: 0.4132 | lr: 0.0031
+[08.19.26|18:57:16] 	Iter 16400 Done. | loss: 0.1205 | lr: 0.0031
+[08.19.26|18:58:10] 	[Train] Top1: 84.76%.
+[08.19.26|18:58:10] 	mean_loss: 0.39474360143160164
+[08.19.26|18:58:10] Time consumption:
+[08.19.26|18:58:10] Done.
+[08.19.26|18:58:10] Eval epoch: 100
+[08.19.26|18:58:25] 	mean_loss: 0.44150827354506444
+[08.19.26|18:58:26] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch100.png
+[08.19.26|18:58:26] 	Overall accuracy (from confusion matrix): 83.94%
+[08.19.26|18:58:26] 	Confusion Matrix Accuracy (Overall): 83.94%
+[08.19.26|18:58:26] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch100_real.png
+[08.19.26|18:58:26] 	Overall accuracy (from confusion matrix): 90.27%
+[08.19.26|18:58:26] 	Confusion Matrix Accuracy (Real): 90.27%
+[08.19.26|18:58:27] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch100_synth.png
+[08.19.26|18:58:27] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|18:58:27] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|18:58:27] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|18:58:27] Done.
+[08.19.26|18:58:27] Training epoch: 101
+[08.19.26|18:59:01] 	Iter 16500 Done. | loss: 0.4861 | lr: 0.0031
+[08.19.26|19:00:30] 	Iter 16600 Done. | loss: 0.3743 | lr: 0.0031
+[08.19.26|19:00:53] 	[Train] Top1: 86.81%.
+[08.19.26|19:00:53] 	mean_loss: 0.3618761521358431
+[08.19.26|19:00:53] Time consumption:
+[08.19.26|19:00:53] Done.
+[08.19.26|19:00:53] Eval epoch: 101
+[08.19.26|19:01:08] 	mean_loss: 0.5135798203317743
+[08.19.26|19:01:08] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:01:08] Done.
+[08.19.26|19:01:08] Training epoch: 102
+[08.19.26|19:02:15] 	Iter 16700 Done. | loss: 0.6197 | lr: 0.0031
+[08.19.26|19:03:34] 	[Train] Top1: 85.84%.
+[08.19.26|19:03:34] 	mean_loss: 0.34933181342446
+[08.19.26|19:03:34] Time consumption:
+[08.19.26|19:03:34] Done.
+[08.19.26|19:03:34] Eval epoch: 102
+[08.19.26|19:03:49] 	mean_loss: 0.4485345951428539
+[08.19.26|19:03:49] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:03:49] Done.
+[08.19.26|19:03:49] Training epoch: 103
+[08.19.26|19:04:00] 	Iter 16800 Done. | loss: 0.1985 | lr: 0.0030
+[08.19.26|19:05:26] 	Iter 16900 Done. | loss: 0.4647 | lr: 0.0030
+[08.19.26|19:06:11] 	[Train] Top1: 86.25%.
+[08.19.26|19:06:11] 	mean_loss: 0.36147169846515714
+[08.19.26|19:06:11] Time consumption:
+[08.19.26|19:06:11] Done.
+[08.19.26|19:06:11] Eval epoch: 103
+[08.19.26|19:06:25] 	mean_loss: 0.4927417761401126
+[08.19.26|19:06:25] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:06:25] Done.
+[08.19.26|19:06:25] Training epoch: 104
+[08.19.26|19:07:08] 	Iter 17000 Done. | loss: 0.1237 | lr: 0.0030
+[08.19.26|19:08:37] 	Iter 17100 Done. | loss: 0.3425 | lr: 0.0030
+[08.19.26|19:08:50] 	[Train] Top1: 85.43%.
+[08.19.26|19:08:50] 	mean_loss: 0.36562419264503054
+[08.19.26|19:08:50] Time consumption:
+[08.19.26|19:08:50] Done.
+[08.19.26|19:08:50] Eval epoch: 104
+[08.19.26|19:09:05] 	mean_loss: 0.45650964622434814
+[08.19.26|19:09:05] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:09:05] Done.
+[08.19.26|19:09:05] Training epoch: 105
+[08.19.26|19:10:22] 	Iter 17200 Done. | loss: 0.1068 | lr: 0.0030
+[08.19.26|19:11:31] 	[Train] Top1: 84.66%.
+[08.19.26|19:11:31] 	mean_loss: 0.3899803091686196
+[08.19.26|19:11:31] Time consumption:
+[08.19.26|19:11:31] Done.
+[08.19.26|19:11:31] Eval epoch: 105
+[08.19.26|19:11:46] 	mean_loss: 0.4850768484175205
+[08.19.26|19:11:46] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:11:46] Done.
+[08.19.26|19:11:46] Training epoch: 106
+[08.19.26|19:12:07] 	Iter 17300 Done. | loss: 0.2988 | lr: 0.0030
+[08.19.26|19:13:37] 	Iter 17400 Done. | loss: 0.6107 | lr: 0.0030
+[08.19.26|19:14:13] 	[Train] Top1: 86.86%.
+[08.19.26|19:14:13] 	mean_loss: 0.3351102459352989
+[08.19.26|19:14:13] Time consumption:
+[08.19.26|19:14:13] Done.
+[08.19.26|19:14:13] Eval epoch: 106
+[08.19.26|19:14:28] 	mean_loss: 0.5161038447955721
+[08.19.26|19:14:28] 	[Test] Top1: 80.28%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:14:28] Done.
+[08.19.26|19:14:28] Training epoch: 107
+[08.19.26|19:15:24] 	Iter 17500 Done. | loss: 0.3737 | lr: 0.0029
+[08.19.26|19:16:54] 	Iter 17600 Done. | loss: 0.1472 | lr: 0.0029
+[08.19.26|19:16:57] 	[Train] Top1: 85.58%.
+[08.19.26|19:16:57] 	mean_loss: 0.3660445203947509
+[08.19.26|19:16:57] Time consumption:
+[08.19.26|19:16:57] Done.
+[08.19.26|19:16:57] Eval epoch: 107
+[08.19.26|19:17:11] 	mean_loss: 0.4526249985945852
+[08.19.26|19:17:11] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:17:11] Done.
+[08.19.26|19:17:11] Training epoch: 108
+[08.19.26|19:18:38] 	Iter 17700 Done. | loss: 0.1510 | lr: 0.0029
+[08.19.26|19:19:36] 	[Train] Top1: 86.50%.
+[08.19.26|19:19:36] 	mean_loss: 0.35706633539653265
+[08.19.26|19:19:36] Time consumption:
+[08.19.26|19:19:36] Done.
+[08.19.26|19:19:36] Eval epoch: 108
+[08.19.26|19:19:51] 	mean_loss: 0.47735666718922165
+[08.19.26|19:19:51] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:19:51] Done.
+[08.19.26|19:19:51] Training epoch: 109
+[08.19.26|19:20:22] 	Iter 17800 Done. | loss: 0.3980 | lr: 0.0029
+[08.19.26|19:21:51] 	Iter 17900 Done. | loss: 0.1229 | lr: 0.0029
+[08.19.26|19:22:17] 	[Train] Top1: 87.47%.
+[08.19.26|19:22:17] 	mean_loss: 0.3382336647232617
+[08.19.26|19:22:17] Time consumption:
+[08.19.26|19:22:17] Done.
+[08.19.26|19:22:17] Eval epoch: 109
+[08.19.26|19:22:32] 	mean_loss: 0.48059560936924656
+[08.19.26|19:22:32] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:22:32] Done.
+[08.19.26|19:22:32] Training epoch: 110
+[08.19.26|19:23:37] 	Iter 18000 Done. | loss: 0.2060 | lr: 0.0028
+[08.19.26|19:25:00] 	[Train] Top1: 87.01%.
+[08.19.26|19:25:00] 	mean_loss: 0.3462245558028572
+[08.19.26|19:25:00] Time consumption:
+[08.19.26|19:25:00] Done.
+[08.19.26|19:25:00] Eval epoch: 110
+[08.19.26|19:25:15] 	mean_loss: 0.5195966644310638
+[08.19.26|19:25:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch110.png
+[08.19.26|19:25:16] 	Overall accuracy (from confusion matrix): 83.94%
+[08.19.26|19:25:16] 	Confusion Matrix Accuracy (Overall): 83.94%
+[08.19.26|19:25:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch110_real.png
+[08.19.26|19:25:16] 	Overall accuracy (from confusion matrix): 90.27%
+[08.19.26|19:25:16] 	Confusion Matrix Accuracy (Real): 90.27%
+[08.19.26|19:25:17] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch110_synth.png
+[08.19.26|19:25:17] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|19:25:17] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|19:25:17] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:25:17] Done.
+[08.19.26|19:25:17] Training epoch: 111
+[08.19.26|19:25:24] 	Iter 18100 Done. | loss: 0.2571 | lr: 0.0028
+[08.19.26|19:26:53] 	Iter 18200 Done. | loss: 0.6976 | lr: 0.0028
+[08.19.26|19:27:42] 	[Train] Top1: 86.66%.
+[08.19.26|19:27:42] 	mean_loss: 0.34362410276305455
+[08.19.26|19:27:42] Time consumption:
+[08.19.26|19:27:42] Done.
+[08.19.26|19:27:42] Eval epoch: 111
+[08.19.26|19:27:58] 	mean_loss: 0.49189838752346604
+[08.19.26|19:27:58] 	[Test] Top1: 85.78%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:27:58] Done.
+[08.19.26|19:27:58] Training epoch: 112
+[08.19.26|19:28:39] 	Iter 18300 Done. | loss: 0.5491 | lr: 0.0028
+[08.19.26|19:30:07] 	Iter 18400 Done. | loss: 0.4925 | lr: 0.0028
+[08.19.26|19:30:23] 	[Train] Top1: 87.01%.
+[08.19.26|19:30:23] 	mean_loss: 0.34395407273954043
+[08.19.26|19:30:23] Time consumption:
+[08.19.26|19:30:23] Done.
+[08.19.26|19:30:23] Eval epoch: 112
+[08.19.26|19:30:38] 	mean_loss: 0.7363041349147496
+[08.19.26|19:30:38] 	[Test] Top1: 71.10%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:30:38] Done.
+[08.19.26|19:30:38] Training epoch: 113
+[08.19.26|19:31:51] 	Iter 18500 Done. | loss: 1.1767 | lr: 0.0028
+[08.19.26|19:33:03] 	[Train] Top1: 85.79%.
+[08.19.26|19:33:03] 	mean_loss: 0.36077968063164345
+[08.19.26|19:33:03] Time consumption:
+[08.19.26|19:33:03] Done.
+[08.19.26|19:33:03] Eval epoch: 113
+[08.19.26|19:33:18] 	mean_loss: 0.5243140078688923
+[08.19.26|19:33:18] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:33:18] Done.
+[08.19.26|19:33:18] Training epoch: 114
+[08.19.26|19:33:35] 	Iter 18600 Done. | loss: 0.4731 | lr: 0.0027
+[08.19.26|19:35:05] 	Iter 18700 Done. | loss: 0.2243 | lr: 0.0027
+[08.19.26|19:35:45] 	[Train] Top1: 86.50%.
+[08.19.26|19:35:45] 	mean_loss: 0.35067170335014175
+[08.19.26|19:35:45] Time consumption:
+[08.19.26|19:35:45] Done.
+[08.19.26|19:35:45] Eval epoch: 114
+[08.19.26|19:36:00] 	mean_loss: 0.5799131503230647
+[08.19.26|19:36:00] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:36:00] Done.
+[08.19.26|19:36:00] Training epoch: 115
+[08.19.26|19:36:53] 	Iter 18800 Done. | loss: 0.0693 | lr: 0.0027
+[08.19.26|19:38:21] 	Iter 18900 Done. | loss: 0.2432 | lr: 0.0027
+[08.19.26|19:38:27] 	[Train] Top1: 86.81%.
+[08.19.26|19:38:27] 	mean_loss: 0.3567740510852059
+[08.19.26|19:38:27] Time consumption:
+[08.19.26|19:38:27] Done.
+[08.19.26|19:38:27] Eval epoch: 115
+[08.19.26|19:38:42] 	mean_loss: 0.5032146784820055
+[08.19.26|19:38:42] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:38:42] Done.
+[08.19.26|19:38:42] Training epoch: 116
+[08.19.26|19:40:04] 	Iter 19000 Done. | loss: 0.0724 | lr: 0.0027
+[08.19.26|19:41:05] 	[Train] Top1: 85.07%.
+[08.19.26|19:41:05] 	mean_loss: 0.3838163272140582
+[08.19.26|19:41:05] Time consumption:
+[08.19.26|19:41:05] Done.
+[08.19.26|19:41:05] Eval epoch: 116
+[08.19.26|19:41:20] 	mean_loss: 0.6031801779019205
+[08.19.26|19:41:20] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:41:20] Done.
+[08.19.26|19:41:20] Training epoch: 117
+[08.19.26|19:41:47] 	Iter 19100 Done. | loss: 0.1786 | lr: 0.0026
+[08.19.26|19:43:15] 	Iter 19200 Done. | loss: 0.7997 | lr: 0.0026
+[08.19.26|19:43:46] 	[Train] Top1: 85.79%.
+[08.19.26|19:43:46] 	mean_loss: 0.3497652995165872
+[08.19.26|19:43:46] Time consumption:
+[08.19.26|19:43:46] Done.
+[08.19.26|19:43:46] Eval epoch: 117
+[08.19.26|19:44:01] 	mean_loss: 0.5658246129751205
+[08.19.26|19:44:01] 	[Test] Top1: 79.36%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:44:01] Done.
+[08.19.26|19:44:01] Training epoch: 118
+[08.19.26|19:45:01] 	Iter 19300 Done. | loss: 0.4093 | lr: 0.0026
+[08.19.26|19:46:26] 	[Train] Top1: 84.51%.
+[08.19.26|19:46:26] 	mean_loss: 0.3786854428793389
+[08.19.26|19:46:26] Time consumption:
+[08.19.26|19:46:26] Done.
+[08.19.26|19:46:26] Eval epoch: 118
+[08.19.26|19:46:42] 	mean_loss: 0.4725293607303971
+[08.19.26|19:46:42] 	[Test] Top1: 84.86%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:46:42] Done.
+[08.19.26|19:46:42] Training epoch: 119
+[08.19.26|19:46:45] 	Iter 19400 Done. | loss: 0.6397 | lr: 0.0026
+[08.19.26|19:48:14] 	Iter 19500 Done. | loss: 0.5708 | lr: 0.0026
+[08.19.26|19:49:06] 	[Train] Top1: 85.79%.
+[08.19.26|19:49:06] 	mean_loss: 0.35961635867876507
+[08.19.26|19:49:06] Time consumption:
+[08.19.26|19:49:06] Done.
+[08.19.26|19:49:06] Eval epoch: 119
+[08.19.26|19:49:20] 	mean_loss: 0.46170789630789505
+[08.19.26|19:49:20] 	[Test] Top1: 85.78%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:49:20] Done.
+[08.19.26|19:49:20] Training epoch: 120
+[08.19.26|19:49:57] 	Iter 19600 Done. | loss: 0.2076 | lr: 0.0026
+[08.19.26|19:51:27] 	Iter 19700 Done. | loss: 0.3192 | lr: 0.0026
+[08.19.26|19:51:47] 	[Train] Top1: 87.73%.
+[08.19.26|19:51:47] 	mean_loss: 0.31899055802017634
+[08.19.26|19:51:47] Time consumption:
+[08.19.26|19:51:47] Done.
+[08.19.26|19:51:47] Eval epoch: 120
+[08.19.26|19:52:01] 	mean_loss: 0.5020834878087044
+[08.19.26|19:52:02] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch120.png
+[08.19.26|19:52:02] 	Overall accuracy (from confusion matrix): 83.94%
+[08.19.26|19:52:02] 	Confusion Matrix Accuracy (Overall): 83.94%
+[08.19.26|19:52:03] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch120_real.png
+[08.19.26|19:52:03] 	Overall accuracy (from confusion matrix): 90.27%
+[08.19.26|19:52:03] 	Confusion Matrix Accuracy (Real): 90.27%
+[08.19.26|19:52:03] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch120_synth.png
+[08.19.26|19:52:03] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|19:52:03] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|19:52:03] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:52:03] Done.
+[08.19.26|19:52:03] Training epoch: 121
+[08.19.26|19:53:14] 	Iter 19800 Done. | loss: 0.0245 | lr: 0.0025
+[08.19.26|19:54:30] 	[Train] Top1: 87.99%.
+[08.19.26|19:54:30] 	mean_loss: 0.31535249252580794
+[08.19.26|19:54:30] Time consumption:
+[08.19.26|19:54:30] Done.
+[08.19.26|19:54:30] Eval epoch: 121
+[08.19.26|19:54:45] 	mean_loss: 0.5040926643108067
+[08.19.26|19:54:45] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:54:45] Done.
+[08.19.26|19:54:45] Training epoch: 122
+[08.19.26|19:55:00] 	Iter 19900 Done. | loss: 0.2902 | lr: 0.0025
+[08.19.26|19:56:29] 	Iter 20000 Done. | loss: 0.2548 | lr: 0.0025
+[08.19.26|19:57:11] 	[Train] Top1: 86.40%.
+[08.19.26|19:57:11] 	mean_loss: 0.35377685426294436
+[08.19.26|19:57:11] Time consumption:
+[08.19.26|19:57:11] Done.
+[08.19.26|19:57:11] Eval epoch: 122
+[08.19.26|19:57:26] 	mean_loss: 0.5441113622172883
+[08.19.26|19:57:26] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|19:57:26] Done.
+[08.19.26|19:57:26] Training epoch: 123
+[08.19.26|19:58:13] 	Iter 20100 Done. | loss: 0.1551 | lr: 0.0025
+[08.19.26|19:59:42] 	Iter 20200 Done. | loss: 0.3220 | lr: 0.0025
+[08.19.26|19:59:52] 	[Train] Top1: 85.89%.
+[08.19.26|19:59:52] 	mean_loss: 0.36061809714769294
+[08.19.26|19:59:52] Time consumption:
+[08.19.26|19:59:52] Done.
+[08.19.26|19:59:52] Eval epoch: 123
+[08.19.26|20:00:08] 	mean_loss: 0.6044223518355897
+[08.19.26|20:00:08] 	[Test] Top1: 78.90%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:00:08] Done.
+[08.19.26|20:00:08] Training epoch: 124
+[08.19.26|20:01:29] 	Iter 20300 Done. | loss: 0.1283 | lr: 0.0025
+[08.19.26|20:02:34] 	[Train] Top1: 88.09%.
+[08.19.26|20:02:34] 	mean_loss: 0.3399703367356142
+[08.19.26|20:02:34] Time consumption:
+[08.19.26|20:02:34] Done.
+[08.19.26|20:02:34] Eval epoch: 124
+[08.19.26|20:02:49] 	mean_loss: 0.485362209477707
+[08.19.26|20:02:49] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:02:49] Done.
+[08.19.26|20:02:49] Training epoch: 125
+[08.19.26|20:03:13] 	Iter 20400 Done. | loss: 0.5039 | lr: 0.0024
+[08.19.26|20:04:43] 	Iter 20500 Done. | loss: 0.2159 | lr: 0.0024
+[08.19.26|20:05:16] 	[Train] Top1: 87.12%.
+[08.19.26|20:05:16] 	mean_loss: 0.32400631122976725
+[08.19.26|20:05:16] Time consumption:
+[08.19.26|20:05:16] Done.
+[08.19.26|20:05:16] Eval epoch: 125
+[08.19.26|20:05:31] 	mean_loss: 0.5518848786228582
+[08.19.26|20:05:31] 	[Test] Top1: 86.70%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:05:31] Done.
+[08.19.26|20:05:31] Training epoch: 126
+[08.19.26|20:06:27] 	Iter 20600 Done. | loss: 0.3164 | lr: 0.0024
+[08.19.26|20:07:58] 	Iter 20700 Done. | loss: 0.3926 | lr: 0.0024
+[08.19.26|20:07:58] 	[Train] Top1: 86.55%.
+[08.19.26|20:07:58] 	mean_loss: 0.3603958412319239
+[08.19.26|20:07:58] Time consumption:
+[08.19.26|20:07:58] Done.
+[08.19.26|20:07:58] Eval epoch: 126
+[08.19.26|20:08:13] 	mean_loss: 0.5979012464614291
+[08.19.26|20:08:13] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:08:13] Done.
+[08.19.26|20:08:13] Training epoch: 127
+[08.19.26|20:09:42] 	Iter 20800 Done. | loss: 0.3607 | lr: 0.0024
+[08.19.26|20:10:37] 	[Train] Top1: 88.80%.
+[08.19.26|20:10:37] 	mean_loss: 0.29763236215075284
+[08.19.26|20:10:37] Time consumption:
+[08.19.26|20:10:37] Done.
+[08.19.26|20:10:37] Eval epoch: 127
+[08.19.26|20:10:53] 	mean_loss: 0.548861405567119
+[08.19.26|20:10:53] 	[Test] Top1: 84.86%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:10:53] Done.
+[08.19.26|20:10:53] Training epoch: 128
+[08.19.26|20:11:26] 	Iter 20900 Done. | loss: 0.1094 | lr: 0.0024
+[08.19.26|20:12:54] 	Iter 21000 Done. | loss: 0.9187 | lr: 0.0024
+[08.19.26|20:13:19] 	[Train] Top1: 86.91%.
+[08.19.26|20:13:19] 	mean_loss: 0.33582154144904364
+[08.19.26|20:13:19] Time consumption:
+[08.19.26|20:13:19] Done.
+[08.19.26|20:13:19] Eval epoch: 128
+[08.19.26|20:13:34] 	mean_loss: 0.514813664516336
+[08.19.26|20:13:34] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:13:34] Done.
+[08.19.26|20:13:34] Training epoch: 129
+[08.19.26|20:14:40] 	Iter 21100 Done. | loss: 0.5109 | lr: 0.0023
+[08.19.26|20:15:58] 	[Train] Top1: 87.12%.
+[08.19.26|20:15:58] 	mean_loss: 0.32976092793550227
+[08.19.26|20:15:58] Time consumption:
+[08.19.26|20:15:58] Done.
+[08.19.26|20:15:58] Eval epoch: 129
+[08.19.26|20:16:14] 	mean_loss: 0.531239219500046
+[08.19.26|20:16:14] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:16:14] Done.
+[08.19.26|20:16:14] Training epoch: 130
+[08.19.26|20:16:23] 	Iter 21200 Done. | loss: 0.2446 | lr: 0.0023
+[08.19.26|20:17:53] 	Iter 21300 Done. | loss: 0.4273 | lr: 0.0023
+[08.19.26|20:18:38] 	[Train] Top1: 86.25%.
+[08.19.26|20:18:38] 	mean_loss: 0.347911066655641
+[08.19.26|20:18:38] Time consumption:
+[08.19.26|20:18:38] Done.
+[08.19.26|20:18:38] Eval epoch: 130
+[08.19.26|20:18:53] 	mean_loss: 0.4997665890933652
+[08.19.26|20:18:54] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch130.png
+[08.19.26|20:18:54] 	Overall accuracy (from confusion matrix): 83.49%
+[08.19.26|20:18:54] 	Confusion Matrix Accuracy (Overall): 83.49%
+[08.19.26|20:18:54] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch130_real.png
+[08.19.26|20:18:54] 	Overall accuracy (from confusion matrix): 89.19%
+[08.19.26|20:18:54] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.19.26|20:18:55] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch130_synth.png
+[08.19.26|20:18:55] 	Overall accuracy (from confusion matrix): 51.52%
+[08.19.26|20:18:55] 	Confusion Matrix Accuracy (Synthetic): 51.52%
+[08.19.26|20:18:55] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:18:55] Done.
+[08.19.26|20:18:55] Training epoch: 131
+[08.19.26|20:19:41] 	Iter 21400 Done. | loss: 0.1100 | lr: 0.0023
+[08.19.26|20:21:12] 	Iter 21500 Done. | loss: 0.3202 | lr: 0.0023
+[08.19.26|20:21:25] 	[Train] Top1: 86.55%.
+[08.19.26|20:21:25] 	mean_loss: 0.34682882309782725
+[08.19.26|20:21:25] Time consumption:
+[08.19.26|20:21:25] Done.
+[08.19.26|20:21:25] Eval epoch: 131
+[08.19.26|20:21:40] 	mean_loss: 0.5472071402167019
+[08.19.26|20:21:40] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:21:40] Done.
+[08.19.26|20:21:40] Training epoch: 132
+[08.19.26|20:22:56] 	Iter 21600 Done. | loss: 0.6158 | lr: 0.0023
+[08.19.26|20:24:06] 	[Train] Top1: 86.15%.
+[08.19.26|20:24:06] 	mean_loss: 0.3398734288621534
+[08.19.26|20:24:06] Time consumption:
+[08.19.26|20:24:06] Done.
+[08.19.26|20:24:06] Eval epoch: 132
+[08.19.26|20:24:22] 	mean_loss: 0.4996320381760597
+[08.19.26|20:24:22] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:24:22] Done.
+[08.19.26|20:24:22] Training epoch: 133
+[08.19.26|20:24:42] 	Iter 21700 Done. | loss: 0.0624 | lr: 0.0023
+[08.19.26|20:26:11] 	Iter 21800 Done. | loss: 0.4054 | lr: 0.0023
+[08.19.26|20:26:47] 	[Train] Top1: 87.63%.
+[08.19.26|20:26:47] 	mean_loss: 0.3186236014532531
+[08.19.26|20:26:47] Time consumption:
+[08.19.26|20:26:47] Done.
+[08.19.26|20:26:47] Eval epoch: 133
+[08.19.26|20:27:01] 	mean_loss: 0.5474052168428898
+[08.19.26|20:27:01] 	[Test] Top1: 84.86%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:27:01] Done.
+[08.19.26|20:27:01] Training epoch: 134
+[08.19.26|20:27:55] 	Iter 21900 Done. | loss: 0.5398 | lr: 0.0022
+[08.19.26|20:29:26] 	Iter 22000 Done. | loss: 0.2341 | lr: 0.0022
+[08.19.26|20:29:30] 	[Train] Top1: 87.17%.
+[08.19.26|20:29:30] 	mean_loss: 0.3483122165994776
+[08.19.26|20:29:30] Time consumption:
+[08.19.26|20:29:30] Done.
+[08.19.26|20:29:30] Eval epoch: 134
+[08.19.26|20:29:45] 	mean_loss: 0.5084952498344999
+[08.19.26|20:29:45] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:29:45] Done.
+[08.19.26|20:29:45] Training epoch: 135
+[08.19.26|20:31:11] 	Iter 22100 Done. | loss: 0.0361 | lr: 0.0022
+[08.19.26|20:32:10] 	[Train] Top1: 88.91%.
+[08.19.26|20:32:10] 	mean_loss: 0.30002866367712344
+[08.19.26|20:32:10] Time consumption:
+[08.19.26|20:32:10] Done.
+[08.19.26|20:32:10] Eval epoch: 135
+[08.19.26|20:32:25] 	mean_loss: 0.5678542142635897
+[08.19.26|20:32:25] 	[Test] Top1: 77.06%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:32:25] Done.
+[08.19.26|20:32:25] Training epoch: 136
+[08.19.26|20:32:54] 	Iter 22200 Done. | loss: 0.2918 | lr: 0.0022
+[08.19.26|20:34:25] 	Iter 22300 Done. | loss: 0.4218 | lr: 0.0022
+[08.19.26|20:34:53] 	[Train] Top1: 87.01%.
+[08.19.26|20:34:53] 	mean_loss: 0.34404432422772874
+[08.19.26|20:34:53] Time consumption:
+[08.19.26|20:34:53] Done.
+[08.19.26|20:34:53] Eval epoch: 136
+[08.19.26|20:35:08] 	mean_loss: 0.5282888635993004
+[08.19.26|20:35:08] 	[Test] Top1: 86.24%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:35:08] Done.
+[08.19.26|20:35:08] Training epoch: 137
+[08.19.26|20:36:11] 	Iter 22400 Done. | loss: 0.1758 | lr: 0.0022
+[08.19.26|20:37:33] 	[Train] Top1: 87.12%.
+[08.19.26|20:37:33] 	mean_loss: 0.32180291206284534
+[08.19.26|20:37:33] Time consumption:
+[08.19.26|20:37:33] Done.
+[08.19.26|20:37:33] Eval epoch: 137
+[08.19.26|20:37:48] 	mean_loss: 0.5204423114069199
+[08.19.26|20:37:48] 	[Test] Top1: 85.78%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:37:48] Done.
+[08.19.26|20:37:48] Training epoch: 138
+[08.19.26|20:37:55] 	Iter 22500 Done. | loss: 0.3452 | lr: 0.0021
+[08.19.26|20:39:24] 	Iter 22600 Done. | loss: 0.1981 | lr: 0.0021
+[08.19.26|20:40:13] 	[Train] Top1: 87.42%.
+[08.19.26|20:40:13] 	mean_loss: 0.33170659483576115
+[08.19.26|20:40:13] Time consumption:
+[08.19.26|20:40:13] Done.
+[08.19.26|20:40:13] Eval epoch: 138
+[08.19.26|20:40:28] 	mean_loss: 0.5077950806405983
+[08.19.26|20:40:28] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:40:28] Done.
+[08.19.26|20:40:28] Training epoch: 139
+[08.19.26|20:41:08] 	Iter 22700 Done. | loss: 0.1984 | lr: 0.0021
+[08.19.26|20:42:37] 	Iter 22800 Done. | loss: 0.1090 | lr: 0.0021
+[08.19.26|20:42:54] 	[Train] Top1: 88.04%.
+[08.19.26|20:42:54] 	mean_loss: 0.3201308680892539
+[08.19.26|20:42:54] Time consumption:
+[08.19.26|20:42:54] Done.
+[08.19.26|20:42:54] Eval epoch: 139
+[08.19.26|20:43:10] 	mean_loss: 0.5038545900269559
+[08.19.26|20:43:10] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:43:10] Done.
+[08.19.26|20:43:10] Training epoch: 140
+[08.19.26|20:44:22] 	Iter 22900 Done. | loss: 0.2705 | lr: 0.0021
+[08.19.26|20:45:36] 	[Train] Top1: 87.53%.
+[08.19.26|20:45:36] 	mean_loss: 0.33250579948714176
+[08.19.26|20:45:36] Time consumption:
+[08.19.26|20:45:36] Done.
+[08.19.26|20:45:36] Eval epoch: 140
+[08.19.26|20:45:50] 	mean_loss: 0.5192420908102864
+[08.19.26|20:45:51] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch140.png
+[08.19.26|20:45:51] 	Overall accuracy (from confusion matrix): 83.03%
+[08.19.26|20:45:51] 	Confusion Matrix Accuracy (Overall): 83.03%
+[08.19.26|20:45:52] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch140_real.png
+[08.19.26|20:45:52] 	Overall accuracy (from confusion matrix): 89.19%
+[08.19.26|20:45:52] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.19.26|20:45:52] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch140_synth.png
+[08.19.26|20:45:52] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|20:45:52] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|20:45:52] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:45:52] Done.
+[08.19.26|20:45:52] Training epoch: 141
+[08.19.26|20:46:09] 	Iter 23000 Done. | loss: 0.6086 | lr: 0.0021
+[08.19.26|20:47:38] 	Iter 23100 Done. | loss: 0.4135 | lr: 0.0021
+[08.19.26|20:48:17] 	[Train] Top1: 86.50%.
+[08.19.26|20:48:17] 	mean_loss: 0.3473301327735917
+[08.19.26|20:48:17] Time consumption:
+[08.19.26|20:48:17] Done.
+[08.19.26|20:48:17] Eval epoch: 141
+[08.19.26|20:48:33] 	mean_loss: 0.5252804215017118
+[08.19.26|20:48:33] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:48:33] Done.
+[08.19.26|20:48:33] Training epoch: 142
+[08.19.26|20:49:22] 	Iter 23200 Done. | loss: 0.0589 | lr: 0.0021
+[08.19.26|20:50:52] 	Iter 23300 Done. | loss: 0.1488 | lr: 0.0021
+[08.19.26|20:50:59] 	[Train] Top1: 87.12%.
+[08.19.26|20:50:59] 	mean_loss: 0.332472898705971
+[08.19.26|20:50:59] Time consumption:
+[08.19.26|20:50:59] Done.
+[08.19.26|20:50:59] Eval epoch: 142
+[08.19.26|20:51:14] 	mean_loss: 0.5058725740956632
+[08.19.26|20:51:14] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:51:14] Done.
+[08.19.26|20:51:14] Training epoch: 143
+[08.19.26|20:52:35] 	Iter 23400 Done. | loss: 0.2322 | lr: 0.0020
+[08.19.26|20:53:40] 	[Train] Top1: 87.22%.
+[08.19.26|20:53:40] 	mean_loss: 0.32416831575151234
+[08.19.26|20:53:40] Time consumption:
+[08.19.26|20:53:40] Done.
+[08.19.26|20:53:40] Eval epoch: 143
+[08.19.26|20:53:55] 	mean_loss: 0.5265834798154078
+[08.19.26|20:53:55] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:53:55] Done.
+[08.19.26|20:53:55] Training epoch: 144
+[08.19.26|20:54:21] 	Iter 23500 Done. | loss: 0.2885 | lr: 0.0020
+[08.19.26|20:55:51] 	Iter 23600 Done. | loss: 0.1153 | lr: 0.0020
+[08.19.26|20:56:21] 	[Train] Top1: 87.17%.
+[08.19.26|20:56:21] 	mean_loss: 0.3378116722030142
+[08.19.26|20:56:21] Time consumption:
+[08.19.26|20:56:21] Done.
+[08.19.26|20:56:21] Eval epoch: 144
+[08.19.26|20:56:36] 	mean_loss: 0.5148228138293091
+[08.19.26|20:56:36] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:56:36] Done.
+[08.19.26|20:56:36] Training epoch: 145
+[08.19.26|20:57:36] 	Iter 23700 Done. | loss: 0.3854 | lr: 0.0020
+[08.19.26|20:59:03] 	[Train] Top1: 88.60%.
+[08.19.26|20:59:03] 	mean_loss: 0.3090285983827948
+[08.19.26|20:59:03] Time consumption:
+[08.19.26|20:59:03] Done.
+[08.19.26|20:59:03] Eval epoch: 145
+[08.19.26|20:59:18] 	mean_loss: 0.5593796756706739
+[08.19.26|20:59:18] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|20:59:18] Done.
+[08.19.26|20:59:18] Training epoch: 146
+[08.19.26|20:59:21] 	Iter 23800 Done. | loss: 0.2257 | lr: 0.0020
+[08.19.26|21:00:51] 	Iter 23900 Done. | loss: 0.1263 | lr: 0.0020
+[08.19.26|21:01:43] 	[Train] Top1: 87.22%.
+[08.19.26|21:01:43] 	mean_loss: 0.3299917084810558
+[08.19.26|21:01:43] Time consumption:
+[08.19.26|21:01:43] Done.
+[08.19.26|21:01:43] Eval epoch: 146
+[08.19.26|21:01:58] 	mean_loss: 0.5867480361147931
+[08.19.26|21:01:58] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:01:58] Done.
+[08.19.26|21:01:58] Training epoch: 147
+[08.19.26|21:02:34] 	Iter 24000 Done. | loss: 0.3910 | lr: 0.0020
+[08.19.26|21:04:01] 	Iter 24100 Done. | loss: 0.8425 | lr: 0.0020
+[08.19.26|21:04:21] 	[Train] Top1: 87.78%.
+[08.19.26|21:04:21] 	mean_loss: 0.3123912144840861
+[08.19.26|21:04:21] Time consumption:
+[08.19.26|21:04:21] Done.
+[08.19.26|21:04:21] Eval epoch: 147
+[08.19.26|21:04:36] 	mean_loss: 0.5728052895712225
+[08.19.26|21:04:36] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:04:36] Done.
+[08.19.26|21:04:36] Training epoch: 148
+[08.19.26|21:05:45] 	Iter 24200 Done. | loss: 0.4525 | lr: 0.0019
+[08.19.26|21:07:01] 	[Train] Top1: 87.63%.
+[08.19.26|21:07:01] 	mean_loss: 0.3124858383089304
+[08.19.26|21:07:01] Time consumption:
+[08.19.26|21:07:01] Done.
+[08.19.26|21:07:01] Eval epoch: 148
+[08.19.26|21:07:16] 	mean_loss: 0.6328247621851532
+[08.19.26|21:07:16] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:07:16] Done.
+[08.19.26|21:07:16] Training epoch: 149
+[08.19.26|21:07:29] 	Iter 24300 Done. | loss: 0.7394 | lr: 0.0019
+[08.19.26|21:08:57] 	Iter 24400 Done. | loss: 0.3259 | lr: 0.0019
+[08.19.26|21:09:40] 	[Train] Top1: 87.27%.
+[08.19.26|21:09:40] 	mean_loss: 0.33420021440605263
+[08.19.26|21:09:40] Time consumption:
+[08.19.26|21:09:40] Done.
+[08.19.26|21:09:40] Eval epoch: 149
+[08.19.26|21:09:54] 	mean_loss: 0.5726959860246432
+[08.19.26|21:09:54] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:09:54] Done.
+[08.19.26|21:09:54] Training epoch: 150
+[08.19.26|21:10:41] 	Iter 24500 Done. | loss: 0.3242 | lr: 0.0019
+[08.19.26|21:12:10] 	Iter 24600 Done. | loss: 0.1433 | lr: 0.0019
+[08.19.26|21:12:21] 	[Train] Top1: 88.45%.
+[08.19.26|21:12:21] 	mean_loss: 0.3219840552863534
+[08.19.26|21:12:21] Time consumption:
+[08.19.26|21:12:21] Done.
+[08.19.26|21:12:21] Eval epoch: 150
+[08.19.26|21:12:36] 	mean_loss: 0.5912494841766985
+[08.19.26|21:12:36] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch150.png
+[08.19.26|21:12:36] 	Overall accuracy (from confusion matrix): 82.11%
+[08.19.26|21:12:36] 	Confusion Matrix Accuracy (Overall): 82.11%
+[08.19.26|21:12:37] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch150_real.png
+[08.19.26|21:12:37] 	Overall accuracy (from confusion matrix): 89.73%
+[08.19.26|21:12:37] 	Confusion Matrix Accuracy (Real): 89.73%
+[08.19.26|21:12:37] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch150_synth.png
+[08.19.26|21:12:37] 	Overall accuracy (from confusion matrix): 39.39%
+[08.19.26|21:12:37] 	Confusion Matrix Accuracy (Synthetic): 39.39%
+[08.19.26|21:12:37] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:12:37] Done.
+[08.19.26|21:12:37] Training epoch: 151
+[08.19.26|21:13:56] 	Iter 24700 Done. | loss: 0.2984 | lr: 0.0019
+[08.19.26|21:15:04] 	[Train] Top1: 86.86%.
+[08.19.26|21:15:04] 	mean_loss: 0.3433168942531559
+[08.19.26|21:15:04] Time consumption:
+[08.19.26|21:15:04] Done.
+[08.19.26|21:15:04] Eval epoch: 151
+[08.19.26|21:15:19] 	mean_loss: 0.6079100983119324
+[08.19.26|21:15:19] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:15:19] Done.
+[08.19.26|21:15:19] Training epoch: 152
+[08.19.26|21:15:42] 	Iter 24800 Done. | loss: 0.1424 | lr: 0.0019
+[08.19.26|21:17:11] 	Iter 24900 Done. | loss: 0.0882 | lr: 0.0019
+[08.19.26|21:17:45] 	[Train] Top1: 87.22%.
+[08.19.26|21:17:45] 	mean_loss: 0.33598514497737214
+[08.19.26|21:17:45] Time consumption:
+[08.19.26|21:17:45] Done.
+[08.19.26|21:17:45] Eval epoch: 152
+[08.19.26|21:18:00] 	mean_loss: 0.5610168879165461
+[08.19.26|21:18:00] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:18:00] Done.
+[08.19.26|21:18:00] Training epoch: 153
+[08.19.26|21:18:55] 	Iter 25000 Done. | loss: 0.2457 | lr: 0.0018
+[08.19.26|21:20:24] 	Iter 25100 Done. | loss: 0.5906 | lr: 0.0018
+[08.19.26|21:20:25] 	[Train] Top1: 87.58%.
+[08.19.26|21:20:25] 	mean_loss: 0.32118492802045095
+[08.19.26|21:20:25] Time consumption:
+[08.19.26|21:20:25] Done.
+[08.19.26|21:20:25] Eval epoch: 153
+[08.19.26|21:20:41] 	mean_loss: 0.5704277493059635
+[08.19.26|21:20:41] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:20:41] Done.
+[08.19.26|21:20:41] Training epoch: 154
+[08.19.26|21:22:08] 	Iter 25200 Done. | loss: 0.2159 | lr: 0.0018
+[08.19.26|21:23:06] 	[Train] Top1: 88.29%.
+[08.19.26|21:23:06] 	mean_loss: 0.30118684131834955
+[08.19.26|21:23:06] Time consumption:
+[08.19.26|21:23:06] Done.
+[08.19.26|21:23:06] Eval epoch: 154
+[08.19.26|21:23:21] 	mean_loss: 0.5582311643581641
+[08.19.26|21:23:21] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:23:21] Done.
+[08.19.26|21:23:21] Training epoch: 155
+[08.19.26|21:23:53] 	Iter 25300 Done. | loss: 0.6272 | lr: 0.0018
+[08.19.26|21:25:22] 	Iter 25400 Done. | loss: 0.1250 | lr: 0.0018
+[08.19.26|21:25:46] 	[Train] Top1: 88.19%.
+[08.19.26|21:25:46] 	mean_loss: 0.3197398308458869
+[08.19.26|21:25:46] Time consumption:
+[08.19.26|21:25:46] Done.
+[08.19.26|21:25:46] Eval epoch: 155
+[08.19.26|21:26:02] 	mean_loss: 0.6001535657989351
+[08.19.26|21:26:02] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:26:02] Done.
+[08.19.26|21:26:02] Training epoch: 156
+[08.19.26|21:27:07] 	Iter 25500 Done. | loss: 0.2025 | lr: 0.0018
+[08.19.26|21:28:27] 	[Train] Top1: 87.68%.
+[08.19.26|21:28:27] 	mean_loss: 0.3380808783523693
+[08.19.26|21:28:27] Time consumption:
+[08.19.26|21:28:27] Done.
+[08.19.26|21:28:27] Eval epoch: 156
+[08.19.26|21:28:42] 	mean_loss: 0.5684059344624218
+[08.19.26|21:28:42] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:28:42] Done.
+[08.19.26|21:28:42] Training epoch: 157
+[08.19.26|21:28:52] 	Iter 25600 Done. | loss: 0.4500 | lr: 0.0018
+[08.19.26|21:30:21] 	Iter 25700 Done. | loss: 0.2298 | lr: 0.0018
+[08.19.26|21:31:08] 	[Train] Top1: 89.31%.
+[08.19.26|21:31:08] 	mean_loss: 0.28578611785557373
+[08.19.26|21:31:08] Time consumption:
+[08.19.26|21:31:08] Done.
+[08.19.26|21:31:08] Eval epoch: 157
+[08.19.26|21:31:23] 	mean_loss: 0.6118172859086802
+[08.19.26|21:31:23] 	[Test] Top1: 84.86%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:31:23] Done.
+[08.19.26|21:31:23] Training epoch: 158
+[08.19.26|21:32:06] 	Iter 25800 Done. | loss: 0.2561 | lr: 0.0018
+[08.19.26|21:33:35] 	Iter 25900 Done. | loss: 0.0725 | lr: 0.0018
+[08.19.26|21:33:49] 	[Train] Top1: 87.37%.
+[08.19.26|21:33:49] 	mean_loss: 0.3185585164950669
+[08.19.26|21:33:49] Time consumption:
+[08.19.26|21:33:49] Done.
+[08.19.26|21:33:49] Eval epoch: 158
+[08.19.26|21:34:04] 	mean_loss: 0.5530500155138341
+[08.19.26|21:34:04] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:34:04] Done.
+[08.19.26|21:34:04] Training epoch: 159
+[08.19.26|21:35:19] 	Iter 26000 Done. | loss: 0.3152 | lr: 0.0017
+[08.19.26|21:36:31] 	[Train] Top1: 86.81%.
+[08.19.26|21:36:31] 	mean_loss: 0.34036859067762554
+[08.19.26|21:36:31] Time consumption:
+[08.19.26|21:36:31] Done.
+[08.19.26|21:36:31] Eval epoch: 159
+[08.19.26|21:36:46] 	mean_loss: 0.5714893152839259
+[08.19.26|21:36:46] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:36:46] Done.
+[08.19.26|21:36:46] Training epoch: 160
+[08.19.26|21:37:05] 	Iter 26100 Done. | loss: 0.3075 | lr: 0.0017
+[08.19.26|21:38:33] 	Iter 26200 Done. | loss: 0.5819 | lr: 0.0017
+[08.19.26|21:39:10] 	[Train] Top1: 87.58%.
+[08.19.26|21:39:10] 	mean_loss: 0.31019548806676106
+[08.19.26|21:39:10] Time consumption:
+[08.19.26|21:39:10] Done.
+[08.19.26|21:39:10] Eval epoch: 160
+[08.19.26|21:39:25] 	mean_loss: 0.6402430489267174
+[08.19.26|21:39:25] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch160.png
+[08.19.26|21:39:25] 	Overall accuracy (from confusion matrix): 82.57%
+[08.19.26|21:39:25] 	Confusion Matrix Accuracy (Overall): 82.57%
+[08.19.26|21:39:26] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch160_real.png
+[08.19.26|21:39:26] 	Overall accuracy (from confusion matrix): 88.65%
+[08.19.26|21:39:26] 	Confusion Matrix Accuracy (Real): 88.65%
+[08.19.26|21:39:27] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch160_synth.png
+[08.19.26|21:39:27] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|21:39:27] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|21:39:27] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:39:27] Done.
+[08.19.26|21:39:27] Training epoch: 161
+[08.19.26|21:40:20] 	Iter 26300 Done. | loss: 0.0192 | lr: 0.0017
+[08.19.26|21:41:50] 	Iter 26400 Done. | loss: 0.2444 | lr: 0.0017
+[08.19.26|21:41:55] 	[Train] Top1: 89.67%.
+[08.19.26|21:41:55] 	mean_loss: 0.2764976878359091
+[08.19.26|21:41:55] Time consumption:
+[08.19.26|21:41:55] Done.
+[08.19.26|21:41:55] Eval epoch: 161
+[08.19.26|21:42:10] 	mean_loss: 0.6248770337551832
+[08.19.26|21:42:10] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:42:10] Done.
+[08.19.26|21:42:10] Training epoch: 162
+[08.19.26|21:43:35] 	Iter 26500 Done. | loss: 0.2488 | lr: 0.0017
+[08.19.26|21:44:36] 	[Train] Top1: 87.27%.
+[08.19.26|21:44:36] 	mean_loss: 0.3183327807010683
+[08.19.26|21:44:36] Time consumption:
+[08.19.26|21:44:36] Done.
+[08.19.26|21:44:36] Eval epoch: 162
+[08.19.26|21:44:52] 	mean_loss: 0.570678573101759
+[08.19.26|21:44:52] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:44:52] Done.
+[08.19.26|21:44:52] Training epoch: 163
+[08.19.26|21:45:22] 	Iter 26600 Done. | loss: 0.4018 | lr: 0.0017
+[08.19.26|21:46:51] 	Iter 26700 Done. | loss: 0.1268 | lr: 0.0017
+[08.19.26|21:47:18] 	[Train] Top1: 88.14%.
+[08.19.26|21:47:18] 	mean_loss: 0.3006994471616723
+[08.19.26|21:47:18] Time consumption:
+[08.19.26|21:47:18] Done.
+[08.19.26|21:47:18] Eval epoch: 163
+[08.19.26|21:47:33] 	mean_loss: 0.6605962087449274
+[08.19.26|21:47:33] 	[Test] Top1: 76.15%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:47:33] Done.
+[08.19.26|21:47:33] Training epoch: 164
+[08.19.26|21:48:35] 	Iter 26800 Done. | loss: 0.0606 | lr: 0.0017
+[08.19.26|21:49:59] 	[Train] Top1: 88.80%.
+[08.19.26|21:49:59] 	mean_loss: 0.2945931368947395
+[08.19.26|21:49:59] Time consumption:
+[08.19.26|21:49:59] Done.
+[08.19.26|21:49:59] Eval epoch: 164
+[08.19.26|21:50:14] 	mean_loss: 0.5666244080976436
+[08.19.26|21:50:14] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:50:14] Done.
+[08.19.26|21:50:14] Training epoch: 165
+[08.19.26|21:50:20] 	Iter 26900 Done. | loss: 0.7548 | lr: 0.0016
+[08.19.26|21:51:49] 	Iter 27000 Done. | loss: 0.4097 | lr: 0.0016
+[08.19.26|21:52:40] 	[Train] Top1: 86.91%.
+[08.19.26|21:52:40] 	mean_loss: 0.3302173838362189
+[08.19.26|21:52:40] Time consumption:
+[08.19.26|21:52:40] Done.
+[08.19.26|21:52:40] Eval epoch: 165
+[08.19.26|21:52:55] 	mean_loss: 0.6009607552305648
+[08.19.26|21:52:55] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:52:55] Done.
+[08.19.26|21:52:55] Training epoch: 166
+[08.19.26|21:53:34] 	Iter 27100 Done. | loss: 0.5317 | lr: 0.0016
+[08.19.26|21:55:03] 	Iter 27200 Done. | loss: 0.4446 | lr: 0.0016
+[08.19.26|21:55:21] 	[Train] Top1: 87.73%.
+[08.19.26|21:55:21] 	mean_loss: 0.3052998888163479
+[08.19.26|21:55:21] Time consumption:
+[08.19.26|21:55:21] Done.
+[08.19.26|21:55:21] Eval epoch: 166
+[08.19.26|21:55:36] 	mean_loss: 0.5803554989397526
+[08.19.26|21:55:36] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:55:36] Done.
+[08.19.26|21:55:36] Training epoch: 167
+[08.19.26|21:56:47] 	Iter 27300 Done. | loss: 0.1709 | lr: 0.0016
+[08.19.26|21:58:01] 	[Train] Top1: 88.29%.
+[08.19.26|21:58:01] 	mean_loss: 0.3158782712223888
+[08.19.26|21:58:01] Time consumption:
+[08.19.26|21:58:01] Done.
+[08.19.26|21:58:01] Eval epoch: 167
+[08.19.26|21:58:16] 	mean_loss: 0.5355646465169756
+[08.19.26|21:58:16] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|21:58:16] Done.
+[08.19.26|21:58:16] Training epoch: 168
+[08.19.26|21:58:31] 	Iter 27400 Done. | loss: 0.2703 | lr: 0.0016
+[08.19.26|21:59:59] 	Iter 27500 Done. | loss: 0.2130 | lr: 0.0016
+[08.19.26|22:00:39] 	[Train] Top1: 88.39%.
+[08.19.26|22:00:39] 	mean_loss: 0.2918604908316779
+[08.19.26|22:00:39] Time consumption:
+[08.19.26|22:00:39] Done.
+[08.19.26|22:00:39] Eval epoch: 168
+[08.19.26|22:00:54] 	mean_loss: 0.5692608787825233
+[08.19.26|22:00:54] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:00:54] Done.
+[08.19.26|22:00:54] Training epoch: 169
+[08.19.26|22:01:42] 	Iter 27600 Done. | loss: 0.2108 | lr: 0.0016
+[08.19.26|22:03:13] 	Iter 27700 Done. | loss: 0.2677 | lr: 0.0016
+[08.19.26|22:03:21] 	[Train] Top1: 88.75%.
+[08.19.26|22:03:21] 	mean_loss: 0.3035723493874439
+[08.19.26|22:03:21] Time consumption:
+[08.19.26|22:03:21] Done.
+[08.19.26|22:03:21] Eval epoch: 169
+[08.19.26|22:03:35] 	mean_loss: 0.6460735978264558
+[08.19.26|22:03:35] 	[Test] Top1: 79.36%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:03:35] Done.
+[08.19.26|22:03:35] Training epoch: 170
+[08.19.26|22:04:56] 	Iter 27800 Done. | loss: 0.5541 | lr: 0.0016
+[08.19.26|22:05:59] 	[Train] Top1: 88.91%.
+[08.19.26|22:05:59] 	mean_loss: 0.31539150571987673
+[08.19.26|22:05:59] Time consumption:
+[08.19.26|22:05:59] Done.
+[08.19.26|22:05:59] Eval epoch: 170
+[08.19.26|22:06:14] 	mean_loss: 0.6321853526720875
+[08.19.26|22:06:14] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch170.png
+[08.19.26|22:06:14] 	Overall accuracy (from confusion matrix): 82.57%
+[08.19.26|22:06:14] 	Confusion Matrix Accuracy (Overall): 82.57%
+[08.19.26|22:06:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch170_real.png
+[08.19.26|22:06:15] 	Overall accuracy (from confusion matrix): 89.19%
+[08.19.26|22:06:15] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.19.26|22:06:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch170_synth.png
+[08.19.26|22:06:16] 	Overall accuracy (from confusion matrix): 45.45%
+[08.19.26|22:06:16] 	Confusion Matrix Accuracy (Synthetic): 45.45%
+[08.19.26|22:06:16] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:06:16] Done.
+[08.19.26|22:06:16] Training epoch: 171
+[08.19.26|22:06:42] 	Iter 27900 Done. | loss: 0.3300 | lr: 0.0015
+[08.19.26|22:08:13] 	Iter 28000 Done. | loss: 0.0817 | lr: 0.0015
+[08.19.26|22:08:45] 	[Train] Top1: 87.01%.
+[08.19.26|22:08:45] 	mean_loss: 0.3332149429829574
+[08.19.26|22:08:45] Time consumption:
+[08.19.26|22:08:45] Done.
+[08.19.26|22:08:45] Eval epoch: 171
+[08.19.26|22:09:01] 	mean_loss: 0.5663441373525482
+[08.19.26|22:09:01] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:09:01] Done.
+[08.19.26|22:09:01] Training epoch: 172
+[08.19.26|22:09:58] 	Iter 28100 Done. | loss: 0.7712 | lr: 0.0015
+[08.19.26|22:11:26] 	[Train] Top1: 87.73%.
+[08.19.26|22:11:26] 	mean_loss: 0.31258221708832346
+[08.19.26|22:11:26] Time consumption:
+[08.19.26|22:11:26] Done.
+[08.19.26|22:11:26] Eval epoch: 172
+[08.19.26|22:11:41] 	mean_loss: 0.5665637326279753
+[08.19.26|22:11:41] 	[Test] Top1: 85.32%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:11:41] Done.
+[08.19.26|22:11:41] Training epoch: 173
+[08.19.26|22:11:43] 	Iter 28200 Done. | loss: 0.1210 | lr: 0.0015
+[08.19.26|22:13:14] 	Iter 28300 Done. | loss: 0.1101 | lr: 0.0015
+[08.19.26|22:14:08] 	[Train] Top1: 89.11%.
+[08.19.26|22:14:08] 	mean_loss: 0.2774655566053705
+[08.19.26|22:14:08] Time consumption:
+[08.19.26|22:14:08] Done.
+[08.19.26|22:14:08] Eval epoch: 173
+[08.19.26|22:14:23] 	mean_loss: 0.579805283954269
+[08.19.26|22:14:23] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:14:23] Done.
+[08.19.26|22:14:23] Training epoch: 174
+[08.19.26|22:14:57] 	Iter 28400 Done. | loss: 0.1929 | lr: 0.0015
+[08.19.26|22:16:26] 	Iter 28500 Done. | loss: 0.1451 | lr: 0.0015
+[08.19.26|22:16:48] 	[Train] Top1: 87.83%.
+[08.19.26|22:16:48] 	mean_loss: 0.3212530683794636
+[08.19.26|22:16:48] Time consumption:
+[08.19.26|22:16:48] Done.
+[08.19.26|22:16:48] Eval epoch: 174
+[08.19.26|22:17:04] 	mean_loss: 0.5244260055846289
+[08.19.26|22:17:04] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:17:04] Done.
+[08.19.26|22:17:04] Training epoch: 175
+[08.19.26|22:18:13] 	Iter 28600 Done. | loss: 0.2636 | lr: 0.0015
+[08.19.26|22:19:30] 	[Train] Top1: 88.09%.
+[08.19.26|22:19:30] 	mean_loss: 0.31041151105763354
+[08.19.26|22:19:30] Time consumption:
+[08.19.26|22:19:30] Done.
+[08.19.26|22:19:30] Eval epoch: 175
+[08.19.26|22:19:45] 	mean_loss: 0.5765017281335435
+[08.19.26|22:19:45] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:19:45] Done.
+[08.19.26|22:19:45] Training epoch: 176
+[08.19.26|22:19:57] 	Iter 28700 Done. | loss: 0.0576 | lr: 0.0015
+[08.19.26|22:21:25] 	Iter 28800 Done. | loss: 0.3551 | lr: 0.0015
+[08.19.26|22:22:11] 	[Train] Top1: 88.75%.
+[08.19.26|22:22:11] 	mean_loss: 0.2964145070616087
+[08.19.26|22:22:11] Time consumption:
+[08.19.26|22:22:11] Done.
+[08.19.26|22:22:11] Eval epoch: 176
+[08.19.26|22:22:27] 	mean_loss: 0.5854418752224821
+[08.19.26|22:22:27] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:22:27] Done.
+[08.19.26|22:22:27] Training epoch: 177
+[08.19.26|22:23:12] 	Iter 28900 Done. | loss: 2.4345 | lr: 0.0014
+[08.19.26|22:24:42] 	Iter 29000 Done. | loss: 0.2316 | lr: 0.0014
+[08.19.26|22:24:54] 	[Train] Top1: 88.19%.
+[08.19.26|22:24:54] 	mean_loss: 0.3161591970321774
+[08.19.26|22:24:54] Time consumption:
+[08.19.26|22:24:54] Done.
+[08.19.26|22:24:54] Eval epoch: 177
+[08.19.26|22:25:09] 	mean_loss: 0.554034201722396
+[08.19.26|22:25:09] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:25:09] Done.
+[08.19.26|22:25:09] Training epoch: 178
+[08.19.26|22:26:28] 	Iter 29100 Done. | loss: 0.2878 | lr: 0.0014
+[08.19.26|22:27:36] 	[Train] Top1: 89.21%.
+[08.19.26|22:27:36] 	mean_loss: 0.2900801554345097
+[08.19.26|22:27:36] Time consumption:
+[08.19.26|22:27:36] Done.
+[08.19.26|22:27:36] Eval epoch: 178
+[08.19.26|22:27:51] 	mean_loss: 0.5653597552721438
+[08.19.26|22:27:51] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:27:51] Done.
+[08.19.26|22:27:51] Training epoch: 179
+[08.19.26|22:28:13] 	Iter 29200 Done. | loss: 0.7051 | lr: 0.0014
+[08.19.26|22:29:44] 	Iter 29300 Done. | loss: 0.2881 | lr: 0.0014
+[08.19.26|22:30:18] 	[Train] Top1: 88.19%.
+[08.19.26|22:30:18] 	mean_loss: 0.3155846560339621
+[08.19.26|22:30:18] Time consumption:
+[08.19.26|22:30:18] Done.
+[08.19.26|22:30:18] Eval epoch: 179
+[08.19.26|22:30:34] 	mean_loss: 0.583810786765657
+[08.19.26|22:30:34] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:30:34] Done.
+[08.19.26|22:30:34] Training epoch: 180
+[08.19.26|22:31:28] 	Iter 29400 Done. | loss: 0.0537 | lr: 0.0014
+[08.19.26|22:32:57] 	Iter 29500 Done. | loss: 0.4041 | lr: 0.0014
+[08.19.26|22:32:59] 	[Train] Top1: 88.80%.
+[08.19.26|22:32:59] 	mean_loss: 0.29228636703562516
+[08.19.26|22:32:59] Time consumption:
+[08.19.26|22:32:59] Done.
+[08.19.26|22:32:59] Eval epoch: 180
+[08.19.26|22:33:14] 	mean_loss: 0.5767882223192015
+[08.19.26|22:33:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch180.png
+[08.19.26|22:33:15] 	Overall accuracy (from confusion matrix): 83.49%
+[08.19.26|22:33:15] 	Confusion Matrix Accuracy (Overall): 83.49%
+[08.19.26|22:33:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch180_real.png
+[08.19.26|22:33:16] 	Overall accuracy (from confusion matrix): 89.73%
+[08.19.26|22:33:16] 	Confusion Matrix Accuracy (Real): 89.73%
+[08.19.26|22:33:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch180_synth.png
+[08.19.26|22:33:16] 	Overall accuracy (from confusion matrix): 48.48%
+[08.19.26|22:33:16] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.19.26|22:33:16] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:33:16] Done.
+[08.19.26|22:33:16] Training epoch: 181
+[08.19.26|22:34:47] 	Iter 29600 Done. | loss: 0.5193 | lr: 0.0014
+[08.19.26|22:35:46] 	[Train] Top1: 88.29%.
+[08.19.26|22:35:46] 	mean_loss: 0.30748674198642284
+[08.19.26|22:35:46] Time consumption:
+[08.19.26|22:35:46] Done.
+[08.19.26|22:35:46] Eval epoch: 181
+[08.19.26|22:36:01] 	mean_loss: 0.5723812482074687
+[08.19.26|22:36:01] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:36:01] Done.
+[08.19.26|22:36:01] Training epoch: 182
+[08.19.26|22:36:33] 	Iter 29700 Done. | loss: 0.0574 | lr: 0.0014
+[08.19.26|22:38:01] 	Iter 29800 Done. | loss: 0.1943 | lr: 0.0014
+[08.19.26|22:38:26] 	[Train] Top1: 88.96%.
+[08.19.26|22:38:26] 	mean_loss: 0.2803377186182452
+[08.19.26|22:38:26] Time consumption:
+[08.19.26|22:38:26] Done.
+[08.19.26|22:38:26] Eval epoch: 182
+[08.19.26|22:38:41] 	mean_loss: 0.5422029440340242
+[08.19.26|22:38:41] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:38:41] Done.
+[08.19.26|22:38:41] Training epoch: 183
+[08.19.26|22:39:45] 	Iter 29900 Done. | loss: 0.3374 | lr: 0.0014
+[08.19.26|22:41:07] 	[Train] Top1: 89.26%.
+[08.19.26|22:41:07] 	mean_loss: 0.2999368794605227
+[08.19.26|22:41:07] Time consumption:
+[08.19.26|22:41:07] Done.
+[08.19.26|22:41:07] Eval epoch: 183
+[08.19.26|22:41:22] 	mean_loss: 0.6401940725351635
+[08.19.26|22:41:22] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:41:22] Done.
+[08.19.26|22:41:22] Training epoch: 184
+[08.19.26|22:41:30] 	Iter 30000 Done. | loss: 0.1770 | lr: 0.0014
+[08.19.26|22:42:59] 	Iter 30100 Done. | loss: 0.5307 | lr: 0.0014
+[08.19.26|22:43:47] 	[Train] Top1: 89.42%.
+[08.19.26|22:43:47] 	mean_loss: 0.2831124524625898
+[08.19.26|22:43:47] Time consumption:
+[08.19.26|22:43:47] Done.
+[08.19.26|22:43:47] Eval epoch: 184
+[08.19.26|22:44:02] 	mean_loss: 0.5962631437731417
+[08.19.26|22:44:02] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:44:02] Done.
+[08.19.26|22:44:02] Training epoch: 185
+[08.19.26|22:44:43] 	Iter 30200 Done. | loss: 0.1048 | lr: 0.0013
+[08.19.26|22:46:12] 	Iter 30300 Done. | loss: 0.5089 | lr: 0.0013
+[08.19.26|22:46:28] 	[Train] Top1: 87.99%.
+[08.19.26|22:46:28] 	mean_loss: 0.30742309089361525
+[08.19.26|22:46:28] Time consumption:
+[08.19.26|22:46:28] Done.
+[08.19.26|22:46:28] Eval epoch: 185
+[08.19.26|22:46:42] 	mean_loss: 0.6551824987032696
+[08.19.26|22:46:42] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:46:42] Done.
+[08.19.26|22:46:42] Training epoch: 186
+[08.19.26|22:47:57] 	Iter 30400 Done. | loss: 0.4073 | lr: 0.0013
+[08.19.26|22:49:07] 	[Train] Top1: 89.26%.
+[08.19.26|22:49:07] 	mean_loss: 0.26866482883874626
+[08.19.26|22:49:07] Time consumption:
+[08.19.26|22:49:07] Done.
+[08.19.26|22:49:07] Eval epoch: 186
+[08.19.26|22:49:22] 	mean_loss: 0.5871498612196822
+[08.19.26|22:49:22] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:49:22] Done.
+[08.19.26|22:49:22] Training epoch: 187
+[08.19.26|22:49:41] 	Iter 30500 Done. | loss: 0.1857 | lr: 0.0013
+[08.19.26|22:51:09] 	Iter 30600 Done. | loss: 0.2720 | lr: 0.0013
+[08.19.26|22:51:47] 	[Train] Top1: 89.42%.
+[08.19.26|22:51:47] 	mean_loss: 0.27915100666460085
+[08.19.26|22:51:47] Time consumption:
+[08.19.26|22:51:47] Done.
+[08.19.26|22:51:47] Eval epoch: 187
+[08.19.26|22:52:03] 	mean_loss: 0.6404065525061206
+[08.19.26|22:52:03] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:52:03] Done.
+[08.19.26|22:52:03] Training epoch: 188
+[08.19.26|22:52:55] 	Iter 30700 Done. | loss: 0.2760 | lr: 0.0013
+[08.19.26|22:54:24] 	Iter 30800 Done. | loss: 0.1397 | lr: 0.0013
+[08.19.26|22:54:30] 	[Train] Top1: 89.11%.
+[08.19.26|22:54:30] 	mean_loss: 0.31322972570186014
+[08.19.26|22:54:30] Time consumption:
+[08.19.26|22:54:30] Done.
+[08.19.26|22:54:30] Eval epoch: 188
+[08.19.26|22:54:44] 	mean_loss: 0.5911198234871814
+[08.19.26|22:54:44] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:54:44] Done.
+[08.19.26|22:54:44] Training epoch: 189
+[08.19.26|22:56:10] 	Iter 30900 Done. | loss: 0.8258 | lr: 0.0013
+[08.19.26|22:57:11] 	[Train] Top1: 89.21%.
+[08.19.26|22:57:11] 	mean_loss: 0.2844953969280961
+[08.19.26|22:57:11] Time consumption:
+[08.19.26|22:57:11] Done.
+[08.19.26|22:57:11] Eval epoch: 189
+[08.19.26|22:57:26] 	mean_loss: 0.6074724883625382
+[08.19.26|22:57:26] 	[Test] Top1: 84.40%. Best so far: 88.99% (epoch: 48).
+[08.19.26|22:57:26] Done.
+[08.19.26|22:57:26] Training epoch: 190
+[08.19.26|22:57:54] 	Iter 31000 Done. | loss: 0.1890 | lr: 0.0013
+[08.19.26|22:59:26] 	Iter 31100 Done. | loss: 0.3934 | lr: 0.0013
+[08.19.26|22:59:55] 	[Train] Top1: 89.11%.
+[08.19.26|22:59:55] 	mean_loss: 0.289930782772235
+[08.19.26|22:59:55] Time consumption:
+[08.19.26|22:59:55] Done.
+[08.19.26|22:59:55] Eval epoch: 190
+[08.19.26|23:00:10] 	mean_loss: 0.5896240923749773
+[08.19.26|23:00:10] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch190.png
+[08.19.26|23:00:10] 	Overall accuracy (from confusion matrix): 81.65%
+[08.19.26|23:00:10] 	Confusion Matrix Accuracy (Overall): 81.65%
+[08.19.26|23:00:11] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch190_real.png
+[08.19.26|23:00:11] 	Overall accuracy (from confusion matrix): 88.11%
+[08.19.26|23:00:11] 	Confusion Matrix Accuracy (Real): 88.11%
+[08.19.26|23:00:12] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch190_synth.png
+[08.19.26|23:00:12] 	Overall accuracy (from confusion matrix): 45.45%
+[08.19.26|23:00:12] 	Confusion Matrix Accuracy (Synthetic): 45.45%
+[08.19.26|23:00:12] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:00:12] Done.
+[08.19.26|23:00:12] Training epoch: 191
+[08.19.26|23:01:14] 	Iter 31200 Done. | loss: 0.1754 | lr: 0.0013
+[08.19.26|23:02:39] 	[Train] Top1: 88.34%.
+[08.19.26|23:02:39] 	mean_loss: 0.3364713555830388
+[08.19.26|23:02:39] Time consumption:
+[08.19.26|23:02:39] Done.
+[08.19.26|23:02:39] Eval epoch: 191
+[08.19.26|23:02:55] 	mean_loss: 0.6258115113565796
+[08.19.26|23:02:55] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:02:55] Done.
+[08.19.26|23:02:55] Training epoch: 192
+[08.19.26|23:03:00] 	Iter 31300 Done. | loss: 0.3093 | lr: 0.0012
+[08.19.26|23:04:31] 	Iter 31400 Done. | loss: 0.2882 | lr: 0.0012
+[08.19.26|23:05:22] 	[Train] Top1: 88.80%.
+[08.19.26|23:05:22] 	mean_loss: 0.28928518321570806
+[08.19.26|23:05:22] Time consumption:
+[08.19.26|23:05:22] Done.
+[08.19.26|23:05:22] Eval epoch: 192
+[08.19.26|23:05:37] 	mean_loss: 0.5622970470668454
+[08.19.26|23:05:37] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:05:37] Done.
+[08.19.26|23:05:37] Training epoch: 193
+[08.19.26|23:06:16] 	Iter 31500 Done. | loss: 0.2999 | lr: 0.0012
+[08.19.26|23:07:45] 	Iter 31600 Done. | loss: 0.1884 | lr: 0.0012
+[08.19.26|23:08:04] 	[Train] Top1: 89.78%.
+[08.19.26|23:08:04] 	mean_loss: 0.2763333213429875
+[08.19.26|23:08:04] Time consumption:
+[08.19.26|23:08:04] Done.
+[08.19.26|23:08:04] Eval epoch: 193
+[08.19.26|23:08:20] 	mean_loss: 0.6305896137890062
+[08.19.26|23:08:20] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:08:20] Done.
+[08.19.26|23:08:20] Training epoch: 194
+[08.19.26|23:09:31] 	Iter 31700 Done. | loss: 0.1934 | lr: 0.0012
+[08.19.26|23:10:46] 	[Train] Top1: 87.83%.
+[08.19.26|23:10:46] 	mean_loss: 0.3015022880049205
+[08.19.26|23:10:46] Time consumption:
+[08.19.26|23:10:46] Done.
+[08.19.26|23:10:46] Eval epoch: 194
+[08.19.26|23:11:02] 	mean_loss: 0.6580616890599853
+[08.19.26|23:11:02] 	[Test] Top1: 79.82%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:11:02] Done.
+[08.19.26|23:11:02] Training epoch: 195
+[08.19.26|23:11:17] 	Iter 31800 Done. | loss: 0.0439 | lr: 0.0012
+[08.19.26|23:12:46] 	Iter 31900 Done. | loss: 0.0753 | lr: 0.0012
+[08.19.26|23:13:27] 	[Train] Top1: 89.06%.
+[08.19.26|23:13:27] 	mean_loss: 0.297873742329928
+[08.19.26|23:13:27] Time consumption:
+[08.19.26|23:13:27] Done.
+[08.19.26|23:13:27] Eval epoch: 195
+[08.19.26|23:13:42] 	mean_loss: 0.6432814625533003
+[08.19.26|23:13:42] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:13:42] Done.
+[08.19.26|23:13:42] Training epoch: 196
+[08.19.26|23:14:32] 	Iter 32000 Done. | loss: 0.2465 | lr: 0.0012
+[08.19.26|23:16:00] 	Iter 32100 Done. | loss: 0.2717 | lr: 0.0012
+[08.19.26|23:16:09] 	[Train] Top1: 89.16%.
+[08.19.26|23:16:09] 	mean_loss: 0.29381162398980437
+[08.19.26|23:16:09] Time consumption:
+[08.19.26|23:16:09] Done.
+[08.19.26|23:16:09] Eval epoch: 196
+[08.19.26|23:16:24] 	mean_loss: 0.5973172687778348
+[08.19.26|23:16:24] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:16:24] Done.
+[08.19.26|23:16:24] Training epoch: 197
+[08.19.26|23:17:44] 	Iter 32200 Done. | loss: 0.3987 | lr: 0.0012
+[08.19.26|23:18:50] 	[Train] Top1: 90.34%.
+[08.19.26|23:18:50] 	mean_loss: 0.2612813498504871
+[08.19.26|23:18:50] Time consumption:
+[08.19.26|23:18:50] Done.
+[08.19.26|23:18:50] Eval epoch: 197
+[08.19.26|23:19:05] 	mean_loss: 0.5968368823983168
+[08.19.26|23:19:05] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:19:05] Done.
+[08.19.26|23:19:05] Training epoch: 198
+[08.19.26|23:19:30] 	Iter 32300 Done. | loss: 0.4184 | lr: 0.0012
+[08.19.26|23:20:59] 	Iter 32400 Done. | loss: 0.3659 | lr: 0.0012
+[08.19.26|23:21:30] 	[Train] Top1: 88.91%.
+[08.19.26|23:21:30] 	mean_loss: 0.2976258189354572
+[08.19.26|23:21:30] Time consumption:
+[08.19.26|23:21:30] Done.
+[08.19.26|23:21:30] Eval epoch: 198
+[08.19.26|23:21:45] 	mean_loss: 0.5963414231021154
+[08.19.26|23:21:45] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:21:45] Done.
+[08.19.26|23:21:45] Training epoch: 199
+[08.19.26|23:22:42] 	Iter 32500 Done. | loss: 0.6590 | lr: 0.0012
+[08.19.26|23:24:11] 	[Train] Top1: 89.06%.
+[08.19.26|23:24:11] 	mean_loss: 0.2938288028860476
+[08.19.26|23:24:11] Time consumption:
+[08.19.26|23:24:11] Done.
+[08.19.26|23:24:11] Eval epoch: 199
+[08.19.26|23:24:26] 	mean_loss: 0.5939306365816217
+[08.19.26|23:24:26] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:24:26] Done.
+[08.19.26|23:24:26] Training epoch: 200
+[08.19.26|23:24:27] 	Iter 32600 Done. | loss: 0.0561 | lr: 0.0011
+[08.19.26|23:25:56] 	Iter 32700 Done. | loss: 0.4195 | lr: 0.0011
+[08.19.26|23:26:52] 	[Train] Top1: 89.83%.
+[08.19.26|23:26:52] 	mean_loss: 0.2658868336855817
+[08.19.26|23:26:52] Time consumption:
+[08.19.26|23:26:52] Done.
+[08.19.26|23:26:52] Eval epoch: 200
+[08.19.26|23:27:07] 	mean_loss: 0.622015271727976
+[08.19.26|23:27:08] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch200.png
+[08.19.26|23:27:08] 	Overall accuracy (from confusion matrix): 81.65%
+[08.19.26|23:27:08] 	Confusion Matrix Accuracy (Overall): 81.65%
+[08.19.26|23:27:08] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch200_real.png
+[08.19.26|23:27:08] 	Overall accuracy (from confusion matrix): 89.19%
+[08.19.26|23:27:08] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.19.26|23:27:09] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch200_synth.png
+[08.19.26|23:27:09] 	Overall accuracy (from confusion matrix): 39.39%
+[08.19.26|23:27:09] 	Confusion Matrix Accuracy (Synthetic): 39.39%
+[08.19.26|23:27:09] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:27:09] Done.
+[08.19.26|23:27:09] Training epoch: 201
+[08.19.26|23:27:44] 	Iter 32800 Done. | loss: 0.0271 | lr: 0.0011
+[08.19.26|23:29:13] 	Iter 32900 Done. | loss: 0.5373 | lr: 0.0011
+[08.19.26|23:29:36] 	[Train] Top1: 89.52%.
+[08.19.26|23:29:36] 	mean_loss: 0.2785021857347088
+[08.19.26|23:29:36] Time consumption:
+[08.19.26|23:29:36] Done.
+[08.19.26|23:29:36] Eval epoch: 201
+[08.19.26|23:29:51] 	mean_loss: 0.6164956344781738
+[08.19.26|23:29:51] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:29:51] Done.
+[08.19.26|23:29:51] Training epoch: 202
+[08.19.26|23:30:58] 	Iter 33000 Done. | loss: 0.3610 | lr: 0.0011
+[08.19.26|23:32:15] 	[Train] Top1: 89.83%.
+[08.19.26|23:32:15] 	mean_loss: 0.2728371265475735
+[08.19.26|23:32:15] Time consumption:
+[08.19.26|23:32:15] Done.
+[08.19.26|23:32:15] Eval epoch: 202
+[08.19.26|23:32:30] 	mean_loss: 0.6307414839730451
+[08.19.26|23:32:30] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:32:30] Done.
+[08.19.26|23:32:30] Training epoch: 203
+[08.19.26|23:32:41] 	Iter 33100 Done. | loss: 0.5479 | lr: 0.0011
+[08.19.26|23:34:09] 	Iter 33200 Done. | loss: 0.2313 | lr: 0.0011
+[08.19.26|23:34:54] 	[Train] Top1: 89.37%.
+[08.19.26|23:34:54] 	mean_loss: 0.28330375711245037
+[08.19.26|23:34:54] Time consumption:
+[08.19.26|23:34:54] Done.
+[08.19.26|23:34:54] Eval epoch: 203
+[08.19.26|23:35:09] 	mean_loss: 0.6505771129343071
+[08.19.26|23:35:09] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:35:09] Done.
+[08.19.26|23:35:09] Training epoch: 204
+[08.19.26|23:35:53] 	Iter 33300 Done. | loss: 0.1237 | lr: 0.0011
+[08.19.26|23:37:25] 	Iter 33400 Done. | loss: 0.5201 | lr: 0.0011
+[08.19.26|23:37:37] 	[Train] Top1: 87.73%.
+[08.19.26|23:37:37] 	mean_loss: 0.3080705777153464
+[08.19.26|23:37:37] Time consumption:
+[08.19.26|23:37:37] Done.
+[08.19.26|23:37:37] Eval epoch: 204
+[08.19.26|23:37:52] 	mean_loss: 0.6447728550747821
+[08.19.26|23:37:52] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:37:52] Done.
+[08.19.26|23:37:52] Training epoch: 205
+[08.19.26|23:39:11] 	Iter 33500 Done. | loss: 0.1850 | lr: 0.0011
+[08.19.26|23:40:19] 	[Train] Top1: 88.29%.
+[08.19.26|23:40:19] 	mean_loss: 0.29771814336486024
+[08.19.26|23:40:19] Time consumption:
+[08.19.26|23:40:19] Done.
+[08.19.26|23:40:19] Eval epoch: 205
+[08.19.26|23:40:34] 	mean_loss: 0.6084076048512208
+[08.19.26|23:40:34] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:40:34] Done.
+[08.19.26|23:40:34] Training epoch: 206
+[08.19.26|23:40:56] 	Iter 33600 Done. | loss: 0.0484 | lr: 0.0011
+[08.19.26|23:42:24] 	Iter 33700 Done. | loss: 0.3008 | lr: 0.0011
+[08.19.26|23:43:01] 	[Train] Top1: 88.50%.
+[08.19.26|23:43:01] 	mean_loss: 0.28125138258550064
+[08.19.26|23:43:01] Time consumption:
+[08.19.26|23:43:01] Done.
+[08.19.26|23:43:01] Eval epoch: 206
+[08.19.26|23:43:16] 	mean_loss: 0.5948505737867794
+[08.19.26|23:43:16] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:43:16] Done.
+[08.19.26|23:43:16] Training epoch: 207
+[08.19.26|23:44:10] 	Iter 33800 Done. | loss: 0.3203 | lr: 0.0011
+[08.19.26|23:45:40] 	Iter 33900 Done. | loss: 0.1644 | lr: 0.0011
+[08.19.26|23:45:42] 	[Train] Top1: 90.24%.
+[08.19.26|23:45:42] 	mean_loss: 0.27583575942353605
+[08.19.26|23:45:42] Time consumption:
+[08.19.26|23:45:42] Done.
+[08.19.26|23:45:42] Eval epoch: 207
+[08.19.26|23:45:57] 	mean_loss: 0.5852425106261906
+[08.19.26|23:45:57] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:45:57] Done.
+[08.19.26|23:45:57] Training epoch: 208
+[08.19.26|23:47:22] 	Iter 34000 Done. | loss: 0.3206 | lr: 0.0011
+[08.19.26|23:48:21] 	[Train] Top1: 89.37%.
+[08.19.26|23:48:21] 	mean_loss: 0.27045976980789305
+[08.19.26|23:48:21] Time consumption:
+[08.19.26|23:48:21] Done.
+[08.19.26|23:48:21] Eval epoch: 208
+[08.19.26|23:48:36] 	mean_loss: 0.5788181879018482
+[08.19.26|23:48:36] 	[Test] Top1: 84.86%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:48:36] Done.
+[08.19.26|23:48:36] Training epoch: 209
+[08.19.26|23:49:06] 	Iter 34100 Done. | loss: 0.1351 | lr: 0.0011
+[08.19.26|23:50:35] 	Iter 34200 Done. | loss: 0.6913 | lr: 0.0011
+[08.19.26|23:51:02] 	[Train] Top1: 88.14%.
+[08.19.26|23:51:02] 	mean_loss: 0.3079029670430839
+[08.19.26|23:51:02] Time consumption:
+[08.19.26|23:51:02] Done.
+[08.19.26|23:51:02] Eval epoch: 209
+[08.19.26|23:51:18] 	mean_loss: 0.6553902680936613
+[08.19.26|23:51:18] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:51:18] Done.
+[08.19.26|23:51:18] Training epoch: 210
+[08.19.26|23:52:19] 	Iter 34300 Done. | loss: 0.4410 | lr: 0.0010
+[08.19.26|23:53:42] 	[Train] Top1: 89.47%.
+[08.19.26|23:53:42] 	mean_loss: 0.2868999383109479
+[08.19.26|23:53:42] Time consumption:
+[08.19.26|23:53:42] Done.
+[08.19.26|23:53:42] Eval epoch: 210
+[08.19.26|23:53:57] 	mean_loss: 0.5454037483585509
+[08.19.26|23:53:58] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch210.png
+[08.19.26|23:53:58] 	Overall accuracy (from confusion matrix): 83.03%
+[08.19.26|23:53:58] 	Confusion Matrix Accuracy (Overall): 83.03%
+[08.19.26|23:53:59] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch210_real.png
+[08.19.26|23:53:59] 	Overall accuracy (from confusion matrix): 89.73%
+[08.19.26|23:53:59] 	Confusion Matrix Accuracy (Real): 89.73%
+[08.19.26|23:53:59] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch210_synth.png
+[08.19.26|23:53:59] 	Overall accuracy (from confusion matrix): 45.45%
+[08.19.26|23:53:59] 	Confusion Matrix Accuracy (Synthetic): 45.45%
+[08.19.26|23:53:59] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:53:59] Done.
+[08.19.26|23:53:59] Training epoch: 211
+[08.19.26|23:54:08] 	Iter 34400 Done. | loss: 0.0572 | lr: 0.0010
+[08.19.26|23:55:37] 	Iter 34500 Done. | loss: 0.3117 | lr: 0.0010
+[08.19.26|23:56:26] 	[Train] Top1: 87.63%.
+[08.19.26|23:56:26] 	mean_loss: 0.29750756878245826
+[08.19.26|23:56:26] Time consumption:
+[08.19.26|23:56:26] Done.
+[08.19.26|23:56:26] Eval epoch: 211
+[08.19.26|23:56:42] 	mean_loss: 0.6178824872170624
+[08.19.26|23:56:42] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:56:42] Done.
+[08.19.26|23:56:42] Training epoch: 212
+[08.19.26|23:57:22] 	Iter 34600 Done. | loss: 0.0923 | lr: 0.0010
+[08.19.26|23:58:51] 	Iter 34700 Done. | loss: 0.1805 | lr: 0.0010
+[08.19.26|23:59:07] 	[Train] Top1: 88.75%.
+[08.19.26|23:59:07] 	mean_loss: 0.3021356206547263
+[08.19.26|23:59:07] Time consumption:
+[08.19.26|23:59:07] Done.
+[08.19.26|23:59:07] Eval epoch: 212
+[08.19.26|23:59:23] 	mean_loss: 0.6258986276623449
+[08.19.26|23:59:23] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.19.26|23:59:23] Done.
+[08.19.26|23:59:23] Training epoch: 213
+[08.20.26|00:00:36] 	Iter 34800 Done. | loss: 0.1486 | lr: 0.0010
+[08.20.26|00:01:47] 	[Train] Top1: 89.67%.
+[08.20.26|00:01:47] 	mean_loss: 0.25304338040024593
+[08.20.26|00:01:47] Time consumption:
+[08.20.26|00:01:47] Done.
+[08.20.26|00:01:47] Eval epoch: 213
+[08.20.26|00:02:02] 	mean_loss: 0.6819463431050903
+[08.20.26|00:02:02] 	[Test] Top1: 79.36%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:02:02] Done.
+[08.20.26|00:02:02] Training epoch: 214
+[08.20.26|00:02:20] 	Iter 34900 Done. | loss: 0.2204 | lr: 0.0010
+[08.20.26|00:03:49] 	Iter 35000 Done. | loss: 0.2304 | lr: 0.0010
+[08.20.26|00:04:27] 	[Train] Top1: 88.50%.
+[08.20.26|00:04:27] 	mean_loss: 0.30069445180449567
+[08.20.26|00:04:27] Time consumption:
+[08.20.26|00:04:27] Done.
+[08.20.26|00:04:27] Eval epoch: 214
+[08.20.26|00:04:42] 	mean_loss: 0.6130544434448606
+[08.20.26|00:04:42] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:04:42] Done.
+[08.20.26|00:04:42] Training epoch: 215
+[08.20.26|00:05:33] 	Iter 35100 Done. | loss: 0.1099 | lr: 0.0010
+[08.20.26|00:07:02] 	Iter 35200 Done. | loss: 0.6068 | lr: 0.0010
+[08.20.26|00:07:08] 	[Train] Top1: 90.18%.
+[08.20.26|00:07:08] 	mean_loss: 0.26500713795514924
+[08.20.26|00:07:08] Time consumption:
+[08.20.26|00:07:08] Done.
+[08.20.26|00:07:08] Eval epoch: 215
+[08.20.26|00:07:23] 	mean_loss: 0.6191090202253116
+[08.20.26|00:07:23] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:07:23] Done.
+[08.20.26|00:07:23] Training epoch: 216
+[08.20.26|00:08:45] 	Iter 35300 Done. | loss: 0.1299 | lr: 0.0010
+[08.20.26|00:09:48] 	[Train] Top1: 88.85%.
+[08.20.26|00:09:48] 	mean_loss: 0.29407651071076746
+[08.20.26|00:09:48] Time consumption:
+[08.20.26|00:09:48] Done.
+[08.20.26|00:09:48] Eval epoch: 216
+[08.20.26|00:10:03] 	mean_loss: 0.5598815699156962
+[08.20.26|00:10:03] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:10:03] Done.
+[08.20.26|00:10:03] Training epoch: 217
+[08.20.26|00:10:30] 	Iter 35400 Done. | loss: 0.0826 | lr: 0.0010
+[08.20.26|00:11:59] 	Iter 35500 Done. | loss: 0.3067 | lr: 0.0010
+[08.20.26|00:12:28] 	[Train] Top1: 89.21%.
+[08.20.26|00:12:28] 	mean_loss: 0.28081020301470727
+[08.20.26|00:12:28] Time consumption:
+[08.20.26|00:12:28] Done.
+[08.20.26|00:12:28] Eval epoch: 217
+[08.20.26|00:12:44] 	mean_loss: 0.6185672924314675
+[08.20.26|00:12:44] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:12:44] Done.
+[08.20.26|00:12:44] Training epoch: 218
+[08.20.26|00:13:45] 	Iter 35600 Done. | loss: 0.2775 | lr: 0.0010
+[08.20.26|00:15:11] 	[Train] Top1: 88.65%.
+[08.20.26|00:15:11] 	mean_loss: 0.2909107802012947
+[08.20.26|00:15:11] Time consumption:
+[08.20.26|00:15:11] Done.
+[08.20.26|00:15:11] Eval epoch: 218
+[08.20.26|00:15:25] 	mean_loss: 0.5613566402738032
+[08.20.26|00:15:25] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:15:25] Done.
+[08.20.26|00:15:25] Training epoch: 219
+[08.20.26|00:15:29] 	Iter 35700 Done. | loss: 0.1468 | lr: 0.0010
+[08.20.26|00:16:58] 	Iter 35800 Done. | loss: 0.1235 | lr: 0.0010
+[08.20.26|00:17:51] 	[Train] Top1: 88.80%.
+[08.20.26|00:17:51] 	mean_loss: 0.2795258171833549
+[08.20.26|00:17:51] Time consumption:
+[08.20.26|00:17:51] Done.
+[08.20.26|00:17:51] Eval epoch: 219
+[08.20.26|00:18:06] 	mean_loss: 0.6260752827909432
+[08.20.26|00:18:06] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:18:06] Done.
+[08.20.26|00:18:06] Training epoch: 220
+[08.20.26|00:18:42] 	Iter 35900 Done. | loss: 0.3742 | lr: 0.0009
+[08.20.26|00:20:11] 	Iter 36000 Done. | loss: 0.1878 | lr: 0.0009
+[08.20.26|00:20:31] 	[Train] Top1: 90.44%.
+[08.20.26|00:20:31] 	mean_loss: 0.2537320122305601
+[08.20.26|00:20:31] Time consumption:
+[08.20.26|00:20:31] Done.
+[08.20.26|00:20:31] Eval epoch: 220
+[08.20.26|00:20:46] 	mean_loss: 0.5946440437906667
+[08.20.26|00:20:47] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch220.png
+[08.20.26|00:20:47] 	Overall accuracy (from confusion matrix): 82.11%
+[08.20.26|00:20:47] 	Confusion Matrix Accuracy (Overall): 82.11%
+[08.20.26|00:20:47] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch220_real.png
+[08.20.26|00:20:47] 	Overall accuracy (from confusion matrix): 88.11%
+[08.20.26|00:20:47] 	Confusion Matrix Accuracy (Real): 88.11%
+[08.20.26|00:20:48] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch220_synth.png
+[08.20.26|00:20:48] 	Overall accuracy (from confusion matrix): 48.48%
+[08.20.26|00:20:48] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.20.26|00:20:48] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:20:48] Done.
+[08.20.26|00:20:48] Training epoch: 221
+[08.20.26|00:21:57] 	Iter 36100 Done. | loss: 0.4398 | lr: 0.0009
+[08.20.26|00:23:13] 	[Train] Top1: 89.78%.
+[08.20.26|00:23:13] 	mean_loss: 0.25696566496387213
+[08.20.26|00:23:13] Time consumption:
+[08.20.26|00:23:13] Done.
+[08.20.26|00:23:13] Eval epoch: 221
+[08.20.26|00:23:28] 	mean_loss: 0.6016270695254207
+[08.20.26|00:23:28] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:23:28] Done.
+[08.20.26|00:23:28] Training epoch: 222
+[08.20.26|00:23:42] 	Iter 36200 Done. | loss: 0.1567 | lr: 0.0009
+[08.20.26|00:25:11] 	Iter 36300 Done. | loss: 0.0610 | lr: 0.0009
+[08.20.26|00:25:56] 	[Train] Top1: 89.78%.
+[08.20.26|00:25:56] 	mean_loss: 0.2705208416456825
+[08.20.26|00:25:56] Time consumption:
+[08.20.26|00:25:56] Done.
+[08.20.26|00:25:56] Eval epoch: 222
+[08.20.26|00:26:12] 	mean_loss: 0.6001580446762474
+[08.20.26|00:26:12] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:26:12] Done.
+[08.20.26|00:26:12] Training epoch: 223
+[08.20.26|00:26:59] 	Iter 36400 Done. | loss: 0.3026 | lr: 0.0009
+[08.20.26|00:28:28] 	Iter 36500 Done. | loss: 0.2076 | lr: 0.0009
+[08.20.26|00:28:38] 	[Train] Top1: 89.57%.
+[08.20.26|00:28:38] 	mean_loss: 0.2679119485578974
+[08.20.26|00:28:38] Time consumption:
+[08.20.26|00:28:38] Done.
+[08.20.26|00:28:38] Eval epoch: 223
+[08.20.26|00:28:53] 	mean_loss: 0.600292332519434
+[08.20.26|00:28:53] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:28:53] Done.
+[08.20.26|00:28:53] Training epoch: 224
+[08.20.26|00:30:13] 	Iter 36600 Done. | loss: 0.1036 | lr: 0.0009
+[08.20.26|00:31:18] 	[Train] Top1: 88.96%.
+[08.20.26|00:31:18] 	mean_loss: 0.2795221816885508
+[08.20.26|00:31:18] Time consumption:
+[08.20.26|00:31:18] Done.
+[08.20.26|00:31:18] Eval epoch: 224
+[08.20.26|00:31:33] 	mean_loss: 0.6280958585833248
+[08.20.26|00:31:33] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:31:33] Done.
+[08.20.26|00:31:33] Training epoch: 225
+[08.20.26|00:31:57] 	Iter 36700 Done. | loss: 0.7029 | lr: 0.0009
+[08.20.26|00:33:24] 	Iter 36800 Done. | loss: 0.2685 | lr: 0.0009
+[08.20.26|00:33:57] 	[Train] Top1: 89.52%.
+[08.20.26|00:33:57] 	mean_loss: 0.2775721632264143
+[08.20.26|00:33:57] Time consumption:
+[08.20.26|00:33:57] Done.
+[08.20.26|00:33:57] Eval epoch: 225
+[08.20.26|00:34:12] 	mean_loss: 0.5865185108820075
+[08.20.26|00:34:12] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:34:12] Done.
+[08.20.26|00:34:12] Training epoch: 226
+[08.20.26|00:35:09] 	Iter 36900 Done. | loss: 0.1636 | lr: 0.0009
+[08.20.26|00:36:38] 	Iter 37000 Done. | loss: 0.1480 | lr: 0.0009
+[08.20.26|00:36:38] 	[Train] Top1: 89.26%.
+[08.20.26|00:36:38] 	mean_loss: 0.2609189283217023
+[08.20.26|00:36:38] Time consumption:
+[08.20.26|00:36:38] Done.
+[08.20.26|00:36:38] Eval epoch: 226
+[08.20.26|00:36:53] 	mean_loss: 0.6056039666658953
+[08.20.26|00:36:53] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:36:53] Done.
+[08.20.26|00:36:53] Training epoch: 227
+[08.20.26|00:38:24] 	Iter 37100 Done. | loss: 0.3419 | lr: 0.0009
+[08.20.26|00:39:21] 	[Train] Top1: 89.93%.
+[08.20.26|00:39:21] 	mean_loss: 0.26377564672083575
+[08.20.26|00:39:21] Time consumption:
+[08.20.26|00:39:21] Done.
+[08.20.26|00:39:21] Eval epoch: 227
+[08.20.26|00:39:36] 	mean_loss: 0.6406852126023487
+[08.20.26|00:39:36] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:39:36] Done.
+[08.20.26|00:39:36] Training epoch: 228
+[08.20.26|00:40:09] 	Iter 37200 Done. | loss: 0.2785 | lr: 0.0009
+[08.20.26|00:41:39] 	Iter 37300 Done. | loss: 0.3524 | lr: 0.0009
+[08.20.26|00:42:02] 	[Train] Top1: 90.39%.
+[08.20.26|00:42:02] 	mean_loss: 0.27176572821257305
+[08.20.26|00:42:02] Time consumption:
+[08.20.26|00:42:02] Done.
+[08.20.26|00:42:02] Eval epoch: 228
+[08.20.26|00:42:17] 	mean_loss: 0.6529592659912611
+[08.20.26|00:42:17] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:42:17] Done.
+[08.20.26|00:42:17] Training epoch: 229
+[08.20.26|00:43:24] 	Iter 37400 Done. | loss: 0.4931 | lr: 0.0009
+[08.20.26|00:44:45] 	[Train] Top1: 88.75%.
+[08.20.26|00:44:45] 	mean_loss: 0.29720793223362757
+[08.20.26|00:44:45] Time consumption:
+[08.20.26|00:44:45] Done.
+[08.20.26|00:44:45] Eval epoch: 229
+[08.20.26|00:45:00] 	mean_loss: 0.6759438926452085
+[08.20.26|00:45:00] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:45:00] Done.
+[08.20.26|00:45:00] Training epoch: 230
+[08.20.26|00:45:11] 	Iter 37500 Done. | loss: 0.3132 | lr: 0.0009
+[08.20.26|00:46:42] 	Iter 37600 Done. | loss: 0.2712 | lr: 0.0009
+[08.20.26|00:47:29] 	[Train] Top1: 89.78%.
+[08.20.26|00:47:29] 	mean_loss: 0.2747149128878226
+[08.20.26|00:47:29] Time consumption:
+[08.20.26|00:47:29] Done.
+[08.20.26|00:47:29] Eval epoch: 230
+[08.20.26|00:47:44] 	mean_loss: 0.6440857945402202
+[08.20.26|00:47:45] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch230.png
+[08.20.26|00:47:45] 	Overall accuracy (from confusion matrix): 82.57%
+[08.20.26|00:47:45] 	Confusion Matrix Accuracy (Overall): 82.57%
+[08.20.26|00:47:46] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch230_real.png
+[08.20.26|00:47:46] 	Overall accuracy (from confusion matrix): 88.11%
+[08.20.26|00:47:46] 	Confusion Matrix Accuracy (Real): 88.11%
+[08.20.26|00:47:46] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch230_synth.png
+[08.20.26|00:47:46] 	Overall accuracy (from confusion matrix): 51.52%
+[08.20.26|00:47:46] 	Confusion Matrix Accuracy (Synthetic): 51.52%
+[08.20.26|00:47:46] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:47:46] Done.
+[08.20.26|00:47:46] Training epoch: 231
+[08.20.26|00:48:29] 	Iter 37700 Done. | loss: 0.0896 | lr: 0.0008
+[08.20.26|00:49:59] 	Iter 37800 Done. | loss: 0.1683 | lr: 0.0008
+[08.20.26|00:50:12] 	[Train] Top1: 89.78%.
+[08.20.26|00:50:12] 	mean_loss: 0.2719451228293813
+[08.20.26|00:50:12] Time consumption:
+[08.20.26|00:50:12] Done.
+[08.20.26|00:50:12] Eval epoch: 231
+[08.20.26|00:50:28] 	mean_loss: 0.6925756552403695
+[08.20.26|00:50:28] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:50:28] Done.
+[08.20.26|00:50:28] Training epoch: 232
+[08.20.26|00:51:45] 	Iter 37900 Done. | loss: 0.2060 | lr: 0.0008
+[08.20.26|00:52:54] 	[Train] Top1: 89.37%.
+[08.20.26|00:52:54] 	mean_loss: 0.27245669569705894
+[08.20.26|00:52:54] Time consumption:
+[08.20.26|00:52:54] Done.
+[08.20.26|00:52:54] Eval epoch: 232
+[08.20.26|00:53:09] 	mean_loss: 0.6231842307667983
+[08.20.26|00:53:09] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:53:09] Done.
+[08.20.26|00:53:09] Training epoch: 233
+[08.20.26|00:53:30] 	Iter 38000 Done. | loss: 0.1108 | lr: 0.0008
+[08.20.26|00:55:00] 	Iter 38100 Done. | loss: 0.2562 | lr: 0.0008
+[08.20.26|00:55:36] 	[Train] Top1: 89.83%.
+[08.20.26|00:55:36] 	mean_loss: 0.2636534333731865
+[08.20.26|00:55:36] Time consumption:
+[08.20.26|00:55:36] Done.
+[08.20.26|00:55:36] Eval epoch: 233
+[08.20.26|00:55:51] 	mean_loss: 0.59472321267975
+[08.20.26|00:55:51] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:55:51] Done.
+[08.20.26|00:55:51] Training epoch: 234
+[08.20.26|00:56:43] 	Iter 38200 Done. | loss: 0.2848 | lr: 0.0008
+[08.20.26|00:58:12] 	Iter 38300 Done. | loss: 0.1237 | lr: 0.0008
+[08.20.26|00:58:16] 	[Train] Top1: 87.42%.
+[08.20.26|00:58:16] 	mean_loss: 0.3173513187472623
+[08.20.26|00:58:16] Time consumption:
+[08.20.26|00:58:16] Done.
+[08.20.26|00:58:16] Eval epoch: 234
+[08.20.26|00:58:32] 	mean_loss: 0.6188838791690374
+[08.20.26|00:58:32] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|00:58:32] Done.
+[08.20.26|00:58:32] Training epoch: 235
+[08.20.26|00:59:58] 	Iter 38400 Done. | loss: 0.2530 | lr: 0.0008
+[08.20.26|01:00:56] 	[Train] Top1: 89.98%.
+[08.20.26|01:00:56] 	mean_loss: 0.26092551734321323
+[08.20.26|01:00:56] Time consumption:
+[08.20.26|01:00:56] Done.
+[08.20.26|01:00:56] Eval epoch: 235
+[08.20.26|01:01:11] 	mean_loss: 0.6364472591759343
+[08.20.26|01:01:11] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:01:11] Done.
+[08.20.26|01:01:11] Training epoch: 236
+[08.20.26|01:01:41] 	Iter 38500 Done. | loss: 0.1286 | lr: 0.0008
+[08.20.26|01:03:10] 	Iter 38600 Done. | loss: 0.4906 | lr: 0.0008
+[08.20.26|01:03:36] 	[Train] Top1: 90.29%.
+[08.20.26|01:03:36] 	mean_loss: 0.26169180018724475
+[08.20.26|01:03:36] Time consumption:
+[08.20.26|01:03:36] Done.
+[08.20.26|01:03:36] Eval epoch: 236
+[08.20.26|01:03:51] 	mean_loss: 0.6591611626116853
+[08.20.26|01:03:51] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:03:51] Done.
+[08.20.26|01:03:51] Training epoch: 237
+[08.20.26|01:04:53] 	Iter 38700 Done. | loss: 0.3052 | lr: 0.0008
+[08.20.26|01:06:16] 	[Train] Top1: 90.70%.
+[08.20.26|01:06:16] 	mean_loss: 0.24514155722925998
+[08.20.26|01:06:16] Time consumption:
+[08.20.26|01:06:16] Done.
+[08.20.26|01:06:16] Eval epoch: 237
+[08.20.26|01:06:31] 	mean_loss: 0.6009686180439434
+[08.20.26|01:06:31] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:06:31] Done.
+[08.20.26|01:06:31] Training epoch: 238
+[08.20.26|01:06:37] 	Iter 38800 Done. | loss: 0.4153 | lr: 0.0008
+[08.20.26|01:08:06] 	Iter 38900 Done. | loss: 0.3190 | lr: 0.0008
+[08.20.26|01:08:56] 	[Train] Top1: 89.78%.
+[08.20.26|01:08:56] 	mean_loss: 0.2567755378257095
+[08.20.26|01:08:56] Time consumption:
+[08.20.26|01:08:56] Done.
+[08.20.26|01:08:56] Eval epoch: 238
+[08.20.26|01:09:11] 	mean_loss: 0.6050125666354832
+[08.20.26|01:09:11] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:09:11] Done.
+[08.20.26|01:09:11] Training epoch: 239
+[08.20.26|01:09:52] 	Iter 39000 Done. | loss: 0.0855 | lr: 0.0008
+[08.20.26|01:11:21] 	Iter 39100 Done. | loss: 0.1751 | lr: 0.0008
+[08.20.26|01:11:38] 	[Train] Top1: 89.88%.
+[08.20.26|01:11:38] 	mean_loss: 0.2575063129624158
+[08.20.26|01:11:38] Time consumption:
+[08.20.26|01:11:38] Done.
+[08.20.26|01:11:38] Eval epoch: 239
+[08.20.26|01:11:53] 	mean_loss: 0.6267952201887965
+[08.20.26|01:11:53] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:11:53] Done.
+[08.20.26|01:11:53] Training epoch: 240
+[08.20.26|01:13:06] 	Iter 39200 Done. | loss: 0.1382 | lr: 0.0008
+[08.20.26|01:14:18] 	[Train] Top1: 89.93%.
+[08.20.26|01:14:18] 	mean_loss: 0.249346660981469
+[08.20.26|01:14:18] Time consumption:
+[08.20.26|01:14:18] Done.
+[08.20.26|01:14:18] Eval epoch: 240
+[08.20.26|01:14:34] 	mean_loss: 0.6468512722732205
+[08.20.26|01:14:35] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch240.png
+[08.20.26|01:14:35] 	Overall accuracy (from confusion matrix): 81.65%
+[08.20.26|01:14:35] 	Confusion Matrix Accuracy (Overall): 81.65%
+[08.20.26|01:14:35] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch240_real.png
+[08.20.26|01:14:35] 	Overall accuracy (from confusion matrix): 88.65%
+[08.20.26|01:14:35] 	Confusion Matrix Accuracy (Real): 88.65%
+[08.20.26|01:14:36] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch240_synth.png
+[08.20.26|01:14:36] 	Overall accuracy (from confusion matrix): 42.42%
+[08.20.26|01:14:36] 	Confusion Matrix Accuracy (Synthetic): 42.42%
+[08.20.26|01:14:36] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:14:36] Done.
+[08.20.26|01:14:36] Training epoch: 241
+[08.20.26|01:14:53] 	Iter 39300 Done. | loss: 0.0573 | lr: 0.0008
+[08.20.26|01:16:21] 	Iter 39400 Done. | loss: 0.5600 | lr: 0.0008
+[08.20.26|01:17:01] 	[Train] Top1: 89.52%.
+[08.20.26|01:17:01] 	mean_loss: 0.27328048417904627
+[08.20.26|01:17:01] Time consumption:
+[08.20.26|01:17:01] Done.
+[08.20.26|01:17:01] Eval epoch: 241
+[08.20.26|01:17:16] 	mean_loss: 0.618987982308394
+[08.20.26|01:17:16] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:17:16] Done.
+[08.20.26|01:17:16] Training epoch: 242
+[08.20.26|01:18:05] 	Iter 39500 Done. | loss: 0.1645 | lr: 0.0008
+[08.20.26|01:19:35] 	Iter 39600 Done. | loss: 0.0284 | lr: 0.0008
+[08.20.26|01:19:42] 	[Train] Top1: 90.59%.
+[08.20.26|01:19:42] 	mean_loss: 0.2509899693569797
+[08.20.26|01:19:42] Time consumption:
+[08.20.26|01:19:42] Done.
+[08.20.26|01:19:42] Eval epoch: 242
+[08.20.26|01:19:57] 	mean_loss: 0.62613620236516
+[08.20.26|01:19:57] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:19:57] Done.
+[08.20.26|01:19:57] Training epoch: 243
+[08.20.26|01:21:22] 	Iter 39700 Done. | loss: 0.0510 | lr: 0.0007
+[08.20.26|01:22:26] 	[Train] Top1: 89.93%.
+[08.20.26|01:22:26] 	mean_loss: 0.26124683557866724
+[08.20.26|01:22:26] Time consumption:
+[08.20.26|01:22:26] Done.
+[08.20.26|01:22:26] Eval epoch: 243
+[08.20.26|01:22:41] 	mean_loss: 0.62650856963898
+[08.20.26|01:22:41] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:22:41] Done.
+[08.20.26|01:22:41] Training epoch: 244
+[08.20.26|01:23:07] 	Iter 39800 Done. | loss: 0.7082 | lr: 0.0007
+[08.20.26|01:24:36] 	Iter 39900 Done. | loss: 0.3004 | lr: 0.0007
+[08.20.26|01:25:06] 	[Train] Top1: 89.01%.
+[08.20.26|01:25:06] 	mean_loss: 0.29077421247593466
+[08.20.26|01:25:06] Time consumption:
+[08.20.26|01:25:06] Done.
+[08.20.26|01:25:06] Eval epoch: 244
+[08.20.26|01:25:22] 	mean_loss: 0.6344183054017393
+[08.20.26|01:25:22] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:25:22] Done.
+[08.20.26|01:25:22] Training epoch: 245
+[08.20.26|01:26:21] 	Iter 40000 Done. | loss: 0.3537 | lr: 0.0007
+[08.20.26|01:27:48] 	[Train] Top1: 90.03%.
+[08.20.26|01:27:48] 	mean_loss: 0.2577069515899464
+[08.20.26|01:27:48] Time consumption:
+[08.20.26|01:27:48] Done.
+[08.20.26|01:27:48] Eval epoch: 245
+[08.20.26|01:28:03] 	mean_loss: 0.6730713724697891
+[08.20.26|01:28:03] 	[Test] Top1: 79.36%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:28:03] Done.
+[08.20.26|01:28:03] Training epoch: 246
+[08.20.26|01:28:05] 	Iter 40100 Done. | loss: 0.4524 | lr: 0.0007
+[08.20.26|01:29:34] 	Iter 40200 Done. | loss: 0.3012 | lr: 0.0007
+[08.20.26|01:30:27] 	[Train] Top1: 89.42%.
+[08.20.26|01:30:27] 	mean_loss: 0.2811687707363919
+[08.20.26|01:30:27] Time consumption:
+[08.20.26|01:30:27] Done.
+[08.20.26|01:30:27] Eval epoch: 246
+[08.20.26|01:30:42] 	mean_loss: 0.6394132685504461
+[08.20.26|01:30:42] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:30:42] Done.
+[08.20.26|01:30:42] Training epoch: 247
+[08.20.26|01:31:19] 	Iter 40300 Done. | loss: 0.0820 | lr: 0.0007
+[08.20.26|01:32:48] 	Iter 40400 Done. | loss: 0.1328 | lr: 0.0007
+[08.20.26|01:33:09] 	[Train] Top1: 89.42%.
+[08.20.26|01:33:09] 	mean_loss: 0.27637002707967545
+[08.20.26|01:33:09] Time consumption:
+[08.20.26|01:33:09] Done.
+[08.20.26|01:33:09] Eval epoch: 247
+[08.20.26|01:33:23] 	mean_loss: 0.6640926928896653
+[08.20.26|01:33:23] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:33:23] Done.
+[08.20.26|01:33:23] Training epoch: 248
+[08.20.26|01:34:31] 	Iter 40500 Done. | loss: 0.2564 | lr: 0.0007
+[08.20.26|01:35:49] 	[Train] Top1: 89.72%.
+[08.20.26|01:35:49] 	mean_loss: 0.2808692298166774
+[08.20.26|01:35:49] Time consumption:
+[08.20.26|01:35:49] Done.
+[08.20.26|01:35:49] Eval epoch: 248
+[08.20.26|01:36:04] 	mean_loss: 0.6402197240018531
+[08.20.26|01:36:04] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:36:04] Done.
+[08.20.26|01:36:04] Training epoch: 249
+[08.20.26|01:36:16] 	Iter 40600 Done. | loss: 0.2799 | lr: 0.0007
+[08.20.26|01:37:45] 	Iter 40700 Done. | loss: 0.2602 | lr: 0.0007
+[08.20.26|01:38:27] 	[Train] Top1: 88.70%.
+[08.20.26|01:38:27] 	mean_loss: 0.28124366491530206
+[08.20.26|01:38:27] Time consumption:
+[08.20.26|01:38:27] Done.
+[08.20.26|01:38:27] Eval epoch: 249
+[08.20.26|01:38:43] 	mean_loss: 0.6323256783775593
+[08.20.26|01:38:43] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:38:43] Done.
+[08.20.26|01:38:43] Training epoch: 250
+[08.20.26|01:39:28] 	Iter 40800 Done. | loss: 0.1849 | lr: 0.0007
+[08.20.26|01:40:51] 	Iter 40900 Done. | loss: 0.2256 | lr: 0.0007
+[08.20.26|01:41:01] 	[Train] Top1: 90.08%.
+[08.20.26|01:41:01] 	mean_loss: 0.2477957444276912
+[08.20.26|01:41:01] Time consumption:
+[08.20.26|01:41:01] Done.
+[08.20.26|01:41:01] Eval epoch: 250
+[08.20.26|01:41:14] 	mean_loss: 0.6149303643523079
+[08.20.26|01:41:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch250.png
+[08.20.26|01:41:15] 	Overall accuracy (from confusion matrix): 81.19%
+[08.20.26|01:41:15] 	Confusion Matrix Accuracy (Overall): 81.19%
+[08.20.26|01:41:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch250_real.png
+[08.20.26|01:41:15] 	Overall accuracy (from confusion matrix): 88.11%
+[08.20.26|01:41:15] 	Confusion Matrix Accuracy (Real): 88.11%
+[08.20.26|01:41:16] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch250_synth.png
+[08.20.26|01:41:16] 	Overall accuracy (from confusion matrix): 42.42%
+[08.20.26|01:41:16] 	Confusion Matrix Accuracy (Synthetic): 42.42%
+[08.20.26|01:41:16] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:41:16] Done.
+[08.20.26|01:41:16] Training epoch: 251
+[08.20.26|01:42:29] 	Iter 41000 Done. | loss: 0.3346 | lr: 0.0007
+[08.20.26|01:43:31] 	[Train] Top1: 90.03%.
+[08.20.26|01:43:31] 	mean_loss: 0.2530205790410561
+[08.20.26|01:43:31] Time consumption:
+[08.20.26|01:43:31] Done.
+[08.20.26|01:43:31] Eval epoch: 251
+[08.20.26|01:43:43] 	mean_loss: 0.6089577767017641
+[08.20.26|01:43:43] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:43:43] Done.
+[08.20.26|01:43:43] Training epoch: 252
+[08.20.26|01:44:04] 	Iter 41100 Done. | loss: 0.3429 | lr: 0.0007
+[08.20.26|01:45:26] 	Iter 41200 Done. | loss: 0.3333 | lr: 0.0007
+[08.20.26|01:45:58] 	[Train] Top1: 89.78%.
+[08.20.26|01:45:58] 	mean_loss: 0.2648309595722911
+[08.20.26|01:45:58] Time consumption:
+[08.20.26|01:45:58] Done.
+[08.20.26|01:45:58] Eval epoch: 252
+[08.20.26|01:46:10] 	mean_loss: 0.6125577193145689
+[08.20.26|01:46:10] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:46:10] Done.
+[08.20.26|01:46:10] Training epoch: 253
+[08.20.26|01:47:03] 	Iter 41300 Done. | loss: 0.4162 | lr: 0.0007
+[08.20.26|01:48:27] 	Iter 41400 Done. | loss: 0.1709 | lr: 0.0007
+[08.20.26|01:48:28] 	[Train] Top1: 90.34%.
+[08.20.26|01:48:28] 	mean_loss: 0.2707861461133862
+[08.20.26|01:48:28] Time consumption:
+[08.20.26|01:48:28] Done.
+[08.20.26|01:48:28] Eval epoch: 253
+[08.20.26|01:48:41] 	mean_loss: 0.6497171697647948
+[08.20.26|01:48:41] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:48:41] Done.
+[08.20.26|01:48:41] Training epoch: 254
+[08.20.26|01:50:10] 	Iter 41500 Done. | loss: 0.4550 | lr: 0.0007
+[08.20.26|01:51:08] 	[Train] Top1: 89.06%.
+[08.20.26|01:51:08] 	mean_loss: 0.2689953981870157
+[08.20.26|01:51:08] Time consumption:
+[08.20.26|01:51:08] Done.
+[08.20.26|01:51:08] Eval epoch: 254
+[08.20.26|01:51:21] 	mean_loss: 0.6634475841726127
+[08.20.26|01:51:21] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:51:21] Done.
+[08.20.26|01:51:21] Training epoch: 255
+[08.20.26|01:51:51] 	Iter 41600 Done. | loss: 0.4046 | lr: 0.0007
+[08.20.26|01:53:17] 	Iter 41700 Done. | loss: 0.1015 | lr: 0.0007
+[08.20.26|01:53:41] 	[Train] Top1: 89.88%.
+[08.20.26|01:53:41] 	mean_loss: 0.266336721008175
+[08.20.26|01:53:41] Time consumption:
+[08.20.26|01:53:41] Done.
+[08.20.26|01:53:41] Eval epoch: 255
+[08.20.26|01:53:54] 	mean_loss: 0.6646417728380153
+[08.20.26|01:53:54] 	[Test] Top1: 80.28%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:53:54] Done.
+[08.20.26|01:53:54] Training epoch: 256
+[08.20.26|01:54:57] 	Iter 41800 Done. | loss: 0.5654 | lr: 0.0007
+[08.20.26|01:56:12] 	[Train] Top1: 90.13%.
+[08.20.26|01:56:12] 	mean_loss: 0.2618525218035729
+[08.20.26|01:56:12] Time consumption:
+[08.20.26|01:56:12] Done.
+[08.20.26|01:56:12] Eval epoch: 256
+[08.20.26|01:56:25] 	mean_loss: 0.6085949716599364
+[08.20.26|01:56:25] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:56:25] Done.
+[08.20.26|01:56:25] Training epoch: 257
+[08.20.26|01:56:33] 	Iter 41900 Done. | loss: 0.3409 | lr: 0.0006
+[08.20.26|01:57:57] 	Iter 42000 Done. | loss: 0.0933 | lr: 0.0006
+[08.20.26|01:58:41] 	[Train] Top1: 90.75%.
+[08.20.26|01:58:41] 	mean_loss: 0.2521300365565562
+[08.20.26|01:58:41] Time consumption:
+[08.20.26|01:58:41] Done.
+[08.20.26|01:58:41] Eval epoch: 257
+[08.20.26|01:58:54] 	mean_loss: 0.6452272544173818
+[08.20.26|01:58:54] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|01:58:54] Done.
+[08.20.26|01:58:54] Training epoch: 258
+[08.20.26|01:59:33] 	Iter 42100 Done. | loss: 0.3861 | lr: 0.0006
+[08.20.26|02:00:54] 	Iter 42200 Done. | loss: 0.5225 | lr: 0.0006
+[08.20.26|02:01:07] 	[Train] Top1: 88.91%.
+[08.20.26|02:01:07] 	mean_loss: 0.26506439956373595
+[08.20.26|02:01:07] Time consumption:
+[08.20.26|02:01:07] Done.
+[08.20.26|02:01:07] Eval epoch: 258
+[08.20.26|02:01:19] 	mean_loss: 0.6472490190675384
+[08.20.26|02:01:19] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:01:19] Done.
+[08.20.26|02:01:19] Training epoch: 259
+[08.20.26|02:02:29] 	Iter 42300 Done. | loss: 0.0653 | lr: 0.0006
+[08.20.26|02:03:34] 	[Train] Top1: 90.44%.
+[08.20.26|02:03:34] 	mean_loss: 0.24691877570403226
+[08.20.26|02:03:34] Time consumption:
+[08.20.26|02:03:34] Done.
+[08.20.26|02:03:34] Eval epoch: 259
+[08.20.26|02:03:46] 	mean_loss: 0.6432825013210899
+[08.20.26|02:03:46] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:03:46] Done.
+[08.20.26|02:03:46] Training epoch: 260
+[08.20.26|02:04:03] 	Iter 42400 Done. | loss: 0.3487 | lr: 0.0006
+[08.20.26|02:05:26] 	Iter 42500 Done. | loss: 0.3265 | lr: 0.0006
+[08.20.26|02:06:01] 	[Train] Top1: 88.96%.
+[08.20.26|02:06:01] 	mean_loss: 0.2834836145622964
+[08.20.26|02:06:01] Time consumption:
+[08.20.26|02:06:01] Done.
+[08.20.26|02:06:01] Eval epoch: 260
+[08.20.26|02:06:14] 	mean_loss: 0.6515664564151513
+[08.20.26|02:06:14] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch260.png
+[08.20.26|02:06:14] 	Overall accuracy (from confusion matrix): 82.11%
+[08.20.26|02:06:14] 	Confusion Matrix Accuracy (Overall): 82.11%
+[08.20.26|02:06:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch260_real.png
+[08.20.26|02:06:15] 	Overall accuracy (from confusion matrix): 89.19%
+[08.20.26|02:06:15] 	Confusion Matrix Accuracy (Real): 89.19%
+[08.20.26|02:06:15] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch260_synth.png
+[08.20.26|02:06:15] 	Overall accuracy (from confusion matrix): 42.42%
+[08.20.26|02:06:15] 	Confusion Matrix Accuracy (Synthetic): 42.42%
+[08.20.26|02:06:15] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:06:15] Done.
+[08.20.26|02:06:15] Training epoch: 261
+[08.20.26|02:07:04] 	Iter 42600 Done. | loss: 0.1904 | lr: 0.0006
+[08.20.26|02:08:29] 	Iter 42700 Done. | loss: 0.1645 | lr: 0.0006
+[08.20.26|02:08:33] 	[Train] Top1: 89.72%.
+[08.20.26|02:08:33] 	mean_loss: 0.26603655431396755
+[08.20.26|02:08:33] Time consumption:
+[08.20.26|02:08:33] Done.
+[08.20.26|02:08:33] Eval epoch: 261
+[08.20.26|02:08:46] 	mean_loss: 0.6588306782865211
+[08.20.26|02:08:46] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:08:46] Done.
+[08.20.26|02:08:46] Training epoch: 262
+[08.20.26|02:10:06] 	Iter 42800 Done. | loss: 0.2728 | lr: 0.0006
+[08.20.26|02:11:06] 	[Train] Top1: 90.90%.
+[08.20.26|02:11:06] 	mean_loss: 0.250619390590882
+[08.20.26|02:11:06] Time consumption:
+[08.20.26|02:11:06] Done.
+[08.20.26|02:11:06] Eval epoch: 262
+[08.20.26|02:11:19] 	mean_loss: 0.6735667442216685
+[08.20.26|02:11:19] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:11:19] Done.
+[08.20.26|02:11:19] Training epoch: 263
+[08.20.26|02:11:46] 	Iter 42900 Done. | loss: 0.3388 | lr: 0.0006
+[08.20.26|02:13:11] 	Iter 43000 Done. | loss: 0.3259 | lr: 0.0006
+[08.20.26|02:13:37] 	[Train] Top1: 90.59%.
+[08.20.26|02:13:37] 	mean_loss: 0.2456710111161271
+[08.20.26|02:13:37] Time consumption:
+[08.20.26|02:13:37] Done.
+[08.20.26|02:13:37] Eval epoch: 263
+[08.20.26|02:13:49] 	mean_loss: 0.665924166280188
+[08.20.26|02:13:49] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:13:49] Done.
+[08.20.26|02:13:49] Training epoch: 264
+[08.20.26|02:14:48] 	Iter 43100 Done. | loss: 0.1304 | lr: 0.0006
+[08.20.26|02:16:06] 	[Train] Top1: 89.47%.
+[08.20.26|02:16:06] 	mean_loss: 0.2856744375148434
+[08.20.26|02:16:06] Time consumption:
+[08.20.26|02:16:06] Done.
+[08.20.26|02:16:06] Eval epoch: 264
+[08.20.26|02:16:19] 	mean_loss: 0.6602979390636871
+[08.20.26|02:16:19] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:16:19] Done.
+[08.20.26|02:16:19] Training epoch: 265
+[08.20.26|02:16:24] 	Iter 43200 Done. | loss: 0.2206 | lr: 0.0006
+[08.20.26|02:17:54] 	Iter 43300 Done. | loss: 0.1772 | lr: 0.0006
+[08.20.26|02:18:44] 	[Train] Top1: 89.93%.
+[08.20.26|02:18:44] 	mean_loss: 0.2571071781320897
+[08.20.26|02:18:44] Time consumption:
+[08.20.26|02:18:44] Done.
+[08.20.26|02:18:44] Eval epoch: 265
+[08.20.26|02:18:56] 	mean_loss: 0.6137059507401366
+[08.20.26|02:18:56] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:18:56] Done.
+[08.20.26|02:18:56] Training epoch: 266
+[08.20.26|02:19:33] 	Iter 43400 Done. | loss: 0.1717 | lr: 0.0006
+[08.20.26|02:20:59] 	Iter 43500 Done. | loss: 0.0994 | lr: 0.0006
+[08.20.26|02:21:16] 	[Train] Top1: 90.08%.
+[08.20.26|02:21:16] 	mean_loss: 0.2542715294549436
+[08.20.26|02:21:16] Time consumption:
+[08.20.26|02:21:16] Done.
+[08.20.26|02:21:16] Eval epoch: 266
+[08.20.26|02:21:28] 	mean_loss: 0.6620731926278064
+[08.20.26|02:21:28] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:21:28] Done.
+[08.20.26|02:21:28] Training epoch: 267
+[08.20.26|02:22:35] 	Iter 43600 Done. | loss: 0.1159 | lr: 0.0006
+[08.20.26|02:23:49] 	[Train] Top1: 90.24%.
+[08.20.26|02:23:49] 	mean_loss: 0.26423041630490607
+[08.20.26|02:23:49] Time consumption:
+[08.20.26|02:23:49] Done.
+[08.20.26|02:23:49] Eval epoch: 267
+[08.20.26|02:24:02] 	mean_loss: 0.6592001114040613
+[08.20.26|02:24:02] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:24:02] Done.
+[08.20.26|02:24:02] Training epoch: 268
+[08.20.26|02:24:15] 	Iter 43700 Done. | loss: 0.3899 | lr: 0.0006
+[08.20.26|02:25:40] 	Iter 43800 Done. | loss: 0.3360 | lr: 0.0006
+[08.20.26|02:26:17] 	[Train] Top1: 89.93%.
+[08.20.26|02:26:17] 	mean_loss: 0.260298788593225
+[08.20.26|02:26:17] Time consumption:
+[08.20.26|02:26:17] Done.
+[08.20.26|02:26:17] Eval epoch: 268
+[08.20.26|02:26:30] 	mean_loss: 0.6081853607963574
+[08.20.26|02:26:30] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:26:30] Done.
+[08.20.26|02:26:30] Training epoch: 269
+[08.20.26|02:27:15] 	Iter 43900 Done. | loss: 0.0526 | lr: 0.0006
+[08.20.26|02:28:38] 	Iter 44000 Done. | loss: 0.1983 | lr: 0.0006
+[08.20.26|02:28:45] 	[Train] Top1: 89.47%.
+[08.20.26|02:28:45] 	mean_loss: 0.263478284090346
+[08.20.26|02:28:45] Time consumption:
+[08.20.26|02:28:45] Done.
+[08.20.26|02:28:45] Eval epoch: 269
+[08.20.26|02:28:58] 	mean_loss: 0.6268200384158837
+[08.20.26|02:28:58] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:28:58] Done.
+[08.20.26|02:28:58] Training epoch: 270
+[08.20.26|02:30:15] 	Iter 44100 Done. | loss: 0.0466 | lr: 0.0006
+[08.20.26|02:31:18] 	[Train] Top1: 90.85%.
+[08.20.26|02:31:18] 	mean_loss: 0.2499646568682296
+[08.20.26|02:31:18] Time consumption:
+[08.20.26|02:31:18] Done.
+[08.20.26|02:31:18] Eval epoch: 270
+[08.20.26|02:31:30] 	mean_loss: 0.6631972029020912
+[08.20.26|02:31:31] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch270.png
+[08.20.26|02:31:31] 	Overall accuracy (from confusion matrix): 81.19%
+[08.20.26|02:31:31] 	Confusion Matrix Accuracy (Overall): 81.19%
+[08.20.26|02:31:32] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch270_real.png
+[08.20.26|02:31:32] 	Overall accuracy (from confusion matrix): 88.65%
+[08.20.26|02:31:32] 	Confusion Matrix Accuracy (Real): 88.65%
+[08.20.26|02:31:32] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch270_synth.png
+[08.20.26|02:31:32] 	Overall accuracy (from confusion matrix): 39.39%
+[08.20.26|02:31:32] 	Confusion Matrix Accuracy (Synthetic): 39.39%
+[08.20.26|02:31:32] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:31:32] Done.
+[08.20.26|02:31:32] Training epoch: 271
+[08.20.26|02:31:55] 	Iter 44200 Done. | loss: 0.2907 | lr: 0.0006
+[08.20.26|02:33:18] 	Iter 44300 Done. | loss: 0.0501 | lr: 0.0006
+[08.20.26|02:33:47] 	[Train] Top1: 91.46%.
+[08.20.26|02:33:47] 	mean_loss: 0.23431103480008483
+[08.20.26|02:33:47] Time consumption:
+[08.20.26|02:33:47] Done.
+[08.20.26|02:33:47] Eval epoch: 271
+[08.20.26|02:33:59] 	mean_loss: 0.630604005075599
+[08.20.26|02:33:59] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:33:59] Done.
+[08.20.26|02:33:59] Training epoch: 272
+[08.20.26|02:34:53] 	Iter 44400 Done. | loss: 0.1039 | lr: 0.0006
+[08.20.26|02:36:16] 	[Train] Top1: 90.80%.
+[08.20.26|02:36:16] 	mean_loss: 0.2510912274267593
+[08.20.26|02:36:16] Time consumption:
+[08.20.26|02:36:16] Done.
+[08.20.26|02:36:16] Eval epoch: 272
+[08.20.26|02:36:28] 	mean_loss: 0.6944585233730706
+[08.20.26|02:36:28] 	[Test] Top1: 80.73%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:36:28] Done.
+[08.20.26|02:36:28] Training epoch: 273
+[08.20.26|02:36:30] 	Iter 44500 Done. | loss: 0.1841 | lr: 0.0006
+[08.20.26|02:37:54] 	Iter 44600 Done. | loss: 0.2126 | lr: 0.0006
+[08.20.26|02:38:48] 	[Train] Top1: 89.93%.
+[08.20.26|02:38:48] 	mean_loss: 0.25722287978657
+[08.20.26|02:38:48] Time consumption:
+[08.20.26|02:38:48] Done.
+[08.20.26|02:38:48] Eval epoch: 273
+[08.20.26|02:39:01] 	mean_loss: 0.668318315066005
+[08.20.26|02:39:01] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:39:01] Done.
+[08.20.26|02:39:01] Training epoch: 274
+[08.20.26|02:39:33] 	Iter 44700 Done. | loss: 0.2435 | lr: 0.0005
+[08.20.26|02:40:57] 	Iter 44800 Done. | loss: 0.0997 | lr: 0.0005
+[08.20.26|02:41:18] 	[Train] Top1: 90.59%.
+[08.20.26|02:41:18] 	mean_loss: 0.2530171986829284
+[08.20.26|02:41:18] Time consumption:
+[08.20.26|02:41:18] Done.
+[08.20.26|02:41:18] Eval epoch: 274
+[08.20.26|02:41:30] 	mean_loss: 0.6444512137064808
+[08.20.26|02:41:30] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:41:30] Done.
+[08.20.26|02:41:30] Training epoch: 275
+[08.20.26|02:42:33] 	Iter 44900 Done. | loss: 0.2494 | lr: 0.0005
+[08.20.26|02:43:44] 	[Train] Top1: 89.31%.
+[08.20.26|02:43:44] 	mean_loss: 0.30102274634309706
+[08.20.26|02:43:44] Time consumption:
+[08.20.26|02:43:44] Done.
+[08.20.26|02:43:44] Eval epoch: 275
+[08.20.26|02:43:58] 	mean_loss: 0.6214496186493259
+[08.20.26|02:43:58] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:43:58] Done.
+[08.20.26|02:43:58] Training epoch: 276
+[08.20.26|02:44:09] 	Iter 45000 Done. | loss: 0.1096 | lr: 0.0005
+[08.20.26|02:45:40] 	Iter 45100 Done. | loss: 0.3160 | lr: 0.0005
+[08.20.26|02:46:25] 	[Train] Top1: 89.83%.
+[08.20.26|02:46:25] 	mean_loss: 0.2558431221069368
+[08.20.26|02:46:25] Time consumption:
+[08.20.26|02:46:25] Done.
+[08.20.26|02:46:25] Eval epoch: 276
+[08.20.26|02:46:37] 	mean_loss: 0.6509340917201418
+[08.20.26|02:46:37] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:46:37] Done.
+[08.20.26|02:46:37] Training epoch: 277
+[08.20.26|02:47:19] 	Iter 45200 Done. | loss: 0.4064 | lr: 0.0005
+[08.20.26|02:48:43] 	Iter 45300 Done. | loss: 0.4314 | lr: 0.0005
+[08.20.26|02:48:54] 	[Train] Top1: 90.59%.
+[08.20.26|02:48:54] 	mean_loss: 0.2475678673916799
+[08.20.26|02:48:54] Time consumption:
+[08.20.26|02:48:54] Done.
+[08.20.26|02:48:54] Eval epoch: 277
+[08.20.26|02:49:06] 	mean_loss: 0.6101068377886948
+[08.20.26|02:49:06] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:49:06] Done.
+[08.20.26|02:49:06] Training epoch: 278
+[08.20.26|02:50:17] 	Iter 45400 Done. | loss: 0.1297 | lr: 0.0005
+[08.20.26|02:51:20] 	[Train] Top1: 90.34%.
+[08.20.26|02:51:20] 	mean_loss: 0.2619849126900266
+[08.20.26|02:51:20] Time consumption:
+[08.20.26|02:51:20] Done.
+[08.20.26|02:51:20] Eval epoch: 278
+[08.20.26|02:51:33] 	mean_loss: 0.6638845030806566
+[08.20.26|02:51:33] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:51:33] Done.
+[08.20.26|02:51:33] Training epoch: 279
+[08.20.26|02:51:53] 	Iter 45500 Done. | loss: 0.2184 | lr: 0.0005
+[08.20.26|02:53:17] 	Iter 45600 Done. | loss: 0.1748 | lr: 0.0005
+[08.20.26|02:53:50] 	[Train] Top1: 89.26%.
+[08.20.26|02:53:50] 	mean_loss: 0.2575047567852436
+[08.20.26|02:53:50] Time consumption:
+[08.20.26|02:53:50] Done.
+[08.20.26|02:53:50] Eval epoch: 279
+[08.20.26|02:54:02] 	mean_loss: 0.6463376998313164
+[08.20.26|02:54:02] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:54:02] Done.
+[08.20.26|02:54:02] Training epoch: 280
+[08.20.26|02:54:53] 	Iter 45700 Done. | loss: 0.3360 | lr: 0.0005
+[08.20.26|02:56:19] 	Iter 45800 Done. | loss: 0.4698 | lr: 0.0005
+[08.20.26|02:56:20] 	[Train] Top1: 89.31%.
+[08.20.26|02:56:20] 	mean_loss: 0.27570388298138887
+[08.20.26|02:56:20] Time consumption:
+[08.20.26|02:56:20] Done.
+[08.20.26|02:56:20] Eval epoch: 280
+[08.20.26|02:56:33] 	mean_loss: 0.6591309399196976
+[08.20.26|02:56:33] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch280.png
+[08.20.26|02:56:33] 	Overall accuracy (from confusion matrix): 82.57%
+[08.20.26|02:56:33] 	Confusion Matrix Accuracy (Overall): 82.57%
+[08.20.26|02:56:34] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch280_real.png
+[08.20.26|02:56:34] 	Overall accuracy (from confusion matrix): 89.73%
+[08.20.26|02:56:34] 	Confusion Matrix Accuracy (Real): 89.73%
+[08.20.26|02:56:34] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch280_synth.png
+[08.20.26|02:56:34] 	Overall accuracy (from confusion matrix): 42.42%
+[08.20.26|02:56:34] 	Confusion Matrix Accuracy (Synthetic): 42.42%
+[08.20.26|02:56:34] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:56:34] Done.
+[08.20.26|02:56:34] Training epoch: 281
+[08.20.26|02:57:56] 	Iter 45900 Done. | loss: 0.4023 | lr: 0.0005
+[08.20.26|02:58:50] 	[Train] Top1: 90.08%.
+[08.20.26|02:58:50] 	mean_loss: 0.25643371693515704
+[08.20.26|02:58:50] Time consumption:
+[08.20.26|02:58:50] Done.
+[08.20.26|02:58:50] Eval epoch: 281
+[08.20.26|02:59:02] 	mean_loss: 0.627503153132765
+[08.20.26|02:59:02] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|02:59:02] Done.
+[08.20.26|02:59:02] Training epoch: 282
+[08.20.26|02:59:31] 	Iter 46000 Done. | loss: 1.2091 | lr: 0.0005
+[08.20.26|03:00:55] 	Iter 46100 Done. | loss: 0.0480 | lr: 0.0005
+[08.20.26|03:01:20] 	[Train] Top1: 90.24%.
+[08.20.26|03:01:20] 	mean_loss: 0.26163177362477485
+[08.20.26|03:01:20] Time consumption:
+[08.20.26|03:01:20] Done.
+[08.20.26|03:01:20] Eval epoch: 282
+[08.20.26|03:01:33] 	mean_loss: 0.6532405220756405
+[08.20.26|03:01:33] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:01:33] Done.
+[08.20.26|03:01:33] Training epoch: 283
+[08.20.26|03:02:33] 	Iter 46200 Done. | loss: 0.1259 | lr: 0.0005
+[08.20.26|03:03:49] 	[Train] Top1: 90.90%.
+[08.20.26|03:03:49] 	mean_loss: 0.24844712426920243
+[08.20.26|03:03:49] Time consumption:
+[08.20.26|03:03:49] Done.
+[08.20.26|03:03:49] Eval epoch: 283
+[08.20.26|03:04:02] 	mean_loss: 0.6281147406093384
+[08.20.26|03:04:02] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:04:02] Done.
+[08.20.26|03:04:02] Training epoch: 284
+[08.20.26|03:04:09] 	Iter 46300 Done. | loss: 0.4609 | lr: 0.0005
+[08.20.26|03:05:32] 	Iter 46400 Done. | loss: 0.1920 | lr: 0.0005
+[08.20.26|03:06:18] 	[Train] Top1: 89.62%.
+[08.20.26|03:06:18] 	mean_loss: 0.278043991451843
+[08.20.26|03:06:18] Time consumption:
+[08.20.26|03:06:18] Done.
+[08.20.26|03:06:18] Eval epoch: 284
+[08.20.26|03:06:31] 	mean_loss: 0.6312858540760843
+[08.20.26|03:06:31] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:06:31] Done.
+[08.20.26|03:06:31] Training epoch: 285
+[08.20.26|03:07:09] 	Iter 46500 Done. | loss: 0.3969 | lr: 0.0005
+[08.20.26|03:08:37] 	Iter 46600 Done. | loss: 0.2038 | lr: 0.0005
+[08.20.26|03:08:52] 	[Train] Top1: 90.70%.
+[08.20.26|03:08:52] 	mean_loss: 0.2546256232229661
+[08.20.26|03:08:52] Time consumption:
+[08.20.26|03:08:52] Done.
+[08.20.26|03:08:52] Eval epoch: 285
+[08.20.26|03:09:04] 	mean_loss: 0.6431853909437594
+[08.20.26|03:09:04] 	[Test] Top1: 83.94%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:09:04] Done.
+[08.20.26|03:09:04] Training epoch: 286
+[08.20.26|03:10:12] 	Iter 46700 Done. | loss: 0.4609 | lr: 0.0005
+[08.20.26|03:11:18] 	[Train] Top1: 90.08%.
+[08.20.26|03:11:18] 	mean_loss: 0.2558267970049491
+[08.20.26|03:11:18] Time consumption:
+[08.20.26|03:11:18] Done.
+[08.20.26|03:11:18] Eval epoch: 286
+[08.20.26|03:11:31] 	mean_loss: 0.6514090112361469
+[08.20.26|03:11:31] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:11:31] Done.
+[08.20.26|03:11:31] Training epoch: 287
+[08.20.26|03:11:49] 	Iter 46800 Done. | loss: 0.0696 | lr: 0.0005
+[08.20.26|03:13:19] 	Iter 46900 Done. | loss: 0.0686 | lr: 0.0005
+[08.20.26|03:13:58] 	[Train] Top1: 90.70%.
+[08.20.26|03:13:58] 	mean_loss: 0.2479483119434923
+[08.20.26|03:13:58] Time consumption:
+[08.20.26|03:13:58] Done.
+[08.20.26|03:13:58] Eval epoch: 287
+[08.20.26|03:14:11] 	mean_loss: 0.6328185292843141
+[08.20.26|03:14:11] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:14:11] Done.
+[08.20.26|03:14:11] Training epoch: 288
+[08.20.26|03:14:57] 	Iter 47000 Done. | loss: 0.1693 | lr: 0.0005
+[08.20.26|03:16:20] 	Iter 47100 Done. | loss: 0.0417 | lr: 0.0005
+[08.20.26|03:16:25] 	[Train] Top1: 91.05%.
+[08.20.26|03:16:25] 	mean_loss: 0.2339126808980217
+[08.20.26|03:16:25] Time consumption:
+[08.20.26|03:16:25] Done.
+[08.20.26|03:16:25] Eval epoch: 288
+[08.20.26|03:16:38] 	mean_loss: 0.6189136977650618
+[08.20.26|03:16:38] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:16:38] Done.
+[08.20.26|03:16:38] Training epoch: 289
+[08.20.26|03:17:55] 	Iter 47200 Done. | loss: 0.1781 | lr: 0.0005
+[08.20.26|03:18:53] 	[Train] Top1: 90.44%.
+[08.20.26|03:18:53] 	mean_loss: 0.24146870139734877
+[08.20.26|03:18:53] Time consumption:
+[08.20.26|03:18:53] Done.
+[08.20.26|03:18:53] Eval epoch: 289
+[08.20.26|03:19:06] 	mean_loss: 0.5952511606247801
+[08.20.26|03:19:06] 	[Test] Top1: 81.65%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:19:06] Done.
+[08.20.26|03:19:06] Training epoch: 290
+[08.20.26|03:19:32] 	Iter 47300 Done. | loss: 0.0753 | lr: 0.0005
+[08.20.26|03:20:55] 	Iter 47400 Done. | loss: 0.4800 | lr: 0.0005
+[08.20.26|03:21:21] 	[Train] Top1: 90.03%.
+[08.20.26|03:21:21] 	mean_loss: 0.2542684727914037
+[08.20.26|03:21:21] Time consumption:
+[08.20.26|03:21:21] Done.
+[08.20.26|03:21:21] Eval epoch: 290
+[08.20.26|03:21:34] 	mean_loss: 0.6438332056920779
+[08.20.26|03:21:34] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch290.png
+[08.20.26|03:21:34] 	Overall accuracy (from confusion matrix): 81.19%
+[08.20.26|03:21:34] 	Confusion Matrix Accuracy (Overall): 81.19%
+[08.20.26|03:21:35] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch290_real.png
+[08.20.26|03:21:35] 	Overall accuracy (from confusion matrix): 87.03%
+[08.20.26|03:21:35] 	Confusion Matrix Accuracy (Real): 87.03%
+[08.20.26|03:21:36] 	Confusion matrix saved to: model_classifier_stgcn/features_ELMD+features\confusion_matrices_0819_1340\confusion_matrix_test_epoch290_synth.png
+[08.20.26|03:21:36] 	Overall accuracy (from confusion matrix): 48.48%
+[08.20.26|03:21:36] 	Confusion Matrix Accuracy (Synthetic): 48.48%
+[08.20.26|03:21:36] 	[Test] Top1: 81.19%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:21:36] Done.
+[08.20.26|03:21:36] Training epoch: 291
+[08.20.26|03:22:34] 	Iter 47500 Done. | loss: 0.1988 | lr: 0.0005
+[08.20.26|03:23:54] 	[Train] Top1: 90.24%.
+[08.20.26|03:23:54] 	mean_loss: 0.2465757737336166
+[08.20.26|03:23:54] Time consumption:
+[08.20.26|03:23:54] Done.
+[08.20.26|03:23:54] Eval epoch: 291
+[08.20.26|03:24:07] 	mean_loss: 0.6309796166851332
+[08.20.26|03:24:07] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:24:07] Done.
+[08.20.26|03:24:07] Training epoch: 292
+[08.20.26|03:24:11] 	Iter 47600 Done. | loss: 0.2730 | lr: 0.0005
+[08.20.26|03:25:33] 	Iter 47700 Done. | loss: 0.0992 | lr: 0.0005
+[08.20.26|03:26:21] 	[Train] Top1: 91.46%.
+[08.20.26|03:26:21] 	mean_loss: 0.2532955208576164
+[08.20.26|03:26:21] Time consumption:
+[08.20.26|03:26:21] Done.
+[08.20.26|03:26:21] Eval epoch: 292
+[08.20.26|03:26:34] 	mean_loss: 0.6601752731949091
+[08.20.26|03:26:34] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:26:34] Done.
+[08.20.26|03:26:34] Training epoch: 293
+[08.20.26|03:27:09] 	Iter 47800 Done. | loss: 0.0350 | lr: 0.0005
+[08.20.26|03:28:34] 	Iter 47900 Done. | loss: 0.0619 | lr: 0.0005
+[08.20.26|03:28:53] 	[Train] Top1: 90.75%.
+[08.20.26|03:28:53] 	mean_loss: 0.24438330513979395
+[08.20.26|03:28:53] Time consumption:
+[08.20.26|03:28:53] Done.
+[08.20.26|03:28:53] Eval epoch: 293
+[08.20.26|03:29:05] 	mean_loss: 0.6849228138790319
+[08.20.26|03:29:05] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:29:05] Done.
+[08.20.26|03:29:05] Training epoch: 294
+[08.20.26|03:30:10] 	Iter 48000 Done. | loss: 0.2080 | lr: 0.0004
+[08.20.26|03:31:21] 	[Train] Top1: 90.29%.
+[08.20.26|03:31:21] 	mean_loss: 0.23837990055512065
+[08.20.26|03:31:21] Time consumption:
+[08.20.26|03:31:21] Done.
+[08.20.26|03:31:21] Eval epoch: 294
+[08.20.26|03:31:34] 	mean_loss: 0.6563878063308565
+[08.20.26|03:31:34] 	[Test] Top1: 82.11%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:31:34] Done.
+[08.20.26|03:31:34] Training epoch: 295
+[08.20.26|03:31:47] 	Iter 48100 Done. | loss: 0.5022 | lr: 0.0004
+[08.20.26|03:33:12] 	Iter 48200 Done. | loss: 0.1881 | lr: 0.0004
+[08.20.26|03:33:51] 	[Train] Top1: 90.39%.
+[08.20.26|03:33:51] 	mean_loss: 0.24943807693141187
+[08.20.26|03:33:51] Time consumption:
+[08.20.26|03:33:51] Done.
+[08.20.26|03:33:51] Eval epoch: 295
+[08.20.26|03:34:04] 	mean_loss: 0.6216718239807769
+[08.20.26|03:34:04] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:34:04] Done.
+[08.20.26|03:34:04] Training epoch: 296
+[08.20.26|03:34:48] 	Iter 48300 Done. | loss: 0.4168 | lr: 0.0004
+[08.20.26|03:36:12] 	Iter 48400 Done. | loss: 0.3011 | lr: 0.0004
+[08.20.26|03:36:20] 	[Train] Top1: 89.37%.
+[08.20.26|03:36:20] 	mean_loss: 0.26820607423965187
+[08.20.26|03:36:20] Time consumption:
+[08.20.26|03:36:20] Done.
+[08.20.26|03:36:20] Eval epoch: 296
+[08.20.26|03:36:32] 	mean_loss: 0.623688243133457
+[08.20.26|03:36:32] 	[Test] Top1: 83.03%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:36:32] Done.
+[08.20.26|03:36:32] Training epoch: 297
+[08.20.26|03:37:46] 	Iter 48500 Done. | loss: 0.3495 | lr: 0.0004
+[08.20.26|03:38:48] 	[Train] Top1: 89.16%.
+[08.20.26|03:38:48] 	mean_loss: 0.2731277022305076
+[08.20.26|03:38:48] Time consumption:
+[08.20.26|03:38:48] Done.
+[08.20.26|03:38:48] Eval epoch: 297
+[08.20.26|03:39:00] 	mean_loss: 0.6532241007019031
+[08.20.26|03:39:00] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:39:00] Done.
+[08.20.26|03:39:00] Training epoch: 298
+[08.20.26|03:39:23] 	Iter 48600 Done. | loss: 0.1245 | lr: 0.0004
+[08.20.26|03:40:55] 	Iter 48700 Done. | loss: 0.0186 | lr: 0.0004
+[08.20.26|03:41:28] 	[Train] Top1: 91.62%.
+[08.20.26|03:41:28] 	mean_loss: 0.23782358982491714
+[08.20.26|03:41:28] Time consumption:
+[08.20.26|03:41:28] Done.
+[08.20.26|03:41:28] Eval epoch: 298
+[08.20.26|03:41:40] 	mean_loss: 0.6750954319968036
+[08.20.26|03:41:40] 	[Test] Top1: 83.49%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:41:40] Done.
+[08.20.26|03:41:40] Training epoch: 299
+[08.20.26|03:42:33] 	Iter 48800 Done. | loss: 0.0112 | lr: 0.0004
+[08.20.26|03:44:01] 	[Train] Top1: 90.44%.
+[08.20.26|03:44:01] 	mean_loss: 0.24907741288831628
+[08.20.26|03:44:01] Time consumption:
+[08.20.26|03:44:01] Done.
+[08.20.26|03:44:01] Eval epoch: 299
+[08.20.26|03:44:13] 	mean_loss: 0.6254518448718285
+[08.20.26|03:44:13] 	[Test] Top1: 82.57%. Best so far: 88.99% (epoch: 48).
+[08.20.26|03:44:13] Done.
