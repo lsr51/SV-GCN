@@ -1,1 +1,1 @@
-This is a PyTorch implementation of the paper(latested version [[pdf](http://arxiv.org/abs/2609.11680)]): Single-Stream Multi-Feature Fusion with Temporal Robustness for Gait Emotion Recognition , based on STEP[[STEP](https://github.com/Tusllar/STEP)].
+This is a PyTorch implementation of the paper: Single-Stream Multi-Feature Fusion with Temporal Robustness for Gait Emotion Recognition(latested version [[pdf](http://arxiv.org/abs/2609.11680)]) , based on STEP[[STEP](https://github.com/Tusllar/STEP)].
