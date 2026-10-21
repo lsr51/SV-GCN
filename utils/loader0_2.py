@@ -110,7 +110,7 @@ def load_data_real2(_path, _ftype_real, _ftype_real2, coords, joints, split=Fals
         effective_lengths.append(eff_len)
 
         if eff_len < 24:
-            print(f"⚠️ Warning: sample {si} has length {eff_len} < 24")
+            print(f"Warning: sample {si} has length {eff_len} < 24")
         if raw_len < final_frames:
             seq = last_frame_pad(seq, final_frames)
         else:
