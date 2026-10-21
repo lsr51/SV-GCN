@@ -110,9 +110,9 @@ def main():
             mean = all_feat.mean(axis=0)
             std = all_feat.std(axis=0) + 1e-8
             print("Mean and std computed.")
-            # 保存
-            np.save(mean_std_file, {'mean': mean, 'std': std})
-            print(f"Saved mean and std to {mean_std_file}")
+            # 
+            #np.save(mean_std_file, {'mean': mean, 'std': std})
+            #print(f"Saved mean and std to {mean_std_file}")
         else:
             mean = np.zeros(384)
             std = np.ones(384)
