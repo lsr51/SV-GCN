@@ -243,12 +243,12 @@ class TrainTestLoader(torch.utils.data.Dataset):
         data_4d = self.to_4d(coords)  # (3, orig_len, J, 1)
         new_len = data_4d.shape[1]  # orig_len
 
-        #if self.is_real[index]:
-        if self.augment:
-            data_4d, new_len = self._random_block_downsample(data_4d, new_len, self.downsample_rate)
-        else:
-            data_4d = data_4d[:, ::self.downsample_rate, :, :]
-            new_len = data_4d.shape[1]
+        if self.is_real[index]:
+            if self.augment:
+                data_4d, new_len = self._random_block_downsample(data_4d, new_len, self.downsample_rate)
+            else:
+                data_4d = data_4d[:, ::self.downsample_rate, :, :]
+                new_len = data_4d.shape[1]
 
 
         #  Time augmentation (shift/truncation) - returns a variable length sequence without padding
